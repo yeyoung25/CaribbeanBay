@@ -1,0 +1,89 @@
+:root{
+    /* color */
+    --gs1:#ffffff;
+    --gs2:#f3f3f3;
+    --gs3:#efeded;
+    --gs4:#e4e4e4;
+    --gs5:#c5c5c5;
+    --gs6:#acacac;
+    --gs7:#a6a6a6;
+    --gs8:#7f7f7f;
+    --gs9:#666666;
+    --gs10:#222222;
+    --gs11:#000000;
+    --os1:#ff7105;
+    --os2:#f26c05;
+    --os3:#f06b05;
+    --os4:#e36505;
+    --os5:#c45704;
+    --os6:#ab4c03;
+    --os7:#a64a03;
+    --os8:#803903;
+    --os9:#662d02;
+    --os10:#210f01;
+    --rs1:#77ff4a;
+    --rs2:#71f246;
+    --rs3:#70f046;
+    --rs4:#6ae342;
+    --rs5:#5cc439;
+    --rs6:#50ab32;
+    --rs7:#4da630;
+    --rs8:#3c8025;
+    --rs9:#30661e;
+    --rs10:#0f210a;
+    --vs1:#f53dff;
+    --vs2:#e93af2;
+    --vs3:#e73af0;
+    --vs4:#da36e3;
+    --vs5:#bd2fc4;
+    --vs6:#a429ab;
+    --vs7:#9f28a6;
+    --vs8:#7a1f7f;
+    --vs9:#621866;
+    --vs10:#200821;
+    --bs1:#18a5ff;
+    --bs2:#169ef2;
+    --bs3:#169cf0;
+    --bs4:#1494e3;
+    --bs5:#1280c4;
+    --bs6:#0f6fab;
+    --bs7:#0f6ca6;
+    --bs8:#0b5380;
+    --bs9:#094266;
+    --bs10:#031621;
+}
+[class^='la']{font-family: 'Lato';}
+[class^='op']{font-family: 'Opensans';}
+/* F/M module */
+[class*='140']{font-size: 140px;}
+[class*='45']{font-size: 45px;}
+[class*='35']{font-size: 35px;}
+[class*='34']{font-size: 34px;}
+[class*='30']{font-size: 30px;}
+[class*='25']{font-size: 25px;}
+[class*='24']{font-size: 24px;}
+[class*='22']{font-size: 22px;}
+[class*='21']{font-size: 21px;}
+[class*='20']{font-size: 20px;}
+[class*='18']{font-size: 18px;}
+[class*='16']{font-size: 16px;}
+[class*='14']{font-size: 14px;}
+[class*='13']{font-size: 13px;}
+[class*='12']{font-size: 12px;}
+/* F/S module */
+[class*='9_']{font-weight: 900;}
+[class*='7_']{font-weight: 700;}
+[class*='6_']{font-weight: 600;}
+[class*='4_']{font-weight: 400;}
+[class*='3_']{font-weight: 300;}
+
+
+/* .black{
+    
+} */
+/* 사용시 예시 
+div{
+    color: var(--gs1);
+    border: ;
+    background-color: ;
+} */

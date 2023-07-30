@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVERAND RESORT</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="shortcut icon" href="favicon-64x64.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/customize.bxslider.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <a href="#wrap" class="go_top">back to top</a>
+    <header>
+        <h1><a href="index.html">welcome to EVERLAND</a></h1>
+        <div>
+            <div class="ect_btn op7_20">
+                <a href="signIn.html">SIGN IN</a>
+                <a href="signUp.html">SIGN UP</a>
+                <a href="faq.html">COMMUNITY</a>
+                <a href="reservation.html">RESERVATION</a>
+            </div>
+            <div class="menuBar" data-panel="fnbPanel">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav id="fnbPanel">
+            <ul>
+                <li>
+                    <h2 class="la9_22">EVERLAND GUIDE</h2>
+                    <ol class="op7_18">
+                        <li><a href="newsNotice.html">News notice</a></li>
+                        <li><a href="howToUse.html">How to use</a></li>
+                        <li><a href="operatingTime.html">Operating time</a></li>
+                        <li><a href="suspensionNotice.html">Suspension Notice</a></li>
+                        <li><a href="trafficReport.html">Traffic report</a></li>
+                        <li><a href="amenities.html">Amenities</a></li>
+                        <li><a href="guideMap.html">Guide map</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <h2 class="la9_22">TICKET PRICE</h2>
+                    <ol class="op7_18">
+                        <li><a href="usageFee.html">Usage fee</a></li>
+                        <li><a href="affiliateCard.html">Affiliate card</a></li>
+                        <li><a href="specialPromotion.html">Special promotion</a></li>
+                        <li><a href="experienceProgram.html">Experience program</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <h2 class="la9_22">ACTIVITIES</h2>
+                    <ol class="op7_18">
+                        <li><a href="recommendedCourse.html">Recommended course</a></li>
+                        <li><a href="attraction.html">Attraction</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="giftShop.html">Gift shop</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <h2 class="la9_22">MEMBERSHIP</h2>
+                    <ol class="op7_18">
+                        <li><a href="seasonTicket.html">Season ticket</a></li>
+                        <li><a href="promotion.html">Promotion</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <h2 class="la9_22">COMMUNITY</h2>
+                    <ol class="op7_18">
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="inquiryBeforeVisiting.html">Inquiry before visiting</a></li>
+                        <li><a href="inquiryAfterVisiting.html">Inquiry after visiting</a></li>
+                        <li><a href="checkLostItems.html">Check lost items</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <h2 class="la9_22">CARIBBEAN BAY</h2>
+                    <ol class="op7_18">
+                        <li><a href="caribbeanBay.html">Caribbean bay</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <h2 class="la9_22">HOMEBRIDGE</h2>
+                    <ol class="op7_18">
+                        <li><a href="homebridge.html">Homebridge</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <h2 class="la9_22">SIGN IN</h2>
+                    <ol class="op7_18">
+                        <li><a href="signIn.html">Sign in</a></li>
+                        <li><a href="signUp.html">Sign up</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </nav>
+        <!-- f&b Fin -->
+    </header>
+    <!-- header fin -->
+    <div class="signUpContainer">
+        <h3 class="la7_24">SIGN UP</h3>
+        <ul>
+            <li data-tab="step01" class="active">
+                <strong class="la9_30">STEP 01</strong>
+                <b class="op6_20">Agree to terms and <br>conditions and verify identity</b>
+            </li>
+            <li data-tab="step02">
+                <strong class="la9_30">STEP 02</strong>
+                <b class="op6_20">Enter member information</b>
+            </li>
+            <li data-tab="step03">
+                <strong class="la9_30">STEP 03</strong>
+                <b class="op6_20">Member registration complete</b>
+            </li>
+        </ul>
+        <div class="step01 active">
+            <form>
+                <input type="checkbox" id="agreeAllCheck">
+                <label for="agreeAllCheck" class="check-all">
+                    <b class="op6_24">Receive all terms and promotions below &#40;optional&#41; Check the content and agree.</b>
+                    <span class="op4_16">&#8251; Even if you refuse to agree to the optional items, membership registration is not affected.Information may be limited.</span>
+                </label>
+                <ol class="op4_18">
+                    <li>
+                        <strong class="op7_20"><mark class="op6_20">&#91;Required&#93;</mark>Everland Terms of Use</strong>
+                        <input type="checkbox" id="option01" class="check">
+                        <label for="option01" class="op7_20">Agree &#40;essential&#41;</label>
+                        <ol>
+                            <li class="op7_20">Chapter 1: General Provisions</li>
+                            <li>
+                                <b class="op7_18">Article 1 Purpose</b>
+                                <p>
+                                    The purpose of these terms and conditions is to regolate all matters related to the use and provision of Everland Resort's online services
+                                    &#40;hereinafter referred to as "services"&#41; operated by Samsung C&T Co., Ltd. &#40;hereinafter referred to as the "Company"&#41;.
+                                </p>
+                            </li>
+                            <li>
+                                <b class="op7_18">Article 2 Definition of Terms</b>
+                                <ol>
+                                    <li>
+                                        ① “Service” means product reservation service, information and information provision service provided by the company through the website or 
+                                        mobile app, admission to Everland, attraction reservation, performance reservation, paid event/event participation reservation service, discount 
+                                        coupon Everpower / Refers to online services that users can use through terminals, including various wired and wireless devices such as PCs, TVs, 
+                                        and portable terminals, such as bonus power provision services.
+                                    </li>
+                                    <li>② “User” refers to members and non&#45;members who receive the services provided by the company in accordance with these terms and conditions.</li>
+                                    <li>
+                                        ③ “Member” refers to a person who has registered as a member by providing personal information to the company, accesses the service, receives
+                                        information continuously, and can continue to use the service provided by the company.
+                                    </li>
+                                    <li>④ “Non&#45;member” refers to a person who uses the services provided by the company through the website without subscribing to membership.</li>
+                                    <li>
+                                        ⑤ "ID" means a combination of letters and numbers determined by the member and approved by the company for member identification and 
+                                        service use.
+                                    </li>
+                                    <li>
+                                        ⑥ "Password" refers to a combination of letters and numbers set by the member to confirm that the member is a member matching the registered 
+                                        ID and to protect the member's personal information.
+                                    </li>
+                                    <li>
+                                        ⑦ “Posts” means texts, photos, videos, and various files and links in the form of information such as codes, texts, voices, sounds, images, and 
+                                        videos posted by the company or members while using the homepage.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op7_18">Article 3 Posting and Revision of Terms and Conditions</b>
+                                <ol>
+                                    <li>
+                                        ① The company posts the contents of these terms and conditions, company name, business location, representative's name, business registration 
+                                        number, and contact information &#40;telephone, etc.&#41; on the "service" screen of the company's homepage so that users can know it, and when users use
+                                            the "service" By doing so, you agree to these terms and conditions.
+                                    </li>
+                                    <li>
+                                        ② The company may amend these terms and conditions to the extent that it does not violate related laws, such as the Act on the Regulation of Terms
+                                        and Conditions, the Act on Promotion of Information and Communications Network Utilization and Information Protection, etc.
+                                    </li>
+                                    <li>
+                                        ③ If the company revises the terms and conditions, specify the date of application and the reason for the amendment, and notify the company along 
+                                        with the current terms and conditions on the initial screen of the company's homepage &#40;http://www.everland.com&#41; from 7 days before the effective 
+                                        date to the day before the effective date. do. However, if the contents of the terms and conditions are changed unfavorably to the user, it is notified
+                                            with a grace period of at least 30 days in advance, and in aliition to the notice, the revised terms and conditions that clearly compare the contents 
+                                        before and after the revision are sent to the e&#45;mail aliress registered by the member to the company. Send notification.
+                                    </li>
+                                    <li>
+                                        ④  The company's revised terms and conditions apply only to users after the date of application, and the terms and conditions before the revision 
+                                        apply to users before that. However, if the member transmits in writing to the company within the notice period of the amended terms and 
+                                        conditions pursuant to Paragraph 3, the amended terms and conditions shall be applied. &#42; Company aliress: Samsung C&T Resort Marketing Group, 
+                                        199 Everland&#45;ro, Pogok&#45;eup, Cheoin&#45;gu, Yongin&#45;si, Gyeonggi&#45;do
+                                    </li>
+                                    <li>
+                                        ⑤ Even though the company notifies the revised terms and conditions in accordance with paragraph 3 and clearly announces that it will be regarded 
+                                        as having no objection to the revised terms and conditions if it does not express its intention within the notice period set forth in paragraph 3, the 
+                                        member explicitly expresses his or her intention to refuse. If not, it is considered that you have agreed to the revised terms and conditions.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op7_18">Article 4 Interpretation of Terms and Conditions</b>
+                                <ol>
+                                    <li>① These terms and conditions apply to the services provided by the company.</li>
+                                    <li>
+                                        ② If matters not specified in these Terms and Conditions are stipulated in domestic laws and regulations, they shall be governed by the relevant laws 
+                                        and regulations.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op7_18">Article 5 Membership</b>
+                                <ol>
+                                    <li>
+                                        ① A user who wants to become a member &#40;hereinafter referred to as "applicant"&#41; enters membership information according to the membership 
+                                        registration form set by the company, completes personal authentication, and agrees to these terms and conditions to become a member. If the 
+                                        applicant is under the age of 14, he or she will be registered as a member only with the consent of a legal representative such as a parent.
+                                    </li>
+                                    <li>
+                                        ② Members who wish to use e&#45;commerce must provide their real name and date of birth or personal authentication information to use the service, 
+                                        and if they do not register with their real name, they cannot claim their rights as a member.
+                                    </li>
+                                    <li>③ The company may take measures to confirm whether or not the real name of the preceding paragraph is true &#40;real name verification&#41;. The company 
+                                        may arbitrarily delete it.</li>
+                                    <li>
+                                        ④ Notwithstanding Paragraph 1, if the applicant falls under any of the following subparagraphs, the company may reject or suspend the applicant's 
+                                        membership.
+                                    </li>
+                                    <li>
+                                        <ol>
+                                            <li>1. If the applicant for membership has lost membership in accordance with Article 6, Paragraph </li>
+                                            <li>2. If there is falsehood, omission, or typo in the registration information</li>
+                                            <li>3. If a user under the age of 14 has not obtained consent from a legal representative such as parents</li>
+                                            <li>4. In case there is no room in service&#45;related facilities such as insufficient server capacity</li>
+                                            <li>5. In case of service&#45;related technical reasons such as program or server failure</li>
+                                            <li>6. If it is judged that registering as a member is significantly impeding the company's business performance or technology</li>
+                                        </ol>
+                                    </li>
+                                    <li>
+                                        ⑤ If there is a change in the member information registered at the time of signup, the member must notify the company of the change by directly 
+                                        modifying it online through log&#45;in or by e&#45;mail or inquiry to the customer center &#40;031&#45;320&#45;5000&#41;.
+                                    </li>
+                                    <li>
+                                        ⑥ Members may request withdrawal of consent to the collection and use of personal information by the company through the company website or 
+                                        contacting the person in charge of personal information management to view, correct, delete, and withdraw from the personal information they 
+                                        have provided.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op7_18">Article 6 Membership Withdrawal and Loss of Qualification</b>
+                                <ol>
+                                    <li>
+                                        ① Members may request membership withdrawal at any time through the My Page menu of the service, in which case the company will immediately 
+                                        process the membership withdrawal.
+                                    </li>
+                                    <li>② If a member falls under any of the following reasons, the company may lose membership.</li>
+                                    <li>
+                                        <ol>
+                                            <li>1. If false information is provided when applying for membership</li>
+                                            <li>2. Threatening e&#45;commerce order, such as interfering with other users' use of the "service" or stealing the information</li>
+                                            <li>3. In the case of using the "service" to prohibit the law and this agreement, or to act against public order and morals</li>
+                                        </ol>
+                                    </li>
+                                    <li>
+                                        ③ If membership is lost, the company immediately cancels the member's registration. If the reason for loss of membership is confirmed, the company
+                                        notifies the member to the contact information &#40;or e&#45;mail aliress&#41; registered by the member before canceling membership registration, and gives an 
+                                        opportunity to explain the reason for loss of membership. Despite the company's notice, if there is no call from the member within 10 days, the 
+                                        company will cancel the member's registration.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op7_18">Article 7 Service use and restrictions</b>
+                                <ol>
+                                    <li>
+                                        ① In principle, service hours are available 24 hours a day, 7 days a week, unless there is a special reason for the company's business or technology. 
+                                        However, due to the need for regular inspection and maintenance of the system providing the service, the days and times set by the company 
+                                        are excluded.
+                                    </li>
+                                    <li>
+                                        ② Some of the services provided by the company can only be accessed through the ID and password approved by the company through the 
+                                        company's approval after the user's application for membership.
+                                    </li>
+                                    <li>
+                                        ③ The company may lose membership or temporarily suspend the provision of services without prior notice if the user engages in any of the following 
+                                        acts. If the user is a member, the company notifies the member by setting the reason, date, and period by e&#45;mail, phone call, SMS, etc. registered 
+                                        by the member. However, if there is an unavoidable reason that the company cannot notify in advance, it may notify after the fact.
+                                    </li>
+                                    <li>
+                                        <ol>
+                                            <li>1. If it is contrary to public order and morals</li>
+                                            <li>2. In case of involvement in criminal activity</li>
+                                            <li>3. In case of planning or executing service use for the purpose of hindering national interest or social public interest</li>
+                                            <li>4. In case of stealing another person's member information or ID and password</li>
+                                            <li>5. In the case of damaging or damaging the reputation of others</li>
+                                            <li>6. When applying for membership, if false information is provided or the information provided by the company is not provided</li>
+                                            <li>7. In case of harming the company's service, etc.</li>
+                                            <li>8. In case of violation of other related laws or conditions of use set by the company</li>
+                                            <li>9. Threatening the order of electronic transactions, such as interfering with the use of other people's services or stealing the information</li>
+                                            <li>10. In the event of other force majeure events</li>
+                                        </ol>
+                                    </li>
+                                    <li>
+                                        ④ The company may conduct regular inspection and maintenance if necessary to provide smooth service, and the date and time will be notified in 
+                                        advance on the website.
+                                    </li>
+                                    <li>
+                                        ⑤ The company does not compensate users &#40;including members&#41; for damages suffered by users or third parties due to temporary suspension of 
+                                        service provision due to reasons in paragraphs ③ and ④, unless otherwise specified in the relevant laws.
+                                    </li>
+                                    <li>
+                                        ⑥ If a member who has received a notice of loss of membership or suspension of service from the company pursuant to paragraph 3 has a 
+                                        valid reason, the member may explain the details to the company in writing. If the member's calling is illegal or unjust, the company will cancel
+                                        all of the member's registration information.
+                                    </li>
+                                    <li>
+                                        ⑦ If a member does not log in to the service for more than a certain period set by the company's personal information hanoling &#40;hanoling&#41; policy, 
+                                        the member's account will be separately managed as an inactive account and service use will be suspended. have to go through The company 
+                                        provides advance notice regarding the conversion of dormant accounts in accordance with the relevant laws and regulations.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op7_18">Article 8 Member Benefits</b>
+                                <ol>
+                                    <li>① Members have priority to participate in various events or events organized by the company in the future.</li>
+                                    <li>② Members can receive benefits only for services targeted at members among the company's services.</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <strong class="op7_20"><mark class="op6_20">&#91;Required&#93;</mark>E&#45;Commerce Terms and Conditions</strong>
+                        <input type="checkbox" id="option02" class="check">
+                        <label for="option02" class="op7_20">Agree &#40;essential&#41;</label>
+                        <ol>
+                            <li>
+                                <b class="op4_18">Article 1 Purpose</b>
+                                <p>These terms and conditions govern the cyber mall and users' rights, It is intended to define duties and responsibilities.</p>
+                                <p>
+                                    &#8251;「E&#45;commerce transactions using PC communication, wireless, etc. are subject to these Terms and Conditions unless they are contrary to 
+                                    their nature.
+                                </p>
+                            </li>
+                            <li>
+                                <b class="op4_18">Article 2 &#40;Definition&#41;</b>
+                                <ol>
+                                    <li>
+                                        ① "Mall" refers to a virtual business site set up by Samsung C&T Co., Ltd. to provide goods or services &#40;hereinafter referred to as "goods, etc."&#41; to users 
+                                        by using information and communication facilities such as computers to trade goods, etc. In addition, it is also used as the meaning of a business 
+                                        operator operating a cyber mall.
+                                    </li>
+                                    <li>
+                                        ② "User" refers to members and non&#45;members who access the "mall" and receive the services provided by the "mall" in accordance with these terms 
+                                        and conditions.
+                                    </li>
+                                    <li>③ 'Member' refers to a person who has registered as a member of the "Mall" and can continue to use the services provided by the "Mall".</li>
+                                    <li>④ 'Non&#45;member' refers to a person who uses the services provided by the "mall" without subscribing to membership.</li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op4_18">Article 3 &#40;Specification, explanation and revision of terms and conditions, etc.&#41;</b>
+                                <ol>
+                                    <li>
+                                        ① "Mall" refers to the contents of these terms and conditions, trade name and representative name, business address &#40;including address where 
+                                        consumer complaints can be handled&#41;, phone number, fax number, e&#45;mail address, business registration number, communication The sales business 
+                                        report number and person in charge of personal information management are posted on the initial service screen &#40;front&#41; of the Everland Resort cyber 
+                                        mall so that users can easily find out. However, the contents of the terms and conditions can be viewed by the user through the connection screen.
+                                    </li>
+                                    <li>
+                                        ② "Mall" provides a separate connection screen or pop&#45;up screen so that users can understand important contents such as withdrawal of subscription, 
+                                        delivery responsibility, refund conditions, etc. You need to ask for confirmation.
+                                    </li>
+                                    <li>
+                                        ③  "Mall" refers to the 「Act on Consumer Protection in Electronic Commerce, Etc.」, 「Regulation of Terms and Conditions Act」, 「Framework Act 
+                                        on Electronic Documents and Electronic Commerce」, 「Electronic Financial Transaction Act」, 「Electronic Signature Act」, 「Using Information and 
+                                        Communication Network」 These Terms and Conditions may be amended to the extent that they do not violate related laws such as the Promotion and 
+                                        Information Protection Act, the 「Door&#45;to&#45;Door Sales Act」, and the 「Framework Act on Consumers」.
+                                    </li>
+                                    <li>
+                                        ④  If the "mall" amends the terms and conditions, the date of application and the reason for the amendment shall be specified and announced along 
+                                        with the current terms and conditions on the initial screen of the mall from 7 days before the effective date to the day before the effective date. 
+                                        However, if the contents of the agreement are changed unfavorably to the user, it will be notified with a grace period of at least 30 days in advance. 
+                                        In this case, the "mall" clearly compares the content before and after the revision and displays it so that users can easily understand.
+                                    </li>
+                                    <li>
+                                        ⑤ If the "Mall" amends the terms and conditions, the revised terms and conditions apply only to contracts concluded after the date of application, and 
+                                        the provisions of the terms and conditions before the revision apply to contracts already concluded before that. However, if the user who has already 
+                                        signed the contract sends the intention to be subject to the provisions of the amended terms and conditions to the "mall" within the notice period of the 
+                                        amended terms and conditions under paragraph 3 and receives the consent of the "mall", the provisions of the amended terms and conditions apply. 
+                                        It's possible.
+                                    </li>
+                                    <li>
+                                        ⑥ Matters not specified in these Terms and Conditions and interpretation of these Terms and Conditions are related to the Act on Consumer Protection 
+                                        in Electronic Commerce, etc., the Act on Regulation of Terms and Conditions,「Consumer Protection Guidelines in Electronic Commerce, etc.」and 
+                                        related laws or Follow the precedent.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op4_18">Article 4 &#40;Provision and Change of Service&#41;</b>
+                                <ol>
+                                    <li>
+                                        ① "Mall" performs the following tasks.
+                                        <ol>
+                                            <li>1. Provision of information on goods or services and conclusion of purchase contract</li>
+                                            <li>2. Delivery of goods or services for which a purchase contract has been concluded</li>
+                                            <li>3. Other tasks designated by "mall"</li>
+                                        </ol>
+                                    </li>
+                                    <li>
+                                        ② "Mall" may change the contents of goods or services to be provided by contracts to be concluded in the event of a product or service being out of stock 
+                                        or a change in technical specifications. In this case, the contents of the changed goods or services and the delivery date are specified and immediately 
+                                        notified to the place where the contents of the current goods or services are posted.
+                                    </li>
+                                    <li>
+                                        ③ If the contents of the service contracted with the user by the "mall" are changed for reasons such as out of stock of goods or changes in technical 
+                                        specifications, the reason is immediately notified to the address where the user can be notified.
+                                    </li>
+                                    <li>
+                                        ④ In the case of the preceding paragraph, the "Mall" compensates for damages suffered by the user. However, this is not the case if the "Mall" proves that 
+                                        there is no intention or negligence.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op4_18">Article 5 &#40;Suspension of Service&#41;</b>
+                                <ol>
+                                    <li>
+                                        ① "Mall" may temporarily suspend the provision of services in the event of maintenance, replacement or breakdown of information and communication 
+                                        facilities such as computers, or loss of communication.
+                                    </li>
+                                    <li>
+                                        ② "Mall" compensates for damages suffered by users or third parties due to temporary suspension of service provision due to the reason in Paragraph 
+                                        1. However, this is not the case if the "Mall" proves that there is no intention or negligence.
+                                    </li>
+                                    <li>
+                                        ③ In the event that the service cannot be provided due to the conversion of business items, abandonment of business, integration between companies, etc., 
+                                        the "mall" notifies the user in the manner set forth in Article 8 and the consumer according to the conditions originally suggested by the "mall". reward to 
+                                        However, if the "mall" does not notify the compensation standards, etc., the mileage or reserves of the users are paid to the user in kind or cash equivalent 
+                                        to the currency value used in the "mall".
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op4_18">Article 6 &#40;Member Registration&#41;</b>
+                                <ol>
+                                    <li>
+                                        ① The user applies for membership by filling in the member information according to the sign&#45;up form set by the "mall" and expressing his/her intention 
+                                        to agree to these terms and conditions.
+                                    </li>
+                                    <li>
+                                        ② "Mall" registers as a member unless it falls under any of the following among users who have applied to join as a member as in Paragraph 1.
+                                        <ol>
+                                            <li>
+                                                1. If the applicant for membership has previously lost membership in accordance with Article 7 &#40;3&#41; of these Terms and Conditions, however, as a person 
+                                                who has passed 3 years after losing membership in accordance with Article 7 &#40;3&#41;, consent to re&#45;registration as a member of "Mall" Exceptions are made 
+                                                in cases where
+                                            </li>
+                                            <li>2. If there is falsehood, omission, or typo in the registration information</li>
+                                            <li>3. If it is judged that registering as a member is significantly impeded by the technology of the "mall"</li>
+                                        </ol>
+                                    </li>
+                                    <li>③  The time of establishment of the membership contract is when the consent of the "mall" reaches the member.</li>
+                                    <li>
+                                        ④ If there is a change in the information registered at the time of membership registration, the member must notify the change within a considerable 
+                                        period of time by modifying member information to the "mall".
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op4_18">Article 7 &#40;Withdrawal from Membership and Loss of Qualification, etc.&#41;</b>
+                                <ol>
+                                    <li>① Members may request membership withdrawal at any time to the "Mall", and the "Mall" will process the withdrawal immediately.</li>
+                                    <li>
+                                        ② If a member falls under any of the following reasons, "mall" may restrict or suspend membership.
+                                        <ol>
+                                            <li>1. In the case of registering false information when applying for membership</li>
+                                            <li>
+                                                2. In the event that the member does not pay the debts borne by the member in relation to the use of the "mall" or the goods purchased using the 
+                                                "mall" on time
+                                            </li>
+                                            <li>3. Threatening the order of e&#45;commerce, such as interfering with the use of "mall" by others or stealing the information</li>
+                                            <li>4. In the case of using the "Mall" to act against the law or these Terms and Conditions or against public order and morals</li>
+                                        </ol>
+                                    </li>
+                                    <li>
+                                        ③ After “Mall” restricts or suspends membership, if the same action is repeated twice or more, or if the cause is not corrected within 30 days, “Mall” may 
+                                        lose membership.
+                                    </li>
+                                    <li>
+                                        ④ If the "mall" loses membership, membership registration is canceled. In this case, the member is notified of this and given an opportunity to explain by 
+                                        setting a period of at least 30 days before membership registration is canceled.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>
+                                <b class="op4_18">Article 8 &#40;Notification to Members&#41;</b>
+                                <ol>
+                                    <li>① If the "mall" notifies the member, the member can do it to the e&#45;mail address specified by the member in advance with the "mall".</li>
+                                    <li>
+                                        ② "Mall" can be substituted for individual notices by posting on the "Mall" bulletin board for more than one week in case of notice to unspecified members. 
+                                        However, individual notices are given for matters that have a significant impact on the member's own transaction.
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <strong class="op7_20"><mark class="op6_20">&#91;Required&#93;</mark>Consent to collection and use of personal information</strong>
+                        <input type="checkbox" id="option03" class="check">
+                        <label for="option03" class="op7_20">Agree &#40;essential&#41;</label>
+                        <ol>
+                            <li>
+                                <b class="op4_18">Collection items</b>
+                                <ul>
+                                    <li>&#45; &#40;Required&#41; ID, password, name, date of birth, gender, email, mobile phone number, connection information &#40;CI&#41;</li>
+                                    <li>&#45; &#40;Optional&#41; Address &#40;to city/gun/district&#41;</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b class="op4_18">Purpose of collection and use</b>
+                                <ul>
+                                    <li>
+                                        &#45; Identification and authentication of the person and legal representative according to the provision of membership service, maintenance and management 
+                                        of membership, identity verification according to the implementation of the limited identity verification system, consent of the legal representative, 
+                                        prevention of illegal use of service, various notices and notices, grievance handling, dispute mediation, infectious disease Record retention for relevant 
+                                        epidemiological investigations
+                                    </li>
+                                    <li>&#45; Handling customer inquiries</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b class="op4_18">Retention/use period</b>
+                                <ul>
+                                    <li>&#45; Member and legal representative information: <b>4 weeks from the date of membership withdrawal</b></li>
+                                    <li>
+                                        &#8251;You have the right to refuse to consent to the collection and use of your essential personal information, and if you refuse to consent, you will not be able 
+                                        to purchase the product.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <strong class="op7_20">Consent to collection and use of personal information<mark>&#40;select&#41;</mark></strong>
+                        <input type="checkbox" id="option04">
+                        <label for="option04" class="op7_20">Agree &#40;select&#41;</label>
+                        <ol>
+                            <li>
+                                <strong>&#45; Use item</strong>
+                                <b>Name, date of birth, gender, email, mobile phone number</b>
+                            </li>
+                            <li>
+                                <strong>&#45; purpose of use</strong>
+                                <b>Providing and promoting preferential events and promotions provided by Everland Resort</b>
+                            </li>
+                            <li>
+                                <strong>&#45; Retention period</strong>
+                                <b>Until membership withdrawal</b>
+                            </li>
+                            <li>&#8251; Disadvantages in case of rejection unable to receive LMS and EMAIL promotions for new promotions</li>
+                        </ol>
+                    </li>
+                </ol>
+                <input type="button" value="NEXT STEP" data-tab="step02" class="op7_20">
+            </form>
+        </div>
+        <div class="step02">
+            <form action="#">
+                <fieldset>
+                    <strong class="op7_20">Enter required information</strong>
+                    <ol class="op7_18">
+                        <li>
+                            <label for="name" class="op6_18">Name</label>
+                            <input type="text" title="name" id="name" value="PARK YEYOUNG">
+                        </li>
+                        <li>
+                            <label for="phone" >number</label>
+                            <input type="tel" title="phone" id="phone" value="010-7271-7410" class="op6_18">
+                        </li>
+                        <li>
+                            <label for="userID">ID</label>
+                            <input type="text" id="userID" class="op6_18">
+                        </li>
+                        <li>
+                            <label for="userPW01">PASSWORD</label>
+                            <input type="password" id="userPW01"  maxlength="12" class="op6_18">
+                        </li>
+                        <li>
+                            <label for="userPW02">PASSWORD CHECK</label>
+                            <input type="password" id="userPW02"  maxlength="12" class="op6_18">
+                            <span class="op6_16">
+                                &#42; Please enter a combination of 9 or more English letters, numbers, and special characters without spaces. 
+                                &#40;Only &#33; &#64; &#35; &#36; &#37; &amp; can be used as special characters.&#41;
+                            </span>
+                        </li>
+                        <li>
+                            <label for="userID">BIRTH DATE</label>
+                            <input type="date" id="userDate" value="1999-07-06" class="op6_18">
+                        </li>
+                    </ol>
+                    <strong class="op7_20">Personal information validity period</strong>
+                    <ol>
+                        <li>
+                            <input type="radio" id="option05" name="validityPeriod">
+                            <label for="option05">Destroy upon withdrawal</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="option06" name="validityPeriod" checked>
+                            <label for="option06">1 Year</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="option07" name="validityPeriod">
+                            <label for="option07">3 Year</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="option08" name="validityPeriod">
+                            <label for="option08">5 Year</label>
+                        </li>
+                        <li class="op6_16">
+                            &#42; If there is no use such as logging in during the set personal information validity period, it will be converted to a dormant member and personal information will be stored/managed 
+                            or destroyed separately.
+                        </li>
+                    </ol>
+                    <input type="button" value="SIGN IN" data-tab="step03" class="op7_20">
+                </fieldset>
+            </form>
+        </div>
+        <div class="step03">
+            <h3 class="la9_45">WELCOME&#33;</h3>
+            <strong>Congratulations on your Sign up.</strong>
+            <p>You can use all services after logging in.</p>
+            <a href="signIn.html">SIGN IN</a>
+            <a href="index.html">MAIN</a>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>
+                <h3 class="la4_16">Everland Resort Inquiries</h3>
+                <a href="tel:+82316452000" class="la9_16">031-645-2000</a>
+            </li>
+            <li>
+                <h3 class="la4_16">Caribbean Bay Inquiry</h3>
+                <a href="tel:+82316452000" class="la9_16">031-645-2000</a>
+            </li>
+            <li>
+                <h3 class="la4_16">Homebridge Inquiry</h3>
+                <a href="tel:+82316452000" class="la9_16">031-645-2000</a>
+            </li>
+        </ul>
+        <div>
+            <div>
+                <h2>goodBye. EVERLAND</h2>
+                <ul class="op7_16">
+                    <li><a href="faq.html">COMMUNITY</a></li>
+                    <li><a href="tos.html">TOS</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="policy.html">POLICY</a></li>
+                    <li><a href="siteMap.html">SITE MAP</a></li>
+                    <li><a href="history.html">HISTORY</a></li>
+                </ul>
+                <ol>
+                    <li><a href="https://www.facebook.com/witheverland/">faceBook</a></li>
+                    <li><a href="https://www.instagram.com/witheverland/">instagram</a></li>
+                    <li><a href="https://pf.kakao.com/_qxnrLq">kakao</a></li>
+                </ol>
+            </div>
+            <details class="op4_16">
+                <summary>Samsung C&T Corporation, 199 Everland-ro, Pogok-eup, Cheoin-gu, Yongin-si, Gyeonggi-do</summary>
+                <span>CEO : Seunghwan Han | Business registration number : 135-85-04288 | Mail-order business report number : 2006-Yongin Cheoin-0216 | Check business information</span>
+                <span>Customer Consultation Center : <a href="tel:+8231-320-5000">031-320-5000(paid)</a> | <a href="policy.html">Privacy Policy</a> | <a href="noticeOfPolicyRevision.html">Notice of Policy Revision</a> | <a href="bidNotice.html">Bid Notice</a></span>
+                <p>Copyright © Samsung C&T Corporation. All rights reserved.</p>
+            </details>
+        </div>
+    </footer>
+</body>
+</html>
