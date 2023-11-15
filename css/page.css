@@ -1,0 +1,196 @@
+
+.indexContainer .contentBannerCB01>div:first-child h2{
+    margin-bottom: 60px;
+}
+.indexContainer .contentBannerCB01>div:first-child h2 a{
+    background: url('../images/maincon03_more.png') no-repeat right center / 6px 11px;
+    padding-right: 15px;
+}
+.indexContainer .contentBannerCB01>div:first-child ul li{
+    justify-content: space-between;
+}
+.indexContainer .contentBannerCB01>div:first-child ul li a,
+.indexContainer .contentBannerCB01>div:first-child ul li time{
+    display: inline-block;
+    color: var(--gs9);
+}
+.indexContainer .contentBannerCB01>div:first-child ul li time{
+    padding-top: 4px;
+}
+.indexContainer .contentBannerCB01>div:nth-child(2) ul{
+    display: flex;
+}
+.indexContainer .contentBannerCB01>div:nth-child(2) ul li{
+    width: 33.33%;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* contentBanner03 Fin */
+/* 상세페이지 시작 */
+
+
+@media screen and (min-width: 1280px) {
+    .indexContainer .banslider li strong{
+        position: absolute;
+        top: 43.827%;
+        left: 13.281%;
+    }
+    .indexContainer .banslider li{
+        position: relative;
+        color: var(--gs1);
+    }
+    .indexContainer .banslider li h2{
+        position: absolute;
+        top: 48.229%;
+        left: 13.281%;
+    }
+    .indexContainer .contentBanner01{
+        margin: 155px 0 190px;
+        padding-left: 13.281%;
+    }
+    .indexContainer>.bx-wrapper div:nth-child(2)>.bx-pager::first-letter{
+        font-size: 34px;
+    }
+    .indexContainer>.bx-wrapper .bx-controls .bx-controls-direction a{
+        top: 57.172%;
+        margin: 0;
+    }
+    .indexContainer>.bx-wrapper div:nth-child(2) div:first-child .bx-prev{
+        background: url('../images/mainBanL.png') no-repeat top / contain;
+        left: 18.75%;
+        z-index: 100;
+    }
+    .indexContainer>.bx-wrapper div:nth-child(2) div:first-child .bx-next {
+        background: url('../images/mainBanR.png') no-repeat top / contain;
+        left: 22.083%;
+        z-index: 100;
+    }
+    .indexContainer>.bx-wrapper div:nth-child(2)>div:nth-child(2){
+        width: auto;
+        font-size: 20px;
+        font-family: 'Open Sans';
+        top: 56.172%;
+        left: 13.281%;
+        color: var(--gs1);
+        padding: 0;
+        height: 5%;
+        text-align: left;
+    }
+    .indexContainer .banslider li::before{
+        display: block;
+        position: absolute;
+        content: '';
+        border-left: 0.65vw solid var(--bs1);
+        top: 43.827%;
+        left: 11.25%;
+        height: 5.157vw;
+    }
+    div .linemg~div,
+    div article,
+    #wrap .contentBannerCB01{
+        max-width: 1458px;
+        margin: 0 auto;
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .contentBannerCB01{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .indexContainer .contentBannerCB01>div:first-child{
+        border-right: 1px solid var(--gs5);
+    }
+    .indexContainer .contentBannerCB01>div:not(:last-child){
+        width: 50%;
+        padding: 75px 70px;
+        border-top: 1px solid var(--gs5);
+        box-sizing: border-box;
+    }
+    .indexContainer .contentBannerCB01>div:not(:last-child) h2{
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 35px;
+        color: var(--bs10);
+    }
+    .indexContainer .contentBannerCB01>div:first-child ul li a{
+        width: 80%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-bottom: 2px;
+    }
+    .indexContainer .contentBannerCB01>div:first-child ul li:not(:last-child) a,
+    .indexContainer .contentBannerCB01>div:first-child ul li:not(:last-child) time{
+        margin-bottom: 15px;
+    }
+    .indexContainer .contentBannerCB01>div:first-child ul li a:hover{
+        text-decoration: underline;
+    }
+    .indexContainer .contentBannerCB01>div:nth-child(2) ul li:first-child a{
+        background: url('../images/maincon03_res.png') no-repeat center top / 100px 100px;
+    }
+    .indexContainer .contentBannerCB01>div:nth-child(2) ul li:nth-child(2) a{
+        background: url('../images/maincon03_inpuiry.png') no-repeat center top/ 100px 100px;
+    }
+    .indexContainer .contentBannerCB01>div:nth-child(2) ul li:last-child a{
+        background: url('../images/maincon03_lost.png') no-repeat center top/ 100px 100px;
+    }
+    .indexContainer .contentBannerCB01>div:nth-child(2) ul li a{
+        display: inline-block;
+        width: 100%;
+        padding-top: 120px;
+        color: var(--gs9);
+    }
+    gmp-map{
+        height: 100%;
+    }
+    .indexContainer .contentBannerCB01>#map{
+        background: url('../images/kakaoCB_map.png') no-repeat center / cover;
+        position: relative;
+        width: 100%;
+        height: 550px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl{
+        position: absolute;
+        top: 160px;
+        right: 60px;
+        background-color: var(--bs4);
+        opacity: 0.94;
+        color: var(--gs1);
+        width: 445px;
+        padding: 55px 30px 35px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl h2{
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl button{
+        display: flex;
+        border: 1px solid var(--gs1);
+        background: none;
+        margin-left: 40px;
+        color: var(--gs1);
+        padding: 10px;
+        vertical-align: text-bottom;
+        position: absolute;
+        top: 55px;
+        right: 30px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl button::before{
+        background: url('../images/mapCopy.png') no-repeat center /contain;
+        content: '';
+        display: inline-block;
+        width: 13px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl address{
+        line-height: 26px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl address b{
+        display: block;
+        line-height: 26px;
+    }
+    /* index Fin */
+    /* 상세페이지 시작 */
+}

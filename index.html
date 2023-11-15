@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EVERAND RESORT</title>
+    <title>CARIBBEAN BAY</title>
     <link rel="shortcut icon" href="images/logo.png">
     <link rel="shortcut icon" href="favicon-64x64.png" type="image/x-icon">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo-NlStZG2jyTu-Fkt4m6yO0eFJJGm9fE&callback=console.debug&libraries=maps,marker&v=beta"></script>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
     <script src="js/jquery.fitvids.js"></script>
-    <script src="js/customize.bxslider.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/page.js"></script>
     <link rel="stylesheet" href="css/import.css">
 </head>
-<body>
-    <a href="#wrap" class="go_top">back to top</a>
+<body id="bodypad">
+    <a href="Javascript:;" class="go_top">back to top</a>
     <header>
         <h1><a href="index.html">welcome to EVERLAND</a></h1>
         <div>
             <div class="ect_btn op7_20">
                 <a href="signIn.html">SIGN IN</a>
-                <a href="signUp.html">SIGN UP</a>
+                <a href="signUp01.html">SIGN UP</a>
                 <a href="faq.html">COMMUNITY</a>
                 <a href="reservation.html">RESERVATION</a>
             </div>
@@ -95,7 +97,7 @@
                     <h2 class="la9_22">SIGN IN</h2>
                     <ol class="op7_18">
                         <li><a href="signIn.html">Sign in</a></li>
-                        <li><a href="signUp.html">Sign up</a></li>
+                        <li><a href="signUp01.html">Sign up</a></li>
                     </ol>
                 </li>
             </ul>
@@ -103,7 +105,7 @@
         <!-- f&b Fin -->
     </header>
     <!-- header fin -->
-    <div class="indexContainer">
+    <div id="wrap" class="indexContainer">
         <ul class="banslider">
             <li>
                 <a href="tulipGarden.html">
@@ -136,7 +138,7 @@
         </ul>
         <div class="contentBanner01">
             <h2 class="la9_20">What&#39;s New</h2>
-            <div>
+            <div class="textBox">
                 <p class="la3_35">
                     Welcome to the land of dreams and fantasies&#33;
                 </p>
@@ -187,7 +189,7 @@
                     <a href="roseGarden.html">
                         <img src="images/slide06.png" alt="rose Festival">
                         <strong class="op7_20">Everland Rose garden</strong>
-                        <span class="op6_14">It&#39;s rose b</span>
+                        <span class="op6_14">It&#39;s rose time</span>
                         <b class="la9_13">2023.05.19 &#126; 2023.05.20</b>
                     </a>
                 </li>
@@ -239,14 +241,14 @@
                     </p>
                     <a href="recommendedCourse.html" class="op7_16">MORE</a>
                     <ol class="actTabPager op4_20">
-                        <li data-slide-index="0">Recommended course</li>
-                        <li data-slide-index="1">Attraction</li>
-                        <li data-slide-index="2">Entertainment</li>
-                        <li data-slide-index="3">Restaurant</li>
-                        <li data-slide-index="4">Gift shop</li>
+                        <li><a data-slide-index="0">Recommended course</a></li>
+                        <li><a data-slide-index="1">Attraction</a></li>
+                        <li><a data-slide-index="2">Entertainment</a></li>
+                        <li><a data-slide-index="3">Restaurant</a></li>
+                        <li><a data-slide-index="4">Gift shop</a></li>
                     </ol>
                 </div>
-                <ul class="picSlider">
+                <ul class="picSliderE">
                     <li>
                         <img src="images/actv01.png" alt="activities_RecommendedCourse">
                     </li>
@@ -265,7 +267,7 @@
                 </ul>
             </div>    
             <div>
-                <ul class="picSlider">
+                <ul class="picSliderH">
                     <li>
                         <img src="images/home01.png" alt="homebridge_NewBuilding">
                     </li>
@@ -281,15 +283,15 @@
                         EVERLAND <strong class="la9_25">HOMEBRIDGE</strong>
                     </h2>
                     <p class="op4_20">
-                        A place of joy and romance given by nature  <br>
+                        A place of joy and romance given by nature <br>
                         Dark forests&#44; clear air&#44; <br>
                         A place with fresh impressions from nature
                     </p>
                     <a href="homebridge.html" class="op7_16">MORE</a>
                     <ol class="homTabPager op4_20">
-                        <li data-slide-index="0">Cabin Hostel New Building</li>
-                        <li data-slide-index="1">Cabin Hostel Main Building</li>
-                        <li data-slide-index="2">Theme story</li>
+                        <li><a data-slide-index="0">Cabin Hostel New Building</a></li>
+                        <li><a data-slide-index="1">Cabin Hostel Main Building</a></li>
+                        <li><a data-slide-index="2">Theme story</a></li>
                     </ol>
                 </div>
             </div>    
@@ -332,14 +334,18 @@
                 </ul>
             </div>
             <div id="map">
+                <gmp-map center="37.29384994506836,127.20256805419922" zoom="14" map-id="DEMO_MAP_ID">
+                    <gmp-advanced-marker position="37.29384994506836,127.20256805419922" title="My location">
+                    </gmp-advanced-marker>
+                </gmp-map>
                 <div class="map_dtl op7_20">
                     <h2 class="la9_35">EVERLANDRESORT</h2>
-                    <button class="btnCopy op7_12">COPY</button>
-                    <address class="op7_20">
-                        199&#44; EVERLAND&#45;RO&#44; POGOK&#45;EUP&#44; 
-                        CHEOIN&#45;GU&#44; YONGIN&#45;SI&#44;GYEONGGI&#45;DO&#44;
+                    <button id="btnCopy" class="op7_12">COPY</button>
+                    <address id="copyMap" class="op7_20">
+                        199, EVERLAND-RO, POGOK-EUP, 
+                        CHEOIN-GU, YONGIN-SI,GYEONGGI-DO,
                         KOREA
-                        &#40;Location number&#41; 310 Jeondae&#45;ri&#44; Pogok-eup
+                        <b>(Location number) 310 Jeondae-ri, Pogok-eup</b>
                     </address>
                 </div>
             </div>
@@ -350,7 +356,7 @@
     <footer>
         <ul>
             <li>
-                <h3 class="la4_16">Everland Resort Inquiries</h3>
+                <h3 class="la4_16">Everland Resort Inquiry</h3>
                 <a href="tel:+82316452000" class="la9_16">031-645-2000</a>
             </li>
             <li>

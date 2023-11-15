@@ -31,7 +31,9 @@ footer,header,hgroup,menu,nav,section {
 nav ul {
     list-style:none;
 }
-
+li{
+    list-style: none;
+}
 blockquote, q {
     quotes:none;
 }
@@ -48,6 +50,8 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    color: #000000;
+    text-decoration: none;
 }
 
 /* change colours to suit your needs */
@@ -58,13 +62,6 @@ ins {
 }
 
 /* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
-}
-
 del {
     text-decoration: line-through;
 }

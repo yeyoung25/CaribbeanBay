@@ -7,20 +7,22 @@
     <title>CARIBBEAN BAY</title>
     <link rel="shortcut icon" href="images/logo.png">
     <link rel="shortcut icon" href="favicon-64x64.png" type="image/x-icon">
+    <!-- <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo-NlStZG2jyTu-Fkt4m6yO0eFJJGm9fE&callback=console.debug&libraries=maps,marker&v=beta"></script> -->
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/jquery.bxslider.js"></script>
     <script src="js/jquery.fitvids.js"></script>
-    <script src="js/customize.bxslider.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/page.js"></script>
     <link rel="stylesheet" href="css/import.css">
 </head>
 <body>
-    <a href="#wrap" class="go_top">back to top</a>
+    <a href="Javascript:;" class="go_top">back to top</a>
     <header>
-        <h1><a href="caribbeanBay.html">welcome to CARIBBEAN BAY</a></h1>
+        <h1><a href="index.html">welcome to EVERLAND</a></h1>
         <div>
             <div class="ect_btn op7_20">
                 <a href="signIn.html">SIGN IN</a>
-                <a href="signUp.html">SIGN UP</a>
+                <a href="signUp01.html">SIGN UP</a>
                 <a href="faq.html">COMMUNITY</a>
                 <a href="reservation.html">RESERVATION</a>
             </div>
@@ -33,7 +35,7 @@
         <nav id="fnbPanel">
             <ul>
                 <li>
-                    <b class="la9_22">CARIBBEAN BAY GUIDE</b>
+                    <h2 class="la9_22">CARIBBEAN BAY GUIDE</h2>
                     <ol class="op3_18">
                         <li><a href="newsNoticeCB.html">News notice</a></li>
                         <li><a href="howToUseCB.html">How to use</a></li>
@@ -44,7 +46,7 @@
                     </ol>
                 </li>
                 <li>
-                    <b class="la9_22">TICKET PRICE</b>
+                    <h2 class="la9_22">TICKET PRICE</h2>
                     <ol class="op3_18">
                         <li><a href="usageFeeCB.html">Usage fee</a></li>
                         <li><a href="affiliateCardCB.html">Affiliate card</a></li>
@@ -52,7 +54,7 @@
                     </ol>
                 </li>
                 <li>
-                    <b class="la9_22">ACTIVITIES</b>
+                    <h2 class="la9_22">ACTIVITIES</h2>
                     <ol class="op3_18">
                         <li><a href="attractionCB.html">Attraction</a></li>
                         <li><a href="villageCB.html">Village</a></li>
@@ -61,7 +63,7 @@
                     </ol>
                 </li>
                 <li>
-                    <b class="la9_22">LEARN MORE</b>
+                    <h2 class="la9_22">LEARN MORE</h2>
                     <ol class="op3_18">
                         <li><a href="themeStoryCB.html">Theme Story</a></li>
                     </ol>
@@ -91,7 +93,7 @@
                     <h2 class="la9_22">SIGN IN</h2>
                     <ol class="op7_18">
                         <li><a href="signIn.html">Sign in</a></li>
-                        <li><a href="signUp.html">Sign up</a></li>
+                        <li><a href="signUp01.html">Sign up</a></li>
                     </ol>
                 </li>
             </ul>
@@ -99,7 +101,7 @@
         <!-- f&b Fin -->
     </header>
     <!-- header fin -->
-    <div class="indexContainer">
+    <div id="wrap" class="indexContainer">
         <ul class="banslider">
             <li>
                 <a href="regularClosure.html">
@@ -125,7 +127,7 @@
         </ul>
         <div class="contentBannerCB01">
             <div>
-                <h2 class="la7_24">NEWS &amp; NOTICE <a href="newsNotice.html" class="op7_16">MORE</a></h2>
+                <h2 class="la7_24">NEWS &amp; NOTICE <a href="newsNoticeCB.html" class="op7_16">MORE</a></h2>
                 <ul>
                     <li>
                         <a href="regularClosure.html" class="op3_18">Notice of regular closure of Caribbean Bay</a>
@@ -152,14 +154,18 @@
                         <a href="reservation.html">reservation</a>
                     </li>
                     <li>
-                        <a href="inquiryBeforeVisiting.html">1:1 inquiry</a>
+                        <a href="inquiry.html">1:1 inquiry</a>
                     </li>
                     <li>
-                        <a href="checkLostItems.html">lost and found</a>
+                        <a href="lostAndFound.html">lost and found</a>
                     </li>
                 </ul>
             </div>
             <div id="map">
+                <!-- <gmp-map center="37.297367095947266,127.200439453125" zoom="14" map-id="DEMO_MAP_ID">
+                    <gmp-advanced-marker position="37.297367095947266,127.200439453125" title="My location">
+                    </gmp-advanced-marker>
+                  </gmp-map> -->
                 <div class="map_dtl op7_20">
                     <h2 class="la9_35">CARIBBEAN BAY</h2>
                     <button class="btnCopy op7_12">COPY</button>
@@ -177,7 +183,7 @@
     <footer>
         <ul>
             <li>
-                <h3 class="la4_16">Everland Resort Inquiries</h3>
+                <h3 class="la4_16">Everland Resort Inquiry</h3>
                 <a href="tel:+82316452000" class="la9_16">031-645-2000</a>
             </li>
             <li>

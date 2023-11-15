@@ -1,0 +1,1044 @@
+body.scrollNone{
+    overflow-y: hidden;
+}
+html{ 
+    scroll-behavior: smooth;
+} 
+.bx-wrapper {
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    /* trashCode */
+    margin-bottom: 0px;
+    padding: 0;
+}
+.go_top.scrollTop{
+    opacity: 0;
+    pointer-events: none;
+}
+header div .ect_btn a{
+    color: var(--gs1);
+}
+header div .menuBar.toggle span:nth-child(2){
+    opacity: 0;
+}
+header div .menuBar.toggle span:last-child{
+    transform: rotate(45deg) translate(-10px, -10px);
+}
+header.mouseOver{
+    background-color: rgba(255, 255, 255, 0.95);
+}
+header.mouseOver h1 a{
+    background: url('../images/colorCB_logo.png') no-repeat center / contain;
+}
+header.mouseOver div .ect_btn a:not(:last-child){
+    color: var(--gs11); 
+    text-shadow: none;
+}
+header #fnbPanel.act{
+    display: block;
+}
+header #fnbPanel ul>li ol li{
+    margin-bottom: 10px;
+}
+header #fnbPanel ul>li ol li a{
+    color: var(--gs6);
+    transition: 0.2s;
+    line-height: 22px;
+}
+/* header Fin */
+footer{
+    position: relative;
+    background-color: var(--gs10);
+}
+footer>ul{
+    overflow: hidden;
+}
+footer>ul li::after{
+    content: '';
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: all 1.2s;
+}
+footer>ul li:first-child::after{
+    background: url('../images/call01.png') no-repeat center / cover;
+}
+footer>ul li:hover::after{
+    transform: scale(1.1);
+}
+footer>ul li h3,
+footer>ul li a{
+    display: block;
+    text-align: center;
+    z-index: 1;  
+    color: var(--gs1);
+}
+footer>ul li:nth-child(2)::after{
+    background: url('../images/call02.png') no-repeat center / cover;
+}
+footer>ul li:last-child::after{
+    background: url('../images/call03.png') no-repeat center / cover;
+}
+footer div div ul li{
+    display: inline-block;
+}
+footer div div ul li a{
+    color: var(--gs7);
+}
+footer div div ul li:nth-child(4) a{
+    color: var(--gs1);
+}
+footer div details a{
+    color: var(--gs8);
+}
+footer div details summary.on::after{
+    transform: rotate(-180deg);
+}
+/* footer Fin */
+
+@media screen and (max-width: 767px) {
+    body#bodypad{
+        padding-top: 0;
+    }
+    body{
+        padding-top: 55px;
+    }
+    .go_top{
+        background: url('../images/go_top.png') no-repeat center / contain;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 40px;
+        height: 40px;
+        text-indent: -9999px;
+        z-index: 1000;
+        transition-duration: 0.2s;
+    }
+    header,
+    header+div,
+    footer{
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 55px;
+        z-index: 1000;
+        transition-duration: 0.2s;
+    }
+    header h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    header h1 a{
+        display: block;
+        background: url('../images/main_logo.png') no-repeat center / contain;
+        font-size: 0;
+        width: 158px;
+        height: 42px;
+        font-size: 0;
+    }
+    header>div{
+        width: 100%;
+        justify-content: space-between;
+    }
+    header div .ect_btn a:nth-child(-n+3){
+        display: none;
+    }
+    header div .ect_btn{
+        justify-content: space-between;
+        align-items: center;
+    }
+    header div .ect_btn a:last-of-type{
+        background: url('../images/headerRes.png') no-repeat 12px center / 28px 29px;
+        background-color: var(--bs1);
+        text-shadow: none;
+        line-height: 55px;
+        padding: 0;
+        min-width: 55px;
+        font-size: 0;
+    }
+    header div .menuBar{
+        background-color: var(--gs10);
+        width: 55px;
+        height: 55px;
+    }
+    header div .menuBar.toggle{
+        background-color: var(--gs1);
+    }
+    header div .menuBar.toggle span{
+        background-color: var(--gs10);
+    }
+    header div .menuBar span{
+        background-color: var(--gs1);
+        height: 2px;
+        transition: all 0.4s;
+    }
+    header div .menuBar span:first-child{
+        width: 23px;
+        top: 17px;
+        left: 16px;
+    }
+    header div .menuBar span:nth-child(2){
+        width: 16px;
+        top: 26px;
+        left: 23px;
+        transition: all 0.1s;
+    }
+    header div .menuBar span:last-child{
+        width: 23px;
+        top: 35px;
+        left: 16px;
+    }
+    header div .menuBar.toggle span:first-child{
+        transform: rotate(-45deg) translate(-5.5px, 6px);
+    }
+    header div .menuBar.toggle span:last-child{
+        transform: rotate(45deg) translate(-6.5px, -7.5px);
+    }
+    header #fnbPanel{
+        display: none;
+        width: 100%;
+        min-height: calc(100vh - 55px);
+        opacity: 0.95;
+        overflow-y: scroll;
+        background-color: var(--gs1);
+        top: 55px;
+        padding-top: 35px;
+        transition-duration: 0.2s;
+        box-sizing: border-box;
+    }
+    header #fnbPanel ul{
+        padding: 0 3.571%;
+        box-sizing: border-box;
+    }
+    header #fnbPanel ul>li{
+        display: block;
+        width: 100%;
+    }
+    header #fnbPanel ul>li h2{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    header #fnbPanel ul>li>ol>li>a{
+        font-size: 13px;
+    }
+    header #fnbPanel ul>li h2::after{
+        background: url('../images/mobileFnbMore.png') no-repeat right / contain;
+        content: '';
+        display: inline-block;
+        width: 14px;
+        height: 9px;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    header #fnbPanel ul>li.active h2::after{
+        transform: rotate(-180deg);
+    }
+    header #fnbPanel ul>li:nth-child(1) h2,
+    header #fnbPanel ul>li:nth-child(5) h2{
+        color: var(--gs11);
+    }
+    header #fnbPanel ul>li:nth-child(2) h2,
+    header #fnbPanel ul>li:nth-child(6) h2{
+        color: var(--os3);
+    }
+    header #fnbPanel ul>li:nth-child(3) h2,
+    header #fnbPanel ul>li:nth-child(7) h2{
+        color: var(--rs8);
+    }
+    header #fnbPanel ul>li:nth-child(4) h2,
+    header #fnbPanel ul>li:nth-child(8) h2{
+        color: var(--vs8);
+    }
+    header #fnbPanel ul>li:first-child ol li,
+    header #fnbPanel ul>li:nth-child(5) ol li{
+        color: var(--gs9);
+    }
+    header #fnbPanel ul>li:nth-child(2) ol li,
+    header #fnbPanel ul>li:nth-child(6) ol li{
+        color: var(--os1);
+    }
+    header #fnbPanel ul>li:hover ol li{
+        color: var(--gs1);
+    }
+    header #fnbPanel ul>li>ol{
+        opacity: 0;
+        height: 0;
+        transition-duration: 0.5s;
+        transition-property: height, opacity;
+        overflow-y: hidden;
+    }
+    header #fnbPanel ul>li.active>ol{
+        opacity: 1;
+        margin-bottom: 55px;
+    }
+    header #fnbPanel ul>li.active>ol{
+        display: block; 
+        opacity: 1;
+    }
+    header #fnbPanel ul>li>ol>li>a{
+        font-weight: 600;
+    }
+    header #fnbPanel ul>li:not(:last-child){
+        margin-bottom: 15px;
+    }
+    header #fnbPanel ul>li>h2{
+        cursor: pointer;
+    }
+    header #fnbPanel ul>li:first-child:hover h2,
+    header #fnbPanel ul>li:nth-child(5):hover h2{
+        color: var(--gs10);
+    }
+    header #fnbPanel ul>li:first-child ol li a,
+    header #fnbPanel ul>li:nth-child(5) ol li a{
+        color: var(--gs9);
+    }
+    header #fnbPanel ul>li:nth-child(2) ol li a,
+    header #fnbPanel ul>li:nth-child(6) ol li a{
+        color: var(--os1);
+    }
+    header #fnbPanel ul>li:nth-child(3) ol li a,
+    header #fnbPanel ul>li:nth-child(7) ol li a{
+        color: var(--rs6);
+    }
+    header #fnbPanel ul>li:nth-child(4) ol li a,
+    header #fnbPanel ul>li:last-child ol li a{
+        color: var(--vs5);
+    }
+    header #fnbPanel ul>li>ol>li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    footer>ul{
+        display: block;
+    }
+    footer>ul li{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        height: 40px;
+        color: var(--gs1);
+        overflow: hidden;
+    }
+    footer>ul li>h3{
+        font-size: 12px;
+        line-height: 40px;
+        text-align: left;
+        margin-left: 3.571%;
+    }
+    footer>ul li>a{
+        color: var(--gs1);
+        line-height: 40px;
+        font-size: 10px;
+        text-align: right;
+        margin-right: 3.571%;
+    }
+    footer>div{
+        height: 400px;
+        padding: 15px 3.571% 0;
+        box-sizing: border-box;
+    }
+    footer div div h2{
+        background: url('../images/footer_logo.png') no-repeat center / contain;
+        width: 165px;
+        height: 36px;
+        text-indent: -9999px;
+        margin: 0 auto 15px;
+    }
+    footer div div ul{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 10px;
+        width: 82.142%;
+        margin: 0 auto;
+    }
+    footer div div ul li{
+        width: 33.33%;
+        font-size: 10px;
+    }
+    footer div div ul li{
+        /* margin-bottom: 20px; */
+        height: 30px;
+    }
+    footer div div ul li:not(:first-child){
+        /* padding-left: 25px; */
+    }
+    footer div div{
+        display: block;
+    }
+    footer div div ol{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 30px;
+    }
+    footer div div ol li{
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        text-indent: -9999px;
+    }
+    footer div div ol li:first-child a{
+        background: url('../images/ico_sns01.png') no-repeat center / contain;
+        display: block;
+        width: 27px;
+        height: 27px;
+    }
+    footer div div ol li:nth-child(2) a{
+        background: url('../images/ico_sns02.png') no-repeat center / contain;
+        display: block;
+        width: 27px;
+        height: 27px;
+    }
+    footer div div ol li:last-child a{
+        background: url('../images/ico_sns03.png') no-repeat center / contain;
+        display: block;
+        width: 27px;
+        height: 27px;
+    }
+    footer div div ol li:not(:first-child){
+        margin-left: 40px;
+    }
+    footer div details{
+        color: var(--gs8);
+        margin: 0 auto;
+    }
+    footer div details summary{
+        position: relative;
+        margin-bottom: 5px;
+        list-style: none;
+        text-align: center;
+        line-height: 16px;
+        font-size: 10px;
+    }
+    footer div details span{
+        display: block;
+        text-align: center;
+        line-height: 16px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    footer div details p{
+        text-align: center;
+        line-height: 16px;
+        font-size: 10px;
+    }
+    footer div details summary::after{
+        background: url('../images/footer_sum.png') no-repeat center / contain;
+        display: inline-block;
+        content: '';
+        width: 8px;
+        height: 5px;
+        margin-left: 10px;
+    }
+}
+/* ?mobile */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    body#bodypad{
+        padding-top: 0;
+    }
+    body{
+        padding-top: 60px;
+    }
+    .go_top{
+        background: url('../images/go_top.png') no-repeat center / contain;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 45px;
+        height: 45px;
+        text-indent: -9999px;
+        z-index: 1000;
+        transition-duration: 0.2s;
+    }
+    header,
+    header+div,
+    footer{
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        z-index: 1000;
+        transition-duration: 0.2s;
+    }
+    header h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    header h1 a{
+        display: block;
+        background: url('../images/main_logo.png') no-repeat center / contain;
+        font-size: 0;
+        width: 223.846px;
+        height: 60px;
+        font-size: 0;
+    }
+    header>div{
+        width: 100%;
+        justify-content: space-between;
+    }
+    header div .ect_btn a:nth-child(-n+3){
+        display: none;
+    }
+    header div .ect_btn{
+        justify-content: space-between;
+        align-items: center;
+    }
+    header div .ect_btn a:last-of-type{
+        background: url('../images/headerRes.png') no-repeat 14px center / 32px 30px;
+        background-color: var(--bs1);
+        text-shadow: none;
+        line-height: 60px;
+        padding: 0;
+        min-width: 60px;
+        font-size: 0;
+    }
+    header div .menuBar{
+        background-color: var(--gs10);
+        width: 60px;
+        height: 60px;
+    }
+    header div .menuBar.toggle{
+        background-color: var(--gs1);
+    }
+    header div .menuBar.toggle span{
+        background-color: var(--gs10);
+    }
+    header div .menuBar span{
+        background-color: var(--gs1);
+        width: 25px;
+        height: 3px;
+        transition: all 0.4s;
+    }
+    header div .menuBar span:first-child{
+        top: 19px;
+        left: 17px;
+        width: 25px;
+    }
+    header div .menuBar span:nth-child(2){
+        width: 17px;
+        top: 29px;
+        left: 25px;
+        transition: all 0.1s;
+    }
+    header div .menuBar span:last-child{
+        width: 25px;
+        top: 38px;
+        left: 17px;
+    }
+    header div .menuBar.toggle span:first-child{
+        transform: rotate(-45deg) translate(-5px, 7px);
+    }
+    header div .menuBar.toggle span:last-child{
+        transform: rotate(45deg) translate(-6.5px, -8.5px);
+    }
+    header #fnbPanel ul>li{
+        display: block;
+        width: 100%;
+    }
+    header #fnbPanel ul>li h2{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    header #fnbPanel ul>li>ol>li>a{
+        font-size: 13px;
+    }
+    header #fnbPanel ul>li h2::after{
+        background: url('../images/mobileFnbMore.png') no-repeat right / contain;
+        content: '';
+        display: inline-block;
+        width: 14px;
+        height: 9px;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    header #fnbPanel ul>li.active h2::after{
+        transform: rotate(-180deg);
+    }
+    header #fnbPanel ul>li:nth-child(1) h2,
+    header #fnbPanel ul>li:nth-child(5) h2{
+        color: var(--gs11);
+    }
+    header #fnbPanel ul>li:nth-child(2) h2,
+    header #fnbPanel ul>li:nth-child(6) h2{
+        color: var(--os3);
+    }
+    header #fnbPanel ul>li:nth-child(3) h2,
+    header #fnbPanel ul>li:nth-child(7) h2{
+        color: var(--rs8);
+    }
+    header #fnbPanel ul>li:nth-child(4) h2,
+    header #fnbPanel ul>li:nth-child(8) h2{
+        color: var(--vs8);
+    }
+    header #fnbPanel ul>li:first-child ol li,
+    header #fnbPanel ul>li:nth-child(5) ol li{
+        color: var(--gs9);
+    }
+    header #fnbPanel ul>li:nth-child(2) ol li,
+    header #fnbPanel ul>li:nth-child(6) ol li{
+        color: var(--os1);
+    }
+    header #fnbPanel ul>li:hover ol li{
+        color: var(--gs1);
+    }
+    header #fnbPanel{
+        display: none;
+        width: 100%;
+        min-height: calc(100vh - 60px);
+        opacity: 0.95;
+        overflow: scroll;
+        background-color: var(--gs1);
+        top: 60px;
+        padding: 40px 60px 0;
+        transition-duration: 0.2s;
+        box-sizing: border-box;
+    }
+    header #fnbPanel ul>li>ol{
+        opacity: 0;
+        height: 0;
+        transition-duration: 0.5s;
+        transition-property: height, opacity;
+        overflow-y: hidden;
+    }
+    header #fnbPanel ul>li.active>ol{
+        opacity: 1;
+        margin-bottom: 55px;
+    }
+    header #fnbPanel ul>li.active>ol{
+        display: block; 
+        opacity: 1;
+    }
+    header #fnbPanel ul>li>ol>li>a{
+        font-weight: 600;
+    }
+    header #fnbPanel ul>li:not(:last-child){
+        margin-bottom: 15px;
+    }
+    header #fnbPanel ul>li>h2{
+        cursor: pointer;
+    }
+    header #fnbPanel ul>li:first-child:hover h2,
+    header #fnbPanel ul>li:nth-child(5):hover h2{
+        color: var(--gs10);
+    }
+    header #fnbPanel ul>li:first-child ol li a,
+    header #fnbPanel ul>li:nth-child(5) ol li a{
+        color: var(--gs9);
+    }
+    header #fnbPanel ul>li:nth-child(2) ol li a,
+    header #fnbPanel ul>li:nth-child(6) ol li a{
+        color: var(--os1);
+    }
+    header #fnbPanel ul>li:nth-child(3) ol li a,
+    header #fnbPanel ul>li:nth-child(7) ol li a{
+        color: var(--rs6);
+    }
+    header #fnbPanel ul>li:nth-child(4) ol li a,
+    header #fnbPanel ul>li:last-child ol li a{
+        color: var(--vs5);
+    }
+    header #fnbPanel ul>li>ol>li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    footer>ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer>ul li{
+        display: flex;
+        flex-wrap: wrap;
+        width: 33.33%;
+        height: 120px;
+        color: var(--gs1);
+        overflow: hidden;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    footer>ul li>h3{
+        width: 100%;
+        padding-top: 40px;
+        margin-bottom: 15px;
+    }
+    footer>ul li>a{
+        display: block;
+        width: 100%;
+        color: var(--gs1);
+    }
+    footer>div{
+        height: 300px;
+        padding-top: 37px;
+        box-sizing: border-box;
+    }
+    footer div div h2{
+        background: url('../images/footer_logo.png') no-repeat center / contain;
+        width: 165px;
+        height: 36px;
+        text-indent: -9999px;
+        margin: 0 auto 15px;
+    }
+    footer div div ul{
+        display: block;
+        text-align: center;
+    }
+    footer div div ul li:not(:first-child){
+        padding-left: 25px;
+    }
+    footer div div{
+        display: block;
+    }
+    footer div div ol{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    footer div div ol li{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        text-indent: -9999px;
+    }
+    footer div div ol li:first-child a{
+        background: url('../images/ico_sns01.png') no-repeat center / contain;
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
+    footer div div ol li:nth-child(2) a{
+        background: url('../images/ico_sns02.png') no-repeat center / contain;
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
+    footer div div ol li:last-child a{
+        background: url('../images/ico_sns03.png') no-repeat center / contain;
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
+    footer div div ol li:not(:first-child){
+        margin-left: 15px;
+    }
+    footer div details{
+        color: var(--gs8);
+        margin: 0 auto;
+        width: 85%;
+    }
+    footer div details summary{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+        list-style: none;
+        align-items: center;
+    }
+    footer div details span{
+        display: block;
+        text-align: center;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+    footer div details p{
+        text-align: center;
+    }
+    footer div details summary::after{
+        background: url('../images/footer_sum.png') no-repeat center / contain;
+        width: 8px;
+        height: 5px;
+        content: '';
+        display: block;
+        margin-left: 25px;
+    }
+}
+/* ?tablet */
+@media screen and (min-width: 1280px) {
+    body#bodypad{
+        padding-top: 0;
+    }
+    body{
+        padding-top: 110px;
+    }
+    .go_top{
+        background: url('../images/go_top.png') no-repeat center / contain;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 81px;
+        height: 81px;
+        text-indent: -9999px;
+        z-index: 1000;
+        transition-duration: 0.2s;
+    }
+    header,
+    header+div,
+    footer{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 110px;
+        z-index: 1000;
+        transition-duration: 0.2s;
+    }
+    header>div{
+        justify-content: flex-end;
+        width: 768px;
+    }
+    header div .ect_btn{
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 110px);
+        text-shadow: 0px 2px 7px rgba(127,127,127,0.8);
+    }
+    header div .ect_btn a:last-of-type{
+        background: url('../images/headerRes.png') no-repeat 35px center / 45px 42px;
+        background-color: var(--bs1);
+        padding: 0 35px 0 97px;
+        text-shadow: none;
+        line-height: 110px;
+    }
+    header div .menuBar{
+        background-color: var(--gs10);
+        width: 110px;
+        height: 110px;
+    }
+    header div .menuBar span{
+        background-color: var(--gs1);
+        height: 4px;
+        transition: all 0.4s;
+    }
+    header div .menuBar span:first-child{
+        top: 38px;
+        left: 37px;
+        width: 38px;
+    }
+    header div .menuBar span:nth-child(2){
+        top: 52px;
+        left: 49px;
+        width: 26px;
+        transition: all 0.1s;
+    }
+    header div .menuBar span:last-child{
+        top: 66px;
+        left: 37px;
+        width: 38px;
+    }
+    header div .menuBar.toggle span:first-child{
+        transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    header h1,
+    header #fnbPanel ul>li{
+        float: left;
+    }
+    header #fnbPanel ul>li{
+        height: 350px;
+        width: 25%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    header #fnbPanel ul>li h2{
+        color: var(--gs1);
+        margin-bottom: 30px;
+    }
+    header h1{
+        padding-left: 3.125%;
+        margin-top: 15px;
+        font-size: 0;
+        display: flex;
+        align-items: center;
+    }
+    header h1 a{
+        display: block;
+        background: url('../images/mainCB_logo.png') no-repeat center / contain;
+        font-size: 0;
+        width: 365px;
+        height: 80px;
+    }
+    footer>ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer>ul li{
+        max-width: 1410px;
+        margin: 0 auto;
+        width: 33.33%;
+        height: 200px;
+        color: var(--gs1);
+        overflow: hidden;
+    }
+    header #fnbPanel{
+        display: none;
+        top: 0;
+        background-color: var(--gs11);
+        opacity: 0.95;
+        width: 100%;
+        /* min-height: calc(100% - 110px); */
+        padding: 7.888% 18.229% 100px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        transition-duration: 0.2s;
+    }
+    header #fnbPanel ul>li:first-child:hover h2,
+    header #fnbPanel ul>li:nth-child(5):hover h2{
+        color: var(--os1);
+    }
+    header #fnbPanel ul>li:first-child:hover a,
+    header #fnbPanel ul>li:nth-child(5):hover a{
+        color: var(--os6);
+    }
+    header #fnbPanel ul>li:first-child:hover a:hover,
+    header #fnbPanel ul>li:nth-child(5):hover a:hover{
+        color: var(--os1);
+    }
+    header #fnbPanel ul>li:nth-child(2):hover h2,
+    header #fnbPanel ul>li:nth-child(6):hover h2{
+        color: var(--rs1);
+    }
+    header #fnbPanel ul>li:nth-child(2):hover a,
+    header #fnbPanel ul>li:nth-child(6):hover a{
+        color: var(--rs6);
+    }
+    header #fnbPanel ul>li:nth-child(2):hover a:hover,
+    header #fnbPanel ul>li:nth-child(6):hover a:hover{
+        color: var(--rs1);
+    }
+    header #fnbPanel ul>li:nth-child(3):hover h2,
+    header #fnbPanel ul>li:nth-child(7):hover h2{
+        color: var(--bs1);
+    }
+    header #fnbPanel ul>li:nth-child(3):hover a,
+    header #fnbPanel ul>li:nth-child(7):hover a{
+        color: var(--bs6);
+    }
+    header #fnbPanel ul>li:nth-child(3):hover a:hover,
+    header #fnbPanel ul>li:nth-child(7):hover a:hover{
+        color: var(--bs1);
+    }
+    header #fnbPanel ul>li:nth-child(4):hover h2,
+    header #fnbPanel ul>li:nth-child(8):hover h2{
+        color: var(--vs1);
+    }
+    header #fnbPanel ul>li:nth-child(4):hover a,
+    header #fnbPanel ul>li:nth-child(8):hover a{
+        color: var(--vs6);
+    }
+    header #fnbPanel ul>li:nth-child(4):hover a:hover,
+    header #fnbPanel ul>li:nth-child(8):hover a:hover{
+        color: var(--vs1);
+    }
+    footer>ul li:first-child h3{
+        background: url('../images/footer_ever.png') no-repeat center / 45px;
+        padding-top: 80px;
+        margin: 30px 0 10px;
+    }
+    footer>ul li:nth-child(2) h3{
+        background: url('../images/footer_carib.png') no-repeat center / 45px;
+        padding-top: 80px;
+        margin: 30px 0 10px;
+    }
+    footer>ul li:last-child h3{
+        background: url('../images/footer_home.png') no-repeat center / 45px;
+        padding-top: 80px;
+        margin: 30px 0 10px;
+    }
+    footer>div{
+        max-width: 1458px;
+        height: 250px;
+        margin: 0 auto;
+        padding: 37px 24px 0;
+        box-sizing: border-box;
+    }
+    footer div div{
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    footer div div ul li:not(:first-child){
+        padding-left: 25px;
+    }
+    footer div div h2{
+        background: url('../images/footer_logo.png') no-repeat;
+        width: 289px;
+        height: 65px;
+        margin-right: 40px;
+        text-indent: -9999px;
+    }
+    footer div div ol{
+        margin-left: auto;
+    }
+    footer div div ol li{
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        text-indent: -9999px;
+    }
+    footer div div ol li:first-child a{
+        background: url('../images/ico_sns01.png') no-repeat center / contain;
+        display: block;
+        width: 45px;
+        height: 45px;
+    }
+    footer div div ol li:nth-child(2) a{
+        background: url('../images/ico_sns02.png') no-repeat center / contain;
+        display: block;
+        width: 45px;
+        height: 45px;
+    }
+    footer div div ol li:last-child a{
+        background: url('../images/ico_sns03.png') no-repeat center / contain;
+        display: block;
+        width: 45px;
+        height: 45px;
+    }
+    footer div div ol li:not(:first-child){
+        margin-left: 15px;
+    }
+    footer div details{
+        position: absolute;
+        top: 125px;
+        color: var(--gs8);
+    }
+    footer div details summary{
+        display: flex;
+        margin-bottom: 10px;
+        list-style: none;
+        cursor: pointer;
+        align-items: center;
+    }
+    footer div details span{
+        display: block;
+        margin-bottom: 10px;
+    }
+    footer div details summary::after{
+        background: url('../images/footer_sum.png') no-repeat center / contain;
+        width: 12px;
+        height: 7px;
+        content: '';
+        display: block;
+        margin-left: 25px;
+    }
+}
+/* ?desktop */
