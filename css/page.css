@@ -1,4 +1,6 @@
-
+div .guide{
+    background: url('../images/cb_Header01.png') no-repeat center / cover;
+}
 .indexContainer .contentBannerCB01>div:first-child h2{
     margin-bottom: 60px;
 }
@@ -193,4 +195,101 @@
     }
     /* index Fin */
     /* 상세페이지 시작 */
+    div .cabeContainer h2{
+        display: flex;
+        color: var(--gs1);
+        justify-content: center;
+        padding: 145px 0;
+    }
+    div .cabeContainer nav{
+        display: flex;
+        background-color: var(--gs1);
+        width: 46.875%;
+        min-width: 660px;
+        padding-left: 13.281%;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    div .cabeContainer nav>a{
+        background: url('../images/home_nav.png') no-repeat left / contain;
+        display: block;
+        width: 10%; 
+        min-width: 39px;
+        font-size: 0;
+        height: 20px;
+    }
+    div .cabeContainer nav div{
+        position: relative;
+        width: 45%; 
+        min-width: 255px;
+        background-color: var(--gs1);
+    }
+    div .cabeContainer nav div input{
+        color: var(--gs11);
+        background-color: transparent;
+        border: none;
+        padding-left: 30px;
+        height: 65px;
+    }
+    div .cabeContainer nav div::before{
+        border: 1px solid var(--gs4);
+        height: 25px;
+        content: '';
+        position: absolute;
+        top: 20px;
+    }
+    div .cabeContainer nav div:first-of-type::after{
+        background: url('../images/det_nav.png') no-repeat center / contain;
+        position: absolute;
+        right: 30px;
+        top: 27px;
+    }
+    div .cabeContainer nav div:last-of-type::after{
+        background: url('../images/det_nav.png') no-repeat center / contain;
+        position: absolute;
+        right: 30px;
+        top: 27px;
+    }
+    div .cabeContainer nav div ol{
+        display: none;
+    }
+    div .cabeContainer nav div ol li:not(:last-child){
+        display: block;
+        margin-bottom: 20px;
+    }
+    div .cabeContainer nav div ol li a{
+        color: var(--gs7);
+        display: block;
+        width: 100%;
+    }
+    div .cabeContainer nav div:first-of-type ol{
+        position: absolute;
+        width: 100%;
+        top: 64px;
+        box-sizing: border-box;
+        padding: 20px 0 20px 30px;
+        border: 1px solid var(--gs6);
+        background-color: var(--gs1);
+    }
+    div .cabeContainer nav div:last-of-type ol{
+        position: absolute;
+        width: 100%;
+        top: 64px;
+        box-sizing: border-box;
+        padding: 20px 0 20px 30px;
+        border: 1px solid var(--gs6);
+        background-color: var(--gs1);
+    }
+    div article .linebtm,
+    header+div>.linebtm,
+    .siteContainer ul li>.linebtm{
+        text-align: center;
+        padding: 95px 0;
+        border-bottom: 1px solid var(--gs5);
+    }
+    div div:nth-child(2) .linebtm{
+        text-align: center;
+        padding: 95px 0;
+        border-bottom: 1px solid var(--gs5);
+    }
 }

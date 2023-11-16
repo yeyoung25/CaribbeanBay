@@ -904,39 +904,39 @@ footer div details summary.on::after{
     }
     header #fnbPanel ul>li:first-child:hover h2,
     header #fnbPanel ul>li:nth-child(5):hover h2{
-        color: var(--os1);
+        color: var(--bs1);
     }
     header #fnbPanel ul>li:first-child:hover a,
     header #fnbPanel ul>li:nth-child(5):hover a{
-        color: var(--os6);
+        color: var(--bs6);
     }
     header #fnbPanel ul>li:first-child:hover a:hover,
     header #fnbPanel ul>li:nth-child(5):hover a:hover{
-        color: var(--os1);
+        color: var(--bs1);
     }
     header #fnbPanel ul>li:nth-child(2):hover h2,
     header #fnbPanel ul>li:nth-child(6):hover h2{
-        color: var(--rs1);
+        color: var(--os1);
     }
     header #fnbPanel ul>li:nth-child(2):hover a,
     header #fnbPanel ul>li:nth-child(6):hover a{
-        color: var(--rs6);
+        color: var(--os6);
     }
     header #fnbPanel ul>li:nth-child(2):hover a:hover,
     header #fnbPanel ul>li:nth-child(6):hover a:hover{
-        color: var(--rs1);
+        color: var(--os1);
     }
     header #fnbPanel ul>li:nth-child(3):hover h2,
     header #fnbPanel ul>li:nth-child(7):hover h2{
-        color: var(--bs1);
+        color: var(--rs1);
     }
     header #fnbPanel ul>li:nth-child(3):hover a,
     header #fnbPanel ul>li:nth-child(7):hover a{
-        color: var(--bs6);
+        color: var(--rs6);
     }
     header #fnbPanel ul>li:nth-child(3):hover a:hover,
     header #fnbPanel ul>li:nth-child(7):hover a:hover{
-        color: var(--bs1);
+        color: var(--rs1);
     }
     header #fnbPanel ul>li:nth-child(4):hover h2,
     header #fnbPanel ul>li:nth-child(8):hover h2{
