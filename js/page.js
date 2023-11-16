@@ -2,6 +2,7 @@ $(document).ready(function(){
     navToggle($("div div:first-child nav div"));
     newspage();
     howTab();
+    trafTab();
 });
 
 function navToggle(button){
@@ -21,6 +22,15 @@ function newspage(){
       $('.howCBContainer div:nth-child(2) ul li').removeClass('active');
       $(this).addClass('active');
       $('.howCBContainer div:nth-child(2) div').removeClass('active');
+      $('.' + $(this).attr('data-tab')).addClass('active');
+    });
+  }
+
+  function trafTab(){
+    $('.trafCBContainer div:nth-child(2) ul li').click(function(){
+      $('.trafCBContainer div:nth-child(2) ul li').removeClass('active');
+      $(this).addClass('active');
+      $('.trafCBContainer div:nth-child(2) div').removeClass('active');
       $('.' + $(this).attr('data-tab')).addClass('active');
     });
   }
