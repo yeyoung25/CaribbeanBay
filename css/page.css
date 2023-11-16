@@ -1,6 +1,17 @@
 div .guide{
     background: url('../images/cb_Header01.png') no-repeat center / cover;
 }
+div .contentBannerCB01 nav div.active::after{
+    transform: rotate(-180deg);
+}
+div .contentBannerCB01 nav div.active ol{
+    display: block;
+    z-index: 100;
+}
+div .contentBannerCB01 nav div ol li a:hover{
+    color: var(--gs11);
+}
+/* Detail nav Fin */
 .indexContainer .contentBannerCB01>div:first-child h2{
     margin-bottom: 60px;
 }
@@ -29,9 +40,100 @@ div .guide{
 }
 /* contentBanner03 Fin */
 /* 상세페이지 시작 */
+.newsCBContainer .paging>a{
+    font-size: 0;
+}
+.newsCBContainer .paging>a:first-child{
+    background: url('../images/newdet_first.png') no-repeat center / contain;
+    width: 12px;
+}
+.newsCBContainer .paging>a:nth-child(2){
+    background: url('../images/newdet_pre.png') no-repeat center / contain;
+    width: 8px;
+}
+.newsCBContainer .paging>a:nth-child(4){
+    background: url('../images/newdet_next.png') no-repeat center / contain;
+    width: 8px;
+}
+.newsCBContainer .paging>a:last-child{
+    background: url('../images/newdet_last.png') no-repeat center / contain;
+    width: 12px;
+}
+/* newNotice Fin */
+.newsCBContainer article div figure img{
+    width: 100%;
+}
+.newsCBContainer article div figure figcaption{
+    font-size: 0;
+}
+.newsCBContainer article .innerPager li{
+    justify-content: space-between;
+    width: 33.33%;
+}
+.newsCBContainer article .innerPager li a span{
+    display: block;
+    color: var(--gs9);
+    margin-bottom: 10px;
+}
+.newsCBContainer article .innerPager li:nth-child(2){
+    text-align: center;
+}
+/* newNotice detail Fin */
+.howCBContainer div:nth-child(2) ul li:not(:last-child)::after{
+    /* content: '';
+    display: inline-block;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: -1px;
+    width: 1px;
+    height: 22px;
+    border-right: 1px solid var(--gs5); */
+}
+.howCBContainer div:nth-child(2) ul li.active{
+    border: 1px solid var(--gs11);
+    border-bottom: none;
+    color: var(--gs11);
+}
+.howCBContainer div:nth-child(2) ul li.active::after{
+    content: none;
+    border: 0;
+}
+.howCBContainer div:nth-child(2)>div{
+    display: none;
+}
+.howCBContainer div:nth-child(2)>div.active{
+    display: block;
+}
+.howCBContainer div:nth-child(2) .orderOfUse ul li::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* howToUseCB Fin */
+.opeCBContainer div:nth-child(2) div{
+    margin-bottom: 75px;
+}
+.opeCBContainer div:nth-child(2) p{
+    text-align: center;
+}
+/* operatingTimeCB Fin */
 
 
+
+
+@media screen and (max-width: 767px) {
+
+}
+/* ?mobile */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+}
+/* ?tablet */
 @media screen and (min-width: 1280px) {
+    header+.conPbtm {
+        padding-bottom: 350px;
+    }
     .indexContainer .banslider li strong{
         position: absolute;
         top: 43.827%;
@@ -95,6 +197,7 @@ div .guide{
         padding: 0 24px;
         box-sizing: border-box;
     }
+    /* CB mainPage Fin */
     .contentBannerCB01{
         display: flex;
         flex-wrap: wrap;
@@ -238,17 +341,15 @@ div .guide{
         position: absolute;
         top: 20px;
     }
-    div .cabeContainer nav div:first-of-type::after{
+    div .cabeContainer nav div::after{
         background: url('../images/det_nav.png') no-repeat center / contain;
+        content: '';
         position: absolute;
         right: 30px;
-        top: 27px;
-    }
-    div .cabeContainer nav div:last-of-type::after{
-        background: url('../images/det_nav.png') no-repeat center / contain;
-        position: absolute;
-        right: 30px;
-        top: 27px;
+        top: 27px;    
+        display: block;
+        width: 10px;
+        height: 10px;
     }
     div .cabeContainer nav div ol{
         display: none;
@@ -287,9 +388,252 @@ div .guide{
         padding: 95px 0;
         border-bottom: 1px solid var(--gs5);
     }
+    .howCBContainer div:nth-child(2) h3{
+        text-align: center;
+        padding: 95px 0;
+    }
     div div:nth-child(2) .linebtm{
         text-align: center;
         padding: 95px 0;
         border-bottom: 1px solid var(--gs5);
     }
+    .newsCBContainer article h3{
+        text-align: center;
+        padding: 95px 0;
+    }
+    .newsCBContainer div:nth-child(2) h3+ul{
+        margin-bottom: 125px;
+    }
+    .newsCBContainer div:nth-child(2) h3+ul li{
+        border-bottom: 1px solid var(--gs5);
+        line-height: 55px;
+    }
+    .newsCBContainer div:nth-child(2) ul li a{
+        display: flex;
+    }
+    .newsCBContainer div:nth-child(2) ul li a span:first-child{
+        width: 5%;
+        padding-left: 30px;
+    }
+    .newsCBContainer div:nth-child(2) ul li a span:nth-child(2){
+        width: 15%;
+        color: var(--gs9);
+    }
+    .newsCBContainer div:nth-child(2) ul li a strong{
+        width: 70%;
+    }
+    .newsCBContainer div:nth-child(2) ul li a time{
+        background: url('../images/newdet_calendar.png') no-repeat left / contain;
+        width: 10%;
+        padding-left: 30px;
+        color: var(--gs10);
+        background-size: 12px;
+    }
+    .newsCBContainer .paging{
+        display: flex;
+        width: 240px;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    /* newNoticeCB Fin */
+    .newsCBContainer article div h4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 35px;
+        border-bottom: 1px solid var(--gs5);
+    }
+    .newsCBContainer article div h4 small{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        color: var(--gs9);
+    }
+    .newsCBContainer article div h4 time{
+        color: var(--gs7);
+        background: url('../images/newdetD_calendar.png') no-repeat left / 12px 11px;
+        padding: 2px 0 0 20px;
+        margin-left: auto;
+    }
+    .newsCBContainer article div figure{
+        padding: 30px 25px 100px;
+        text-align: center;
+        display: inline-block;
+    }
+    .newsCBContainer article .innerPager{
+        display: flex;
+        align-items: center;
+        padding: 110px 20px 0;
+        width: 100%;
+        border-top: 1px solid var(--gs5);
+        box-sizing: border-box;
+    }
+    .newsCBContainer article .innerPager li:first-child a{
+        background: url('../images/newdetD_pre.png') no-repeat left;
+        padding: 10px 0 0 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .newsCBContainer article .innerPager li:last-child a{
+        background: url('../images/newdetD_next.png') no-repeat right;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 50px 0 0px;
+        text-align: right;    
+    }
+    .newsCBContainer article .innerPager li:nth-child(2) a{
+        background: url('../images/newdetD_list.png') no-repeat 45px center;
+        display: inline-block;
+        background-color: var(--bs5);
+        color: var(--gs1);
+        padding: 0px 50px 0px 80px;
+        line-height: 60px;
+    }
+    .newsCBContainer article .innerPager li a strong{
+        line-height: 22px;
+    }
+    .newsCBContainer article .innerPager li span,
+    .newsCBContainer article .innerPager li strong{
+        width: 100%;
+    }
+    /* newNoticeCB detail Fin */
+    .howCBContainer div:nth-child(2)>ul{
+        display: flex;
+        margin-bottom: 100px;
+        cursor: pointer;
+    }
+    .howCBContainer div:nth-child(2)>ul li{
+        border-bottom: 1px solid var(--gs11);
+        position: relative;
+        width: 50%;
+        text-align: center;
+        line-height: 100px;
+        color: var(--gs5);
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li:not(:last-child){
+        margin-bottom: 115px;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li img{
+        float: left;
+        margin-right: 110px;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl{
+        float: left;
+        width: 60%;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl dt{
+        margin-bottom: 30px;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl dd{
+        display: flex;
+        width: 820px;
+        line-height: 24px;
+        color: var(--gs8);
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl dd::before{
+        content: '-';
+        display: block;
+        margin-right: 5px;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl dd:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl dt{
+        margin-bottom: 35px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl dd{
+        display: flex;
+        color: var(--gs8);
+        line-height: 26px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl dd::before{
+        content: '-';
+        display: block;
+        margin-right: 5px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl dd:not(:last-child){
+        margin-bottom: 15px;
+    } 
+    /* howToUseCB Fin */
+    .opeCBContainer div:nth-child(2)>strong{
+        display: block;
+        margin: 110px 0 50px;
+        color: var(--bs6);
+    }
+    .opeCBContainer div:nth-child(2) div ol{
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid var(--bs6);
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    .opeCBContainer div:nth-child(2) div ol li{
+        width: 14.286%;
+        box-sizing: border-box;
+        border: 1px solid var(--gs4);
+        height: 160px;
+        justify-content: space-between;
+    }
+    .opeCBContainer div:nth-child(2) div ol li:nth-child(1){
+        border-radius: 15px 0 0 0;
+        border: none;
+    }
+    .opeCBContainer div:nth-child(2) div ol li:nth-child(7){
+        border-radius: 0 15px 0 0;
+        border: none;
+    }
+    .opeCBContainer div:nth-child(2) div ol li:nth-child(43){
+        border-radius: 0 0 0 15px;
+    }
+    .opeCBContainer div:nth-child(2) div ol li:nth-child(49){
+        border-radius: 0 0 15px 0;
+    }
+    .opeCBContainer div:nth-child(2) div ol li:nth-child(-n+7){
+        background-color: var(--bs6);
+        text-align: center;
+        color: var(--gs1);
+        padding: 25px 0;
+        height: 70px;
+        border-top: none;
+    }
+    .opeCBContainer div:nth-child(2) div ol li{
+        padding: 15px 0 0 15px;
+        box-sizing: border-box;
+    }
+    .opeCBContainer div:nth-child(2) div ol li strong{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .opeCBContainer div:nth-child(2) div ol li b{
+        display: block;
+        color: var(--gs7);
+    }
+    .opeCBContainer div:nth-child(2) div ol li b:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .opeCBContainer div:nth-child(2) div ol li b mark{
+        color: var(--gs7);
+    }
+    .opeCBContainer div:nth-child(2) p:last-of-type{
+        margin-bottom: 50px;
+    }
+    .opeCBContainer div:nth-child(2) p:first-of-type{
+        color: var(--bs6);
+        margin-bottom: 60px;
+    }
+    .opeCBContainer div:nth-child(2) p:last-of-type strong{
+        color: var(--gs11);
+    }
+    .opeCBContainer div:nth-child(2)>b{
+        display: block;
+        color: var(--gs9);
+    }
+    .opeCBContainer div:nth-child(2)>b:not(:last-child){
+        margin-bottom: 15px;
+    }
+    /* operatingTimeCB Fin */
 }
+/* ?desktop */
