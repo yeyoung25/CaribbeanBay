@@ -175,9 +175,65 @@ div .contentBannerCB01 nav div ol li a:hover{
     color: var(--bs4);
 }
 /* guideMapCB Fin */
-
-
-
+.usaCBContainer div:nth-child(2) h3,
+.usaCBContainer div:nth-child(2)>ul li:first-child,
+.usaCBContainer div:nth-child(2)>ul li:nth-child(2){
+    margin-bottom: 110px;
+}
+.usaCBContainer div:nth-child(2)>ul li strong{
+    display: block;
+    margin-bottom: 35px;
+}
+.usaCBContainer div:nth-child(2)>ul li b{
+    display: flex;
+    margin-bottom: 20px;
+}
+.usaCBContainer div:nth-child(2)>ul li b::before{
+    display: inline-block;
+    content: '▶';
+    font-size: 10px;
+    line-height: 18px;
+    margin-right: 10px;
+}
+.usaCBContainer div:nth-child(2)>ul li>dl{
+    margin: 0 0 40px 15px;
+}
+.usaCBContainer div:nth-child(2)>ul li>dl dt{
+    margin-bottom: 20px;
+}
+.usaCBContainer div:nth-child(2)>ul li>dl dd{
+    margin-left: 10px;
+}
+.usaCBContainer div:nth-child(2)>ul li>dl dd:not(:last-child){
+    margin-bottom: 10px;
+}
+.usaCBContainer div:nth-child(2)>ul li:nth-child(2)>p:first-of-type{
+    margin-bottom: 15px;
+}
+.usaCBContainer div:last-child div{
+    background-color: var(--gs2);
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 35px;
+}
+.usaCBContainer div:nth-child(2) div:last-child dl dt{
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.usaCBContainer div:nth-child(2) div:last-child dl:not(:last-of-type){
+    margin-bottom: 60px;
+}
+.usaCBContainer div:nth-child(2) div:last-child dl dd:not(:last-of-type){
+    margin-bottom: 20px;
+}
+.usaCBContainer div:nth-child(2) table+div dl dd:nth-child(6) p span{
+    display: inline-block;
+    margin-left: 20px;
+}
+.usaCBContainer div:nth-child(2) div:last-child dl dd{
+    color: var(--gs9);
+}
 /* usageFeeCB Fin */
 .affilCBContainer div:nth-child(2) div p a:hover{
     color: rgb(20, 40, 160);
@@ -220,6 +276,49 @@ div .contentBannerCB01 nav div ol li a:hover{
     color: var(--os1);
 }
 /* attractionCB / villageCB Details Fin */
+.themeCBContainer div:nth-child(2) h3{
+    margin-bottom: 110px;
+}
+.themeCBContainer div:nth-child(2) strong{
+    display: block;
+    color: var(--bs7);
+    margin-bottom: 45px;
+}
+.themeCBContainer div:nth-child(2) strong b{
+    display: block;
+    color: var(--gs11);
+    margin-top: 10px;
+}
+.themeCBContainer div:nth-child(2)>p{
+    margin-bottom: 110px;
+    line-height: 24px;
+    color: var(--gs9);
+}
+.themeCBContainer div:nth-child(2) ul li h4{
+    margin-bottom: 45px;
+}
+.themeCBContainer div:nth-child(2) ul li:not(:last-child){
+    margin-bottom: 110px;
+}
+.themeCBContainer div:nth-child(2) ul li:nth-child(even) h4{
+    text-align: right;
+}
+.themeCBContainer div:nth-child(2) ul li>img{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.themeCBContainer div:nth-child(2)>ul>li:nth-child(even)>div{
+    text-align: right;
+}
+.themeCBContainer div:nth-child(2)>ul>li>div>p{
+    line-height: 22px;
+}
+.themeCBContainer div:nth-child(2)>ul>li>div>p>b{
+    display: block;
+    margin-bottom: 30px;
+}
+
+/* themeStoryCB Fin */
 
 
 @media screen and (max-width: 767px) {
