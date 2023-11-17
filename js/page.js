@@ -3,6 +3,7 @@ $(document).ready(function(){
     newspage();
     howTab();
     trafTab();
+    backBtn($(".backBtn"));
 });
 
 function navToggle(button){
@@ -32,5 +33,11 @@ function newspage(){
       $(this).addClass('active');
       $('.trafCBContainer div:nth-child(2) div').removeClass('active');
       $('.' + $(this).attr('data-tab')).addClass('active');
+    });
+  }
+
+  function backBtn(button){
+    $(button).click(function(){
+      history.go(-1);
     });
   }

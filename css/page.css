@@ -48,7 +48,7 @@ div .contentBannerCB01 nav div ol li a:hover{
     box-sizing: border-box;
     text-align: center;
 }
-/* contentBanner03 Fin */
+/* contentBannerCB01 Fin */
 /* 상세페이지 시작 */
 .newsCBContainer .paging>a{
     font-size: 0;
@@ -253,8 +253,295 @@ div .contentBannerCB01 nav div ol li a:hover{
     color: var(--gs11);
 }
 /* affiliateCardCB Fin */
-
-
+.speCBContainer div:nth-child(2) h3+div{
+    display: flex;
+}
+.speCBContainer div:nth-child(2) h3+div div{
+    height: 264px;
+    margin: 100px 0 130px;
+}
+.speCBContainer div:nth-child(2) h3+div div:first-child{
+    background: url('../images/specialcaribbean.png') no-repeat center / contain;
+    position: relative;
+    width: 43.617%;
+    margin-left: 80px;
+    margin-right: 1.063%;
+}
+.speCBContainer div:nth-child(2) h3+div div:first-child span{
+    position: absolute;
+    top: 52px;
+    left: 4.836%;
+    background-color: #73d7c6;
+    padding: 12px 23px;
+    border-radius: 25px;
+    color: var(--gs1);
+}
+.speCBContainer div:nth-child(2) h3+div div:first-child p{
+    position: absolute;
+    top: 120px;
+    left: 4.836%;
+    color: var(--rs9);
+}
+.speCBContainer div:nth-child(2) h3+div div:first-child p strong{
+    display: block;
+    margin-top: 15px;
+}
+.speCBContainer div:nth-child(2) h3+div div:first-child b{
+    position: absolute;
+    top: 210px;
+    left: 4.836%;
+    color: var(--rs9);
+}
+.speCBContainer div:nth-child(2) h3+div div:last-child{
+    background: url('../images/specialKB.png')no-repeat center / contain;
+    position: relative;
+    margin-right: 80px;
+    width: 43.617%;
+}
+.speCBContainer div:nth-child(2) h3+div div:last-child span{
+    position: absolute;
+    top: 52px;
+    left: 4.836%;
+    background-color: #958b7d;
+    padding: 12px 23px;
+    border-radius: 25px;
+}
+.speCBContainer div:nth-child(2) h3+div div:last-child p{
+    position: absolute;
+    top: 120px;
+    left: 4.836%;
+    color: var(--gs1);
+}
+.speCBContainer div:nth-child(2) h3+div div:last-child p strong{
+    display: block;
+    margin-top: 15px;
+    color: var(--gs1);
+}
+.speCBContainer div:nth-child(2) h3+div div:last-child b{
+    position: absolute;
+    top: 210px;
+    left: 4.836%;
+    color: var(--gs1);
+}
+.speCBContainer div:nth-child(2) .bx-wrapper{
+    margin: 0 auto;
+    margin-bottom: 150px;
+    position: relative;
+    padding: 0 100px;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider{
+    display: block;
+    transform: none;
+    position: relative;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li{
+    height: 343px;
+    margin: 0 auto;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:first-child{
+    background: url('../images/speCB01.png') no-repeat center / cover;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(2){
+    background: url('../images/speCB02.png') no-repeat center / cover;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3){
+    background: url('../images/speCB03.png') no-repeat center / cover;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3) span:last-child{
+    bottom: 110px;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4){
+    background: url('../images/speCB04.png') no-repeat center / cover;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4) span:last-child{
+    bottom: 170px;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5){
+    background: url('../images/speCB05.png') no-repeat center / cover;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5) span:last-child{
+    display: block;
+    text-align: center;
+    bottom: 150px;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(7) span:last-child{
+    bottom: 150px;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:first-child{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    top: 30px;
+    left: 22px;
+    color: var(--gs9);
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(2) span{
+    color: var(--gs1);
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li p{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    line-height: 30px;
+    font-size: 0.9375vw;
+    text-align: center;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:last-child{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    line-height: 22px;
+    width: 100%;
+    text-align: center;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-of-type(2) span:last-child{
+    top: 125px;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span{
+    font-size: 0.833vw;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager{
+    bottom: -50px;
+    padding: 0;
+    width: 90%;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:first-child a.active{
+    background: var(--bs6);
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:first-child a:hover{
+    background: var(--bs6);
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:first-child a{
+    background: var(--gs5);
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a.active{
+    background: var(--bs6);
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a:hover{
+    background: var(--bs6);
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a{
+    background: var(--gs5);
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-controls-direction .bx-prev{
+    background: url('../images/special_pre.png') no-repeat center;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-controls-direction .bx-next{
+    background: url('../images/special_next.png') no-repeat center;
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 80px;
+    margin-top: 140px;
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child{
+    justify-content: space-between;
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li{
+    height: 318px;
+    margin-bottom: 20px;
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child{
+    background: url('../images/spediscountCB01.png') no-repeat center / contain;
+    width: 49.2%;
+    position: relative;
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span:first-child{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    color: var(--rs9);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child b{
+    position: absolute;
+    top: 95px;
+    left: 40px;
+    line-height: 26px;
+    color: var(--rs10);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span{
+    position: absolute;
+    top: 170px;
+    left: 40px;
+    color: var(--rs7);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child strong{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: var(--rs9);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2){
+    background: url('../images/spediscountCB02.png') no-repeat center / contain;
+    width: 49.2%;
+    position: relative;
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span:first-child{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    color: var(--rs9);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) b{
+    position: absolute;
+    top: 95px;
+    left: 40px;
+    color: var(--rs10);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    color: var(--rs7);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) strong{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: var(--rs9);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3){
+    position: relative;
+    width: 23.84%;
+    height: 318px;
+    border-radius: 20px;
+    border: 3px solid rgba(98, 24, 102, 0.3);
+    background-color: rgba(228, 228, 228, 0.3);
+    padding: 40px 0 40px 35px;
+    box-sizing: border-box;
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) span:first-child{
+    display: block;
+    margin-bottom: 20px;
+    color: var(--vs9);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) b{
+    display: block;
+    margin-bottom: 25px;
+    line-height: 35px;
+    color: var(--vs9);
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) span:last-of-type{
+    display: block;
+    color: var(--gs8);
+    margin-bottom: 50px;
+}
+.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) strong{
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5) p{
+    color: #002c5f;
+}
+.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(6) p{
+    color: #0061aa;
+}
+ /* specialPromotion Fin */
 
 
 /* specialPromotionCB Fin */
@@ -725,7 +1012,6 @@ div .contentBannerCB01 nav div ol li a:hover{
     }
     .howCBContainer div:nth-child(2) .orderOfUse ul li dl dd{
         display: flex;
-        width: 820px;
         line-height: 24px;
         color: var(--gs8);
     }
@@ -1005,7 +1291,6 @@ div .contentBannerCB01 nav div ol li a:hover{
     }
     .amenCBContainer div:nth-child(2) ul li dl dd{
         display: flex;
-        width: 820px;
         line-height: 24px;
         color: var(--gs8);
     }
@@ -1140,7 +1425,18 @@ div .contentBannerCB01 nav div ol li a:hover{
      /* affiliateCard Fin */
 
      /* specialPromotionCB Fin */
-    .actrCBContainer div:nth-child(2) h3+ol>li>ul,
+    .actrCBContainer div:nth-child(2) h3{
+         margin-bottom: 110px;
+    }
+    .actrCBContainer div:nth-child(2)>ol li>strong{
+        display: block;
+        margin: 0 0 50px 3.546%;
+    }
+    .actrCBContainer div:nth-child(2) h3+ol>li>ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
     .villCBContainer div:nth-child(2) h3+ul,
     .restCBContainer div:nth-child(2) h3+ul,
     .giftCBContainer div:nth-child(2) h3+ul{
@@ -1149,14 +1445,15 @@ div .contentBannerCB01 nav div ol li a:hover{
         justify-content: space-evenly;
         margin-top: 110px;
     }
-    .actrCBContainer div:nth-child(2) h3+ol>li>ul:after,
-    .villCBContainer div:nth-child(2) h3+ul:after,
-    .restCBContainer div:nth-child(2) h3+ul:after,
-    .giftCBContainer div:nth-child(2) h3+ul:after{
+    .actrCBContainer div:nth-child(2) h3+ol>li>ul::after,
+    .villCBContainer div:nth-child(2) h3+ul::after,
+    .restCBContainer div:nth-child(2) h3+ul::after,
+    .giftCBContainer div:nth-child(2) h3+ul::after{
         width: 28.368%;
         content: '';
     }
-    .giftCBContainer div:nth-child(2) h3+ul::before{
+    .actrCBContainer div:nth-child(2) h3+ol>li>ul::before,
+    .restCBContainer div:nth-child(2) h3+ul::before{
         width: 28.368%;
         content: '';
         order: 1;
@@ -1211,6 +1508,12 @@ div .contentBannerCB01 nav div ol li a:hover{
         display: block;
         margin-bottom: 20px;
     }
+    .actrCBContainer div:nth-child(2) h3+ol>li>ul li a b,
+    .villCBContainer div:nth-child(2) h3+ul li a b,
+    .restCBContainer div:nth-child(2) h3+ul li a b,
+    .giftCBContainer div:nth-child(2) h3+ul li a b{
+        display: none;
+    }
     .actrCBContainer div:nth-child(2) h3+ol>li>ul li:hover a b,
     .villCBContainer div:nth-child(2) h3+ul li:hover a b,
     .restCBContainer div:nth-child(2) h3+ul li:hover a b,
@@ -1233,27 +1536,25 @@ div .contentBannerCB01 nav div ol li a:hover{
         padding-left: 15px;
     }
     /* attraction / villCBContainer / restCBContainer / giftCBContainer Fin */
-    .actrCBContainer div:nth-child(2)>div h4,
-    .villCBContainer div:nth-child(2)>div h4{
+    .actrCBContainer div:nth-child(2)>div h4{
         margin: 110px 0 45px;
     }
-    .actrCBContainer div:nth-child(2)>div div,
-    .villCBContainer div:nth-child(2)>div div{
+    .actrCBContainer div:nth-child(2)>div div{
         display: flex;
-        align-content: space-between;
+        justify-content: space-between;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div,
-    .villCBContainer div:nth-child(2)>div h4+div{
+    .actrCBContainer div:nth-child(2)>div h4+div{
         margin-bottom: 150px;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img,
-    .villCBContainer div:nth-child(2)>div h4+div img{
+    .actrCBContainer div:nth-child(2)>div h4+div img{
         margin-right: 60px;
         width: 42.553%;
         position: relative;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img::after,
-    .villCBContainer div:nth-child(2)>div h4+div img::after{
+    .actrCBContainer div:nth-child(2)>div h4+div p{
+        line-height: 22px;
+    }
+    .actrCBContainer div:nth-child(2)>div h4+div img::after{
         content: '';
         display: block;
         background-color: var(--os1);
@@ -1263,35 +1564,26 @@ div .contentBannerCB01 nav div ol li a:hover{
         top: 0;
         right: 0;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div,
-    .villCBContainer div:nth-child(2)>div h4+div img+div{
+    .actrCBContainer div:nth-child(2)>div h4+div img+div{
         flex-wrap: wrap;
-    }
-    .actrCBContainer div:nth-child(2)>div h4+div img+.flexStart,
-    .villCBContainer div:nth-child(2)>div h4+div img+.flexStart{
         align-content: flex-start;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child),
-    .villCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child){
+    .actrCBContainer div:nth-child(2)>div h4+div img+.flexStart{
+        align-content: flex-start;
+    }
+    .actrCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child){
         line-height: 20px;
         margin-bottom: 20px;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div div:first-child,
-    .villCBContainer div:nth-child(2)>div h4+div img+div div:first-child{
+    .actrCBContainer div:nth-child(2)>div h4+div img+div div:first-child{
         flex-wrap: wrap;
         width: 100%;
         margin-bottom: 20px;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div div,
-    .villCBContainer div:nth-child(2)>div h4+div img+div div,
-    .actrCBContainer div:nth-child(2)>div,
-    .villCBContainer div:nth-child(2)>div{
+    .actrCBContainer div:nth-child(2)>div h4+div img+div div{
         position: relative;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div div:first-child::before,
-    .villCBContainer div:nth-child(2)>div h4+div img+div div:first-child::before,
-    .actrCBContainer div:nth-child(2)>div h4+div img+div::before,
-    .villCBContainer div:nth-child(2)>div h4+div img+div::before{
+    .actrCBContainer div:nth-child(2)>div h4+div img+div div:first-child::before{
         content: '';
         display: inline-block;
         width: 80px;
@@ -1301,113 +1593,72 @@ div .contentBannerCB01 nav div ol li a:hover{
         top: 20px;
         left: -105px;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div p,
-    .villCBContainer div:nth-child(2)>div h4+div img+div p{
+    .actrCBContainer div:nth-child(2)>div h4+div img+div p{
         line-height: 22px;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div p .peter,
-    .villCBContainer div:nth-child(2)>div h4+div img+div p .peter{
-        display: block;
-        line-height: 22px;
-    }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div div:last-child,
-    .villCBContainer div:nth-child(2)>div h4+div img+div div:last-child{
+    .actrCBContainer div:nth-child(2)>div h4+div img+div div:last-child{
         flex-wrap: wrap;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div div:last-child strong,
-    .villCBContainer div:nth-child(2)>div h4+div img+div div:last-child strong{
+    .actrCBContainer div:nth-child(2)>div h4+div img+div div:last-child strong{
         display: block;
         width: 100%;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div div:last-child ul li,
-    .villCBContainer div:nth-child(2)>div h4+div img+div div:last-child ul li{
+    .actrCBContainer div:nth-child(2)>div h4+div img+div div:last-child ul li{
         line-height: 22px;
         color: var(--gs9);
     }
-    .actrCBContainer div:nth-child(2)>div h4+div img+div div:last-child ul li:not(:last-child),
-    .villCBContainer div:nth-child(2)>div h4+div img+div div:last-child ul li:not(:last-child){
+    .actrCBContainer div:nth-child(2)>div h4+div img+div div:last-child ul li:not(:last-child){
         margin-bottom: 20px;
     }
-    .actrCBContainer div:nth-child(2)>div h4+div div>div:last-child strong,
-    .villCBContainer div:nth-child(2)>div h4+div div>div:last-child strong{
+    .actrCBContainer div:nth-child(2)>div h4+div div>div:last-child strong{
         display: block;
         margin-bottom: 25px;
     }
-    .actrCBContainer div:nth-child(2)>div div:last-child img,
-    .villCBContainer div:nth-child(2)>div div:last-child img{
+    .actrCBContainer div:nth-child(2)>div div:last-child img{
         margin-left: 50px;
         height: 452px;
     }
-    .actrCBContainer div:nth-child(2)>div div:last-child img+div,
-    .villCBContainer div:nth-child(2)>div div:last-child img+div{
+    .actrCBContainer div:nth-child(2)>div div:last-child img+div{
         flex-wrap: wrap;
         align-content: flex-start;
     }
-    .villCBContainer div:nth-child(2)>div div:last-child img+div ol li:first-child{
-        margin-bottom: 15px;
-    }
-    .villCBContainer div:nth-child(2)>div div:last-child img+div ol>li:nth-child(2){
-        margin-bottom: 60px;
-        line-height: 22px;
-    }
-    .actrCBContainer div:nth-child(2)>div div:last-child img+div strong:first-child,
-    .villCBContainer div:nth-child(2)>div div:last-child img+div strong:first-child{
+    .actrCBContainer div:nth-child(2)>div div:last-child img+div strong:first-child{
         display: block;
         height: 20px;
         margin-bottom: 25px;
     }
-    .actrCBContainer div:nth-child(2)>div div:last-child img+div ul,
-    .villCBContainer div:nth-child(2)>div div:last-child img+div ul{
+    .actrCBContainer div:nth-child(2)>div div:last-child img+div ul{
         margin-bottom: 60px;
     }
     .actrCBContainer div:nth-child(2)>div div:last-child img+div p,
-    .villCBContainer div:nth-child(2)>div div:last-child img+div p{
+    .actrCBContainer div:nth-child(2)>div>div:last-child>ul{
         margin-bottom: 60px;
         color: var(--gs9);
         line-height: 22px;
     }
-    .actrCBContainer div:nth-child(2)>div div:last-child img+div ul li,
-    .villCBContainer div:nth-child(2)>div div:last-child img+div ul li{
+    .actrCBContainer div:nth-child(2)>div div:last-child img+div ul li{
         line-height: 22px;
         color: var(--gs9);
     }
     .actrCBContainer div:nth-child(2)>div div:last-child img+div ul li:not(:last-child),
-    .villCBContainer div:nth-child(2)>div div:last-child img+div ul li:not(:last-child){
+    .actrCBContainer div:nth-child(2)>div>div:last-child>ul li:not(:last-child){
         margin-bottom: 10px;
     }
-    .actrCBContainer div:nth-child(2)>div div:last-child img+div ul li ol,
-    .villCBContainer div:nth-child(2)>div div:last-child img+div ul li ol{
+    .actrCBContainer div:nth-child(2)>div div:last-child img+div ul li ol{
         margin-top: 20px;
     }
-    .actrCBContainer div:nth-child(2)>div div:last-child img+div ul li ol li,
-    .villCBContainer div:nth-child(2)>div div:last-child img+div ul li ol li{
+    .actrCBContainer div:nth-child(2)>div div:last-child img+div ul li ol li{
         margin-left: 10px;
         color: var(--gs9);
     }
-    .actrCBContainer div:nth-child(2)>div div:last-child img+div strong,
-    .villCBContainer div:nth-child(2)>div div:last-child img+div strong{
+    .actrCBContainer div:nth-child(2)>div div:last-child img+div strong{
         line-height: 30px;
     }
     .actrCBContainer div:nth-child(2)>div div:last-child div,
-    .villCBContainer div:nth-child(2)>div div:last-child div,
-    .villCBContainer div:nth-child(2)>div div:last-child img+ul{
+    .actrCBContainer div:nth-child(2)>div>div:last-child>p,
+    .actrCBContainer div:nth-child(2)>div>div:last-child>strong,
+    .actrCBContainer div:nth-child(2)>div>div:last-child>ul{
         order: -1;
-    }
-    .villCBContainer div:nth-child(2)>div div:last-child ul li{
-        line-height: 22px;
-    }
-    .villCBContainer div:nth-child(2)>div div:last-child ul li:not(:last-child){
-        margin-bottom: 15px;
-    }
-    .villCBContainer div:nth-child(2)>div div:last-child img+ul li:nth-child(2){
-        margin-bottom: 60px;
-    }
-    .villCBContainer div:nth-child(2)>div div:last-child ul li p{
-        line-height: 22px;
-        color: var(--gs9);
-    }
-    .villCBContainer div:nth-child(2)>div div:last-child ul li p:not(:last-child){
-        margin-bottom: 15px;
     }
     div .backBtn{
         display: block;
@@ -1419,147 +1670,109 @@ div .contentBannerCB01 nav div ol li a:hover{
         background-color: transparent;
         margin: 150px auto 250px;
     }
-    /* attraction / villCBContainer Details Fin */
-    .restCBContainer div:nth-child(2)>div h4{
-        margin: 110px 0 45px;
-    }
-    .restCBContainer div:nth-child(2)>div div{
-        display: flex;
-        align-content: flex-start;
-        justify-content: space-between
-    }
-    .restCBContainer div:nth-child(2)>div h4+div{
-        margin-bottom: 150px;
-    }
-    .restCBContainer div:nth-child(2)>div h4+div img{
-        margin-right: 60px;
-        width: 42.553%;
-        position: relative;
-    }
-    .restCBContainer div:nth-child(2)>div h4+div img::after{
-        content: '';
-        display: block;
-        background-color: var(--os1);
-        width: 80px;
-        height: 3px;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-    .restCBContainer div:nth-child(2)>div h4+div img+div{
-        flex-wrap: wrap;
-    }
-    .restCBContainer div:nth-child(2)>div div:nth-child(2){
-        position: relative;
-    }
-    .restCBContainer div:nth-child(2)>div h4+div img+div::before{
-        content: '';
-        display: inline-block;
-        width: 80px;
-        height: 4px;
-        background-color: var(--os1);
-        position: absolute;
-        top: 20px;
-        left: -105px;
-    }
-    .restCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child){
-        line-height: 20px;
-        margin-bottom: 20px;
-    }
-    .restCBContainer div:nth-child(2)>div h4+div img+div div:first-child{
-        flex-wrap: wrap;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .restCBContainer div:nth-child(2)>div h4+div img+div p{
-        line-height: 22px;
-    }
-    .restCBContainer div:nth-child(2)>div div:last-child img{
-        margin-left: 50px;
-        height: 452px;
-    }
-    .restCBContainer div:nth-child(2)>div div:last-child img+div{
-        flex-wrap: wrap;
-        align-content: flex-start
-    }
-    .restCBContainer div:nth-child(2)>div div:last-child img+div ul{
-        margin-bottom: 60px;
-    }
-    .restCBContainer div:nth-child(2)>div div:last-child img+div ul li{
-        margin-bottom: 20px;
-        line-height: 22px;
-    }
-    .restCBContainer div:nth-child(2)>div div:last-child img+ul{
-        order: -1;
-    }
-    .restCBContainer div:nth-child(2)>div div:last-child ul li{
-        line-height: 22px;
-        color: var(--gs10);
-    }
-    .restCBContainer div:nth-child(2)>div div:last-child ul li:not(:last-child){
-        margin-bottom: 15px;
-    }
-    /* restaurant Details Fin */
+    /* attraction Details Fin */
+    .villCBContainer div:nth-child(2)>h4+div:nth-of-type(odd),
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd),
     .giftCBContainer div:nth-child(2)>div:nth-of-type(odd){
         position: relative;
         margin-bottom: 525px;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd) h4,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) h4,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) h4{
         padding-top: 110px;
         margin-bottom: 45px;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd) img:last-child,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) img:last-child,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) img:last-child{
         position: absolute;
         top: 285px;
         right: 0;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even),
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even),
     .giftCBContainer div:nth-child(2)>div:nth-of-type(even){
         position: relative;
         align-items: flex-end;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) h4,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(even) h4{
         padding-top: 110px;
         margin-bottom: 45px;
         text-align: right;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) img:last-child,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) img:last-child,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(even) img:last-child{
         position: absolute;
         top: -200px;
         left: 0;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) div>img,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) div>img,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(even) div>img{
         order: 1;
     }
+    .villCBContainer div:nth-child(2)>div div,
+    .restCBContainer div:nth-child(2)>div div,
     .giftCBContainer div:nth-child(2)>div div{
         display: flex;
         justify-content: space-between;
     }
+    .villCBContainer div:nth-child(2)>div:last-child div,
+    .restCBContainer div:nth-child(2)>div:last-child div,
     .giftCBContainer div:nth-child(2)>div:last-child div{
         justify-content: flex-start;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) div,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) div,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(even) div{
         align-items: flex-end;
     }
+    .villCBContainer div:nth-child(2)>div h4+div,
+    .restCBContainer div:nth-child(2)>div h4+div,
     .giftCBContainer div:nth-child(2)>div h4+div{
         margin-bottom: 150px;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div img,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div img,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div img{
+        position: relative;
         margin-right: 60px;
         width: 42.553%;
-        position: relative;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div p,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div p,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div p{
+        line-height: 22px;
+    }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div img,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div img,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div img{
+        position: relative;
         margin-left: 60px;
         width: 42.553%;
-        position: relative;
     }
-    .giftCBContainer div:nth-child(2)>div div p{
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div p,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div p,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div p{
+        line-height: 22px;
+    }
+    .villCBContainer div:nth-child(2)>div div p:not(:last-child),
+    .restCBContainer div:nth-child(2)>div div p:not(:last-child),
+    .giftCBContainer div:nth-child(2)>div div p:not(:last-child){
         line-height: 22px;
         margin-bottom: 10px;
     }
+    .villCBContainer div:nth-child(2)>div,
+    .restCBContainer div:nth-child(2)>div,
     .giftCBContainer div:nth-child(2)>div{
         position: relative;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd) div p::before,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) div p::before,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) div p::before{
         content: '';
         display: inline-block;
@@ -1570,6 +1783,8 @@ div .contentBannerCB01 nav div ol li a:hover{
         top: 210px;
         left: 39.574%;
     }
+    .villCBContainer div:nth-child(2)>div:first-of-type div p::before,
+    .restCBContainer div:nth-child(2)>div:first-of-type div p::before,
     .giftCBContainer div:nth-child(2)>div:first-of-type div p::before{
         content: '';
         display: inline-block;
@@ -1580,6 +1795,8 @@ div .contentBannerCB01 nav div ol li a:hover{
         top: 20px;
         left: 39.574%;
     }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) div p::before,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) div p::before,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(even) div p::before{
         content: '';
         display: inline-block;
@@ -1591,6 +1808,8 @@ div .contentBannerCB01 nav div ol li a:hover{
         right: 39.574%;
         z-index: 50;
     }
+    .villCBContainer div:nth-child(2)>div h4+div>img::after,
+    .restCBContainer div:nth-child(2)>div h4+div>img::after,
     .giftCBContainer div:nth-child(2)>div h4+div>img::after{
         content: '';
         display: block;
@@ -1601,40 +1820,57 @@ div .contentBannerCB01 nav div ol li a:hover{
         top: 0;
         right: 0;
     }
+    .villCBContainer div:nth-child(2)>div h4+div img+div,
+    .restCBContainer div:nth-child(2)>div h4+div img+div,
     .giftCBContainer div:nth-child(2)>div h4+div img+div{
         flex-wrap: wrap;
     }
+    .villCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child),
+    .restCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child),
     .giftCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child){
         line-height: 20px;
         margin-bottom: 20px;
     }
+    .villCBContainer div:nth-child(2)>div h4+div img+div div:first-child,
+    .restCBContainer div:nth-child(2)>div h4+div img+div div:first-child,
     .giftCBContainer div:nth-child(2)>div h4+div img+div div:first-child{
         flex-wrap: wrap;
         width: 100%;
         margin-bottom: 20px;
     }
+    .villCBContainer div:nth-child(2)>div h4+div img+div p,
+    .restCBContainer div:nth-child(2)>div h4+div img+div p,
     .giftCBContainer div:nth-child(2)>div h4+div img+div p{
         line-height: 22px;
     }
+    .villCBContainer div:nth-child(2)>div div:last-child img,
+    .restCBContainer div:nth-child(2)>div div:last-child img,
     .giftCBContainer div:nth-child(2)>div div:last-child img{
-        margin-left: 50px;
         height: 452px;
     }
+    .villCBContainer div:nth-child(2)>div div:last-child img+div ul,
+    .restCBContainer div:nth-child(2)>div div:last-child img+div ul,
     .giftCBContainer div:nth-child(2)>div div:last-child img+div ul{
         margin-bottom: 60px;
     }
+    .villCBContainer div:nth-child(2)>div div:last-child img+div ul li,
+    .restCBContainer div:nth-child(2)>div div:last-child img+div ul li,
     .giftCBContainer div:nth-child(2)>div div:last-child img+div ul li{
         margin-bottom: 20px;
         line-height: 22px;
     }
+    .villCBContainer div:nth-child(2)>div div:last-child img+ul,
+    .restCBContainer div:nth-child(2)>div div:last-child img+ul,
     .giftCBContainer div:nth-child(2)>div div:last-child img+ul{
         order: -1;
     }
+    .villCBContainer div:nth-child(2)>div div:last-child ul li,
+    .restCBContainer div:nth-child(2)>div div:last-child ul li,
     .giftCBContainer div:nth-child(2)>div div:last-child ul li{
         margin-bottom: 15px;
         line-height: 22px;
         color: var(--gs10);
     }
-    /* giftShop Details Fin */
+    /* villageCB / restaurantCB / giftShop Details Fin */
 }
 /* ?desktop */
