@@ -19,7 +19,7 @@ function newspage(){
   };
 
   function howTab(){
-    $('.howCBContainer div:nth-child(2) ul li').click(function(){
+    $('.howCBContainer div:nth-child(2) ul.la9_20 li').click(function(){
       $('.howCBContainer div:nth-child(2) ul li').removeClass('active');
       $(this).addClass('active');
       $('.howCBContainer div:nth-child(2) div').removeClass('active');

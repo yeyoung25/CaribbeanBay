@@ -11,15 +11,21 @@ div .theme{
     background: url('../images/cb_Header04.png') no-repeat center / cover;
 }
 /* Detail top_img */
-div .contentBannerCB01 nav div.active::after{
+div .cabeContainer nav div.active::after{
     transform: rotate(-180deg);
 }
 div .contentBannerCB01 nav div.active ol{
     display: block;
     z-index: 100;
 }
-div .contentBannerCB01 nav div ol li a:hover{
+div .cabeContainer nav div ol li a:hover{
     color: var(--gs11);
+}
+div .cabeContainer nav div ol{
+    display: none;
+}
+div .cabeContainer nav div.active ol{
+    display: block;
 }
 /* Detail nav Fin */
 .indexContainer .contentBannerCB01>div:first-child h2{
@@ -93,10 +99,6 @@ div .contentBannerCB01 nav div ol li a:hover{
     border: 1px solid var(--gs11);
     border-bottom: none;
     color: var(--gs11);
-}
-.howCBContainer div:nth-child(2) ul li.active::after{
-    content: none;
-    border: 0;
 }
 .howCBContainer div:nth-child(2)>div{
     display: none;
@@ -541,10 +543,23 @@ div .contentBannerCB01 nav div ol li a:hover{
 .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(6) p{
     color: #0061aa;
 }
- /* specialPromotion Fin */
-
-
 /* specialPromotionCB Fin */
+.actrCBContainer div:nth-child(2)>ol>li:first-child>strong::after,
+.actrCBContainer div:nth-child(2)>ol>li:nth-child(2)>strong::after,
+.actrCBContainer div:nth-child(2)>ol>li:last-child>strong::after{
+    color: #ffc248;
+    display: inline-block;
+    margin-left: 10px;
+}
+.actrCBContainer div:nth-child(2)>ol>li:first-child>strong::after{
+    content: '★★★';
+}
+.actrCBContainer div:nth-child(2)>ol>li:nth-child(2)>strong::after{
+    content: '★★☆';
+}
+.actrCBContainer div:nth-child(2)>ol>li:last-child>strong::after{
+    content: '★☆☆';
+}
 .attractionCB div:nth-child(2) h3+ul li a span,
 .villageCB div:nth-child(2) h3+ul li a span,
 .restaurantCB div:nth-child(2) h3+ul li a span,
@@ -837,9 +852,6 @@ div .contentBannerCB01 nav div ol li a:hover{
         width: 10px;
         height: 10px;
     }
-    div .cabeContainer nav div ol{
-        display: none;
-    }
     div .cabeContainer nav div ol li:not(:last-child){
         display: block;
         margin-bottom: 20px;
@@ -857,6 +869,7 @@ div .contentBannerCB01 nav div ol li a:hover{
         padding: 20px 0 20px 30px;
         border: 1px solid var(--gs6);
         background-color: var(--gs1);
+        z-index: 100;
     }
     div .cabeContainer nav div:last-of-type ol{
         position: absolute;
@@ -866,6 +879,7 @@ div .contentBannerCB01 nav div ol li a:hover{
         padding: 20px 0 20px 30px;
         border: 1px solid var(--gs6);
         background-color: var(--gs1);
+        z-index: 10;
     }
     div article .linebtm,
     header+div>.linebtm,
@@ -882,6 +896,8 @@ div .contentBannerCB01 nav div ol li a:hover{
         text-align: center;
         padding: 95px 0;
         border-bottom: 1px solid var(--gs5);
+        position: relative;
+        z-index: 1;
     }
     .newsCBContainer article h3{
         text-align: center;
