@@ -4,6 +4,7 @@ $(document).ready(function(){
     howTab();
     trafTab();
     backBtn($(".backBtn"));
+    smoothtoAnchor();
 });
 
 function navToggle(button){
@@ -40,4 +41,11 @@ function newspage(){
     $(button).click(function(){
       history.go(-1);
     });
+  }
+
+  function smoothtoAnchor(){
+    const urlParams = new URL(location.href).searchParams;
+    const scroll = urlParams.get('scroll');
+  
+    $('html,body').animate({ scrollTop: $("#" + scroll).offset()?.top - 150 }, 450, 'swing');
   }
