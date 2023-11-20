@@ -1751,10 +1751,8 @@ div .cabeContainer nav div.active ol{
         display: flex;
         position: relative;
     }
-    .villCBContainer div:nth-child(2)>div:last-child,
-    .restCBContainer div:nth-child(2)>div:last-child,
-    .giftCBContainer div:nth-child(2)>div:last-child{
-        /* margin-bottom: 500px; */
+    .restCBContainer div:nth-child(2)>div:nth-child(odd) div{
+        align-items: flex-end;
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(odd)>h4+div img,
     .restCBContainer div:nth-child(2)>div:nth-of-type(odd)>h4+div img,
@@ -1764,7 +1762,7 @@ div .cabeContainer nav div.active ol{
         position: relative;
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div>img,
-    .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div>div+img,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div>img,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div>div+img{
         margin-left: 60px;
         width: 42.553%;
@@ -1787,7 +1785,7 @@ div .cabeContainer nav div.active ol{
         margin-bottom: 10px;
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(odd) div p:first-of-type::before,
-    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) div p:first-child::before,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) div p::before,
     .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) div div p:first-child::before{
         content: '';
         display: inline-block;
@@ -1818,14 +1816,14 @@ div .cabeContainer nav div.active ol{
     .villCBContainer div:nth-child(2)>div h4+div>img::after,
     .restCBContainer div:nth-child(2)>div h4+div>img::after,
     .giftCBContainer div:nth-child(2)>div h4+div>img::after{
-        content: '';
+        /* content: '';
         display: block;
         background-color: var(--os1);
         width: 80px;
         height: 3px;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 0; */
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div>img+div>p::before{
         left: 0%;
