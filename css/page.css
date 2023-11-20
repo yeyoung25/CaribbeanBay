@@ -386,7 +386,7 @@ div .cabeContainer nav div.active ol{
     left: 0;
     width: 100%;
     line-height: 30px;
-    font-size: 0.9375vw;
+    font-size: 18px;
     text-align: center;
 }
 .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:last-child{
@@ -402,7 +402,7 @@ div .cabeContainer nav div.active ol{
     top: 125px;
 }
 .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span{
-    font-size: 0.833vw;
+    font-size: 18px;
 }
 .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager{
     bottom: -50px;
@@ -1699,7 +1699,7 @@ div .cabeContainer nav div.active ol{
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(odd)>div,
     .restCBContainer div:nth-child(2)>div:nth-of-type(odd){
-        margin-bottom: 600px;
+        margin-bottom: 500px;
     }
     .giftCBContainer div:nth-child(2)>div:nth-of-type(odd)>div{
         margin-bottom: 300px;
