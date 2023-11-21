@@ -140,7 +140,7 @@ footer div details summary.on::after{
     }
     header h1 a{
         display: block;
-        background: url('../images/main_logo.png') no-repeat center / contain;
+        background: url('../images/mainCB_logo.png') no-repeat center / contain;
         font-size: 0;
         width: 158px;
         height: 42px;
@@ -486,10 +486,10 @@ footer div details summary.on::after{
     }
     header h1 a{
         display: block;
-        background: url('../images/main_logo.png') no-repeat center / contain;
+        background: url('../images/mainCb_logo.png') no-repeat center / contain;
         font-size: 0;
-        width: 223.846px;
-        height: 60px;
+        width: 140px;
+        height: 45px;
         font-size: 0;
     }
     header>div{
@@ -876,8 +876,8 @@ footer div details summary.on::after{
         display: block;
         background: url('../images/mainCB_logo.png') no-repeat center / contain;
         font-size: 0;
-        width: 365px;
-        height: 80px;
+        width: 236px;
+        height: 77px;
     }
     footer>ul{
         display: flex;

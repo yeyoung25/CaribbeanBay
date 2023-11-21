@@ -177,62 +177,6 @@ div .cabeContainer nav div.active ol{
     color: var(--bs4);
 }
 /* guideMapCB Fin */
-.usaCBContainer div:nth-child(2) h3,
-.usaCBContainer div:nth-child(2)>ul li:first-child,
-.usaCBContainer div:nth-child(2)>ul li:nth-child(2){
-    margin-bottom: 110px;
-}
-.usaCBContainer div:nth-child(2)>ul li strong{
-    display: block;
-    margin-bottom: 35px;
-}
-.usaCBContainer div:nth-child(2)>ul li b{
-    display: flex;
-    margin-bottom: 20px;
-}
-.usaCBContainer div:nth-child(2)>ul li b::before{
-    display: inline-block;
-    content: '▶';
-    font-size: 10px;
-    line-height: 18px;
-    margin-right: 10px;
-}
-.usaCBContainer div:nth-child(2)>ul li>dl{
-    margin: 0 0 40px 15px;
-}
-.usaCBContainer div:nth-child(2)>ul li>dl dt{
-    margin-bottom: 20px;
-}
-.usaCBContainer div:nth-child(2)>ul li>dl dd{
-    margin-left: 10px;
-}
-.usaCBContainer div:nth-child(2)>ul li>dl dd:not(:last-child){
-    margin-bottom: 10px;
-}
-.usaCBContainer div:nth-child(2)>ul li:nth-child(2)>p:first-of-type{
-    margin-bottom: 15px;
-}
-.usaCBContainer div:last-child div{
-    background-color: var(--gs2);
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding: 35px;
-}
-.usaCBContainer div:nth-child(2) div:last-child dl dt{
-    margin-bottom: 30px;
-    line-height: 30px;
-}
-.usaCBContainer div:nth-child(2) div:last-child dl:not(:last-of-type){
-    margin-bottom: 60px;
-}
-.usaCBContainer div:nth-child(2) div:last-child dl dd:not(:last-of-type){
-    margin-bottom: 20px;
-}
-.usaCBContainer div:nth-child(2) table+div dl dd:nth-child(6) p span{
-    display: inline-block;
-    margin-left: 20px;
-}
 .usaCBContainer div:nth-child(2) div:last-child dl dd{
     color: var(--gs9);
 }
@@ -258,284 +202,8 @@ div .cabeContainer nav div.active ol{
 .speCBContainer div:nth-child(2) h3+div{
     display: flex;
 }
-.speCBContainer div:nth-child(2) h3+div div{
-    height: 264px;
-    margin: 100px 0 130px;
-}
-.speCBContainer div:nth-child(2) h3+div div:first-child{
-    background: url('../images/specialcaribbean.png') no-repeat center / contain;
-    position: relative;
-    width: 43.617%;
-    margin-left: 80px;
-    margin-right: 1.063%;
-}
-.speCBContainer div:nth-child(2) h3+div div:first-child span{
-    position: absolute;
-    top: 52px;
-    left: 4.836%;
-    background-color: #73d7c6;
-    padding: 12px 23px;
-    border-radius: 25px;
-    color: var(--gs1);
-}
-.speCBContainer div:nth-child(2) h3+div div:first-child p{
-    position: absolute;
-    top: 120px;
-    left: 4.836%;
-    color: var(--rs9);
-}
-.speCBContainer div:nth-child(2) h3+div div:first-child p strong{
-    display: block;
-    margin-top: 15px;
-}
-.speCBContainer div:nth-child(2) h3+div div:first-child b{
-    position: absolute;
-    top: 210px;
-    left: 4.836%;
-    color: var(--rs9);
-}
-.speCBContainer div:nth-child(2) h3+div div:last-child{
-    background: url('../images/specialKB.png')no-repeat center / contain;
-    position: relative;
-    margin-right: 80px;
-    width: 43.617%;
-}
-.speCBContainer div:nth-child(2) h3+div div:last-child span{
-    position: absolute;
-    top: 52px;
-    left: 4.836%;
-    background-color: #958b7d;
-    padding: 12px 23px;
-    border-radius: 25px;
-}
-.speCBContainer div:nth-child(2) h3+div div:last-child p{
-    position: absolute;
-    top: 120px;
-    left: 4.836%;
-    color: var(--gs1);
-}
-.speCBContainer div:nth-child(2) h3+div div:last-child p strong{
-    display: block;
-    margin-top: 15px;
-    color: var(--gs1);
-}
-.speCBContainer div:nth-child(2) h3+div div:last-child b{
-    position: absolute;
-    top: 210px;
-    left: 4.836%;
-    color: var(--gs1);
-}
-.speCBContainer div:nth-child(2) .bx-wrapper{
-    margin: 0 auto;
-    margin-bottom: 150px;
-    position: relative;
-    padding: 0 100px;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider{
-    display: block;
-    transform: none;
-    position: relative;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li{
-    height: 343px;
-    margin: 0 auto;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:first-child{
-    background: url('../images/speCB01.png') no-repeat center / cover;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(2){
-    background: url('../images/speCB02.png') no-repeat center / cover;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3){
-    background: url('../images/speCB03.png') no-repeat center / cover;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3) span:last-child{
-    bottom: 110px;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4){
-    background: url('../images/speCB04.png') no-repeat center / cover;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4) span:last-child{
-    bottom: 170px;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5){
-    background: url('../images/speCB05.png') no-repeat center / cover;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5) span:last-child{
-    display: block;
-    text-align: center;
-    bottom: 150px;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(7) span:last-child{
-    bottom: 150px;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:first-child{
-    position: absolute;
-    display: block;
-    margin: 0 auto;
-    top: 30px;
-    left: 22px;
-    color: var(--gs9);
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(2) span{
-    color: var(--gs1);
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li p{
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    line-height: 30px;
-    font-size: 18px;
-    text-align: center;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:last-child{
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 150px;
-    line-height: 22px;
-    width: 100%;
-    text-align: center;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-of-type(2) span:last-child{
-    top: 125px;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span{
-    font-size: 18px;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager{
-    bottom: -50px;
-    padding: 0;
-    width: 90%;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:first-child a.active{
-    background: var(--bs6);
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:first-child a:hover{
-    background: var(--bs6);
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:first-child a{
-    background: var(--gs5);
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a.active{
-    background: var(--bs6);
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a:hover{
-    background: var(--bs6);
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a{
-    background: var(--gs5);
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-controls-direction .bx-prev{
-    background: url('../images/special_pre.png') no-repeat center;
-}
-.speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-controls-direction .bx-next{
-    background: url('../images/special_next.png') no-repeat center;
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 80px;
-    margin-top: 140px;
-}
 .speCBContainer div:nth-child(2) hr+ul:last-child{
     justify-content: space-between;
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li{
-    height: 318px;
-    margin-bottom: 20px;
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child{
-    background: url('../images/spediscountCB01.png') no-repeat center / contain;
-    width: 49.2%;
-    position: relative;
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span:first-child{
-    position: absolute;
-    top: 50px;
-    left: 40px;
-    color: var(--rs9);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child b{
-    position: absolute;
-    top: 95px;
-    left: 40px;
-    line-height: 26px;
-    color: var(--rs10);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span{
-    position: absolute;
-    top: 170px;
-    left: 40px;
-    color: var(--rs7);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:first-child strong{
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    color: var(--rs9);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2){
-    background: url('../images/spediscountCB02.png') no-repeat center / contain;
-    width: 49.2%;
-    position: relative;
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span:first-child{
-    position: absolute;
-    top: 50px;
-    left: 40px;
-    color: var(--rs9);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) b{
-    position: absolute;
-    top: 95px;
-    left: 40px;
-    color: var(--rs10);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span{
-    position: absolute;
-    top: 150px;
-    left: 40px;
-    color: var(--rs7);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) strong{
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    color: var(--rs9);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3){
-    position: relative;
-    width: 23.84%;
-    height: 318px;
-    border-radius: 20px;
-    border: 3px solid rgba(98, 24, 102, 0.3);
-    background-color: rgba(228, 228, 228, 0.3);
-    padding: 40px 0 40px 35px;
-    box-sizing: border-box;
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) span:first-child{
-    display: block;
-    margin-bottom: 20px;
-    color: var(--vs9);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) b{
-    display: block;
-    margin-bottom: 25px;
-    line-height: 35px;
-    color: var(--vs9);
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) span:last-of-type{
-    display: block;
-    color: var(--gs8);
-    margin-bottom: 50px;
-}
-.speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) strong{
-    display: block;
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
 }
 .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5) p{
     color: #002c5f;
@@ -543,7 +211,6 @@ div .cabeContainer nav div.active ol{
 .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(6) p{
     color: #0061aa;
 }
-/* specialPromotionCB Fin */
 .actrCBContainer div:nth-child(2)>ol>li:first-child>strong::after,
 .actrCBContainer div:nth-child(2)>ol>li:nth-child(2)>strong::after,
 .actrCBContainer div:nth-child(2)>ol>li:last-child>strong::after{
@@ -560,66 +227,30 @@ div .cabeContainer nav div.active ol{
 .actrCBContainer div:nth-child(2)>ol>li:last-child>strong::after{
     content: '★☆☆';
 }
-.attractionCB div:nth-child(2) h3+ul li a span,
-.villageCB div:nth-child(2) h3+ul li a span,
-.restaurantCB div:nth-child(2) h3+ul li a span,
-.giftShopCB div:nth-child(2) h3+ul li a span{
+.actrCBContainer div:nth-child(2) h3+ul li a span,
+.villCBContainer div:nth-child(2) h3+ul li a span,
+.restCBContainer div:nth-child(2) h3+ul li a span,
+.giftCBContainer div:nth-child(2) h3+ul li a span{
     color: var(--gs9);
 }
-.attractionCB div:nth-child(2) ol>li ul li a b,
-.villageCB div:nth-child(2) h3+ul li a b,
-.restaurantCB div:nth-child(2) h3+ul li a b,
-.giftShopCB div:nth-child(2) h3+ul li a b{
+.actrCBContainer div:nth-child(2) ol>li ul li a b,
+.villCBContainer div:nth-child(2) h3+ul li a b,
+.restCBContainer div:nth-child(2) h3+ul li a b,
+.giftCBContainer div:nth-child(2) h3+ul li a b{
     display: none;
 }
-/* attractionCB / villageCB / restaurantCB / giftShopCB Fin */
-.attractionCB div:nth-child(2)>div div:last-child img+div strong mark,
-.villageCB div:nth-child(2)>div div:last-child img+div strong mark{
+/* actrCBContainer / villCBContainer / restCBContainer / giftCBContainer Fin */
+.actrCBContainer div:nth-child(2)>div div:last-child img+div strong mark,
+.villCBContainer div:nth-child(2)>div div:last-child img+div strong mark{
     color: var(--os1);
 }
-/* attractionCB / villageCB Details Fin */
-.themeCBContainer div:nth-child(2) h3{
-    margin-bottom: 110px;
-}
-.themeCBContainer div:nth-child(2) strong{
-    display: block;
-    color: var(--bs7);
-    margin-bottom: 45px;
-}
-.themeCBContainer div:nth-child(2) strong b{
-    display: block;
-    color: var(--gs11);
-    margin-top: 10px;
-}
-.themeCBContainer div:nth-child(2)>p{
-    margin-bottom: 110px;
-    line-height: 24px;
-    color: var(--gs9);
-}
-.themeCBContainer div:nth-child(2) ul li h4{
-    margin-bottom: 45px;
-}
-.themeCBContainer div:nth-child(2) ul li:not(:last-child){
-    margin-bottom: 110px;
-}
+/* actrCBContainer / villCBContainer Details Fin */
 .themeCBContainer div:nth-child(2) ul li:nth-child(even) h4{
     text-align: right;
-}
-.themeCBContainer div:nth-child(2) ul li>img{
-    width: 100%;
-    margin-bottom: 70px;
 }
 .themeCBContainer div:nth-child(2)>ul>li:nth-child(even)>div{
     text-align: right;
 }
-.themeCBContainer div:nth-child(2)>ul>li>div>p{
-    line-height: 22px;
-}
-.themeCBContainer div:nth-child(2)>ul>li>div>p>b{
-    display: block;
-    margin-bottom: 30px;
-}
-
 /* themeStoryCB Fin */
 
 
@@ -628,7 +259,1370 @@ div .cabeContainer nav div.active ol{
 }
 /* ?mobile */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    header+.mwpadding>h3,
+    .siteContainer>ul{
+        max-width: 1458px;
+        margin: 0 auto;
+        padding: 0 24px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    div .linemg~div,
+    div article,
+    #wrap .contentBannerCB01{
+        max-width: 1458px;
+        margin: 0 auto;
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+    .experContainer article h3,
+    .comuContainer div:nth-child(2) h3{
+        text-align: center;
+        padding: 55px 0;
+    }
+    header+.conPbtm{
+        padding-bottom: 250px;
+    }
+    header+.mwpadding{
+        padding: 0 24px;
+        padding-bottom: 250px;
+    }
+    .indexContainer .banslider li strong{
+        position: absolute;
+        top: 43.827%;
+        left: 13.281%;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .indexContainer .banslider li{
+        position: relative;
+        color: var(--gs1);
+        height: 500px;
+    }
+    .indexContainer .banslider li a{
+        display: block;
+        height: 100%;
+    }
+    .indexContainer .banslider li a img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .indexContainer .banslider li h2{
+        position: absolute;
+        top: 48.229%;
+        left: 13.281%;
+        font-family: 'Lato';
+        font-weight: 700;
+    }
+    .indexContainer .contentBanner01{
+        margin: 45px 0 110px;
+        padding-left: 24px;
+    }
+    .indexContainer>.bx-wrapper div:nth-child(2)>.bx-pager::first-letter{
+        font-size: 22px;
+    }
+    .indexContainer>.bx-wrapper div:nth-child(2)>div:nth-child(2){
+        width: auto;
+        font-family: 'Open Sans';
+        top: 56.172%;
+        left: 13.281%;
+        color: var(--gs1);
+        padding: 0;
+        height: 5%;
+        text-align: left;
+        font-size: 13px;
+    }
+    #wrap .contentBannerCB01{
+        padding: 0;
+    }
+    .indexContainer>.bx-wrapper .bx-controls .bx-controls-direction a{
+        top: 57.572%;
+        margin: 0;
+    }
+    .indexContainer>.bx-wrapper div:nth-child(2) div:first-child .bx-prev{
+        background: url('../images/mainBanL.png') no-repeat top / contain;
+        left: 20.406%;
+        z-index: 100;
+        width: 19px;
+        height: 22px;
+    }
+    .indexContainer>.bx-wrapper div:nth-child(2) div:first-child .bx-next {
+        background: url('../images/mainBanR.png') no-repeat top / contain;
+        left: 25.083%;
+        z-index: 100;
+        width: 19px;
+        height: 22px;
+    }
+    .indexContainer .banslider li::before{
+        display: block;
+        position: absolute;
+        content: '';
+        border-left: 0.65vw solid var(--bs1);
+        top: 43.827%;
+        left: 11.25%;
+        height: 5.861vw;
+        font-size: 12px;
+    }
+    
+    .indexContainer .contentBannerCB01>div:first-child{
+        border-bottom: 1px solid var(--gs5);
+    }
+    .indexContainer .contentBannerCB01>div:not(:last-child){
+        box-sizing: border-box;
+        padding: 30px 3.125% 70px;
+    }
+    .indexContainer .contentBannerCB01>div:not(:last-child) h2{
+        justify-content: space-between;
+        align-items: center;
+        color: var(--bs10);
+    }
+    .indexContainer .contentBannerCB01>div h2{
+        font-size: 20px;
+    }
+    .indexContainer .contentBannerCB01>div:first-child h2{
+        margin-bottom: 45px;
+    }
+    .indexContainer .contentBannerCB01>div:nth-child(2) h2{
+        margin-bottom: 70px;
+    }
+    .indexContainer .contentBannerCB01>div:first-child ul li a{
+        width: 80%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-top: 4px;
+        font-size: 13px;
+    }
+    .indexContainer .contentBannerCB01>div:first-child ul li time{
+        font-size: 13px;
+    }
+    .indexContainer .contentBannerCB01>div:first-child ul li:not(:last-child) a,
+    .indexContainer .contentBannerCB01>div:first-child ul li:not(:last-child) time{
+        margin-bottom: 10px;
+    }
+    .indexContainer .contentBannerCB01>div:nth-child(2) ul li a{
+        display: inline-block;
+        width: 100%;
+        padding-top: 95px;
+        color: var(--gs9);
+        font-size: 13px;
+    }
+    .indexContainer .contentBannerCB01>div:nth-child(2) ul li:first-child a{
+        background: url('../images/maincon03_res.png') no-repeat center top / 78px 78px;
+    }
+    .indexContainer .contentBannerCB01>div:nth-child(2) ul li:nth-child(2) a{
+        background: url('../images/maincon03_inpuiry.png') no-repeat center top / 78px 78px;
+    }
+    .indexContainer .contentBannerCB01>div:nth-child(2) ul li:last-child a{
+        background: url('../images/maincon03_lost.png') no-repeat center top / 78px 78px;
+    }
+    .indexContainer .contentBannerCB01>#map{
+        background: url('../images/kakaoCB_map.png') no-repeat center / cover; /*지도 임시*/
+        position: relative;
+        width: 100%;
+        height: 350px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,0%);
+        background-color: var(--bs4);
+        opacity: 0.94;
+        color: var(--gs1);
+        width: 300px;
+        padding: 30px 15px 20px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl h2{
+        display: inline-block;
+        margin-bottom: 20px;
+        vertical-align: top;
+        font-size: 22px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl button{
+        display: inline-block;
+        border: 1px solid var(--gs1);
+        background: none;
+        margin-left: 40px;
+        color: var(--gs1);
+        padding: 5px 10px;
+        vertical-align: text-bottom;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl address{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .indexContainer .contentBannerCB01 #map .map_dtl address b{
+        display: block;
+        line-height: 26px;
+    }
+    /* index Fin */
+    /* 상세페이지 시작 */
+    div .cabeContainer h2{
+        display: flex;
+        color: var(--gs1);
+        justify-content: center;
+        padding: 55px 0;
+    }
+    div .cabeContainer nav{
+        display: flex;
+        background-color: var(--gs1);
+        width: 100%;
+        padding-left: 3.125%;
+        box-sizing: border-box;
+        align-items: center;
+        height: 40px;
+        border: 1px solid var(--gs5);
+    }
+    div .cabeContainer nav>a{
+        display: block;
+        background: url('../images/home_nav.png') no-repeat left / contain;
+        font-size: 0;
+        width: 5%;
+        height: 15px;
+    }
+    div .cabeContainer nav div{
+        position: relative;
+        width: 47.5%; 
+        height: 40px;
+        border: 1px solid var(--gs5);
+        box-sizing: border-box;
+    }
+    div .cabeContainer nav div input{
+        color: var(--gs11);
+        background-color: transparent;
+        border: none;
+        line-height: 40px;
+        padding: 0 0 0 23px;
+        font-family: 'Open Sans';
+        font-weight: 600;
+    }
+    div .cabeContainer nav div::after{
+        background: url('../images/det_nav.png') no-repeat center / contain;
+        content: '';
+        position: absolute;
+        right: 30px;
+        top: 16px;
+        display: block;
+        width: 10px;
+        height: 10px;
+    }
+    div .cabeContainer nav div ol{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid var(--gs6);
+        background-color: var(--gs1);
+        padding: 24px 0;
+        z-index: 10;
+    }
+    div .cabeContainer nav div ol li:not(:last-child){
+        display: block;
+        margin-bottom: 20px;
+    }
+    div .cabeContainer nav div ol li a{
+        color: var(--gs7);
+        display: block;
+        width: 100%;
+    }
+    div .cabeContainer nav div ol li{
+        padding-left: 23px;
+    }
+    .newsCBContainer .paging>ol>li>a{
+        font-size: 16px;
+    }
+    div article .linebtm,
+    div div:nth-child(2) .linebtm,
+    header+div>.linebtm,
+    .siteContainer ul li>.linebtm{
+        text-align: center;
+        padding: 55px 0;
+        border-bottom: 1px solid var(--gs5);
+    }
+    .howCBContainer div:nth-child(2) h3,
+    .trafCBContainer div:nth-child(2) h3,
+    .newsCBContainer article h3{
+        padding: 55px 0;
+        text-align: center;
+    }
+    .newsCBContainer div:nth-child(2) h3+ul{
+        margin-bottom: 110px;
+    }
+    .newsCBContainer div:nth-child(2) h3+ul li{
+        border-bottom: 1px solid var(--gs5);
+        line-height: 55px;
+    }
+    .newsCBContainer div:nth-child(2) ul li a{
+        display: flex;
+    }
+    .newsCBContainer div:nth-child(2) ul li a span:first-child{
+        width: 5%;
+        padding-left: 30px;
+    }
+    .newsCBContainer div:nth-child(2) ul li a span:nth-child(2){
+        width: 15%;
+        color: var(--gs9);
+    }
+    .newsCBContainer div:nth-child(2) ul li a strong{
+        width: 70%;
+    }
+    .newsCBContainer div:nth-child(2) ul li a time{
+        background: url('../images/newdet_calendar.png') no-repeat left / 10px 10px;
+        width: 10%;
+        padding-left: 25px;
+        color: var(--gs10);
+    }
+    .newsCBContainer .paging{
+        display: flex;
+        width: 240px;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    .newsCBContainer article div h4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 25px;
+        border-bottom: 1px solid var(--gs5);
+    }
+    .newsCBContainer article div h4 small{
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+        color: var(--gs9);
+    }
+    .newsCBContainer article div h4 b{
+        font-size: 16px;
+    }
+    .newsCBContainer article div h4 time{
+        color: var(--gs7);
+        background: url('../images/newdetD_calendar.png') no-repeat left / 12px 11px;
+        padding: 2px 0 0 20px;
+        margin-left: auto;
+    }
+    .newsCBContainer article div figure{
+        display: inline-block;
+        text-align: center;
+        padding: 30px 0 55px;
+    }
+    .newsCBContainer article .innerPager{
+        display: flex;
+        padding-top: 55px;
+        width: 100%;
+        border-top: 1px solid var(--gs5);
+        box-sizing: border-box;
+    }
+    .newsCBContainer article .innerPager li:first-child{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .newsCBContainer article .innerPager li:last-child{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .newsCBContainer article .innerPager li:first-child a{
+        background: url('../images/newdetD_pre.png') no-repeat left;
+        padding-left: 50px;
+    }
+    .newsCBContainer article .innerPager li:last-child a{
+        background: url('../images/newdetD_next.png') no-repeat right;
+        padding-right: 50px;
+        text-align: right;
+    }
+    .newsCBContainer article .innerPager li:nth-child(2) a{
+        background: url('../images/newdetD_list.png') no-repeat 25px center / 11px 11px;
+        display: inline-block;
+        background-color: var(--bs5);
+        color: var(--gs1);
+        padding: 0px 35px 0px 50px;
+        line-height: 40px;
+    }
+    .newsCBContainer article .innerPager li a span,
+    .newsCBContainer article .innerPager li a strong{
+        font-size: 0;
+    }
+    /* newNoticeCB detail Fin */
+    .howCBContainer div:nth-child(2)>ul{
+        display: flex;
+        margin-bottom: 55px;
+        cursor: pointer;
+    }
+    .howCBContainer div:nth-child(2)>ul li{
+        border-bottom: 1px solid var(--gs11);
+        position: relative;
+        width: 50%;
+        text-align: center;
+        line-height: 50px;
+        color: var(--gs5);
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li:not(:last-child){
+        margin-bottom: 115px;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li img{
+        float: left;
+        margin-right: 25px;
+        width: 200px;
+        height: 125px;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl{
+        float: left;
+        width: 68.5%;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl dt{
+        margin-bottom: 15px;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl dd{
+        display: flex;
+        line-height: 18px;
+        color: var(--gs8);
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl dd::before{
+        content: '-';
+        display: block;
+        margin-right: 5px;
+    }
+    .howCBContainer div:nth-child(2) .orderOfUse ul li dl dd:not(:last-of-type){
+        margin-bottom: 5px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl dt{
+        margin-bottom: 20px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl dd{
+        display: flex;
+        color: var(--gs8);
+        line-height: 18px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl dd::before{
+        content: '-';
+        display: block;
+        margin-right: 5px;
+    }
+    .howCBContainer div:nth-child(2) .usageRules dl dd:not(:last-child){
+        margin-bottom: 10px;
+    } 
+    /* howToUseCB Fin */
+    .opeCBContainer div:nth-child(2)>strong{
+        display: block;
+        text-align: center;
+        margin: 55px 0 50px;
+        color: var(--bs6);
+        font-size: 18px;
+    }
+    .opeCBContainer div:nth-child(2) div ol{
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    .opeCBContainer div:nth-child(2) div ol li{
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        border-top: 1px solid var(--gs5);
+        line-height: 50px;
+    }
+    .opeCBContainer div:nth-child(2) div ol li::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .opeCBContainer div:nth-child(2) div ol li strong,
+    .opeCBContainer div:nth-child(2) div ol li b{
+        display: inline-block;
+        font-size: 16px;
+    }
+    .opeCBContainer div:nth-child(2) div ol li b{
+        color: var(--gs10);
+        text-align: right;
+    }
+    .opeCBContainer div:nth-child(2) div ol li b{
+        float: right;
+    }
+    .opeCBContainer div:nth-child(2) div ol li b:first-of-type{
+        margin-left: 10px;
+    }
+    .opeCBContainer div:nth-child(2) div ol li b:first-of-type::before{
+        content: ' / ';
+    }
+    .opeCBContainer div:nth-child(2) div ol li:nth-last-child(6){
+        border-bottom: 1px solid var(--gs5);
+    }
+    .opeCBContainer div:nth-child(2) div ol li:nth-child(-n+13),
+    .opeCBContainer div:nth-child(2) div ol li:nth-last-child(-n+5){
+        display: none;
+    }
+    .opeCBContainer div:nth-child(2) p,
+    .opeCBContainer div:nth-child(2)>b{
+        color: var(--gs9);
+        text-align: center;
+        line-height: 20px;
+    }
+    .opeCBContainer div:nth-child(2) p,
+    .opeCBContainer div:nth-child(2)>b:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .opeCBContainer div:nth-child(2) b{
+        display: block;
+    }
+    .opeCBContainer div:nth-child(2)>b:not(:last-child){
+        line-height: 20px;
+    }
+    .opeCBContainer div:nth-child(2) p:first-of-type{
+        color: var(--bs6);
+        margin-bottom: 60px;
+    }
+    .opeCBContainer div:nth-child(2) p:last-of-type strong{
+        font-weight: 400;
+    }
+    /* operatingTimeCB Fin */
+    .trafCBContainer div:nth-child(2) ul{
+        display: flex;
+        margin-bottom: 55px;
+        cursor: pointer;
+    }
+    .trafCBContainer div:nth-child(2) ul li{
+        border-bottom: 1px solid var(--gs11);
+        position: relative;
+        width: 25%;
+        text-align: center;
+        line-height: 50px;
+        color: var(--gs5);
+        box-sizing: border-box;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li strong{
+        display: block;
+        margin-bottom: 35px;
+        font-size: 16px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li strong mark:first-child{
+        margin-right: 15px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:first-child dl dt,
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:last-child b{
+        display: flex;
+        margin: 0 0 20px 5px;
+        font-size: 14px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:first-child dl dt::before,
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:last-child b:first-of-type:before,
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:last-child strong:nth-of-type(2):before,
+    .trafCBContainer div:nth-child(2) .byCar dl dt::before,
+    .trafCBContainer div:nth-child(2) .byCar figure figcaption::before,
+    .trafCBContainer div:nth-child(2) .regularBus dl dt::before{
+        display: inline-block;
+        content: '▶';
+        font-size: 10px;
+        line-height: 12px;
+        margin-right: 10px;
+        transform: scale(0.7);
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:first-child{
+        margin-bottom: 70px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:first-child dl dd{
+        margin-left: 5px;
+        margin: 0 0 15px 5px;
+        color: var(--gs8);
+        font-size: 12px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:first-child dl dd:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:last-child dl{
+        margin: 0 0 20px 15px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:last-child dl dt{
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li dl dd{
+        color: var(--gs8);
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:nth-child(2) dl:nth-of-type(6) dd:first-of-type {
+        margin-bottom: 10px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:last-child strong:nth-of-type(2){
+        display: flex;
+        margin: 50px 0 15px;
+        font-size: 14px;
+    }
+    .trafCBContainer div:nth-child(2) .publicTransport ol li:last-child b:nth-of-type(4){
+        margin-top: 50px;
+    }
+    .trafCBContainer div:nth-child(2) .byCar dl{
+        margin-bottom: 50px;
+    }
+    .trafCBContainer div:nth-child(2) .byCar dl dt{
+        margin-bottom: 20px;
+        display: flex;
+    }
+    .trafCBContainer div:nth-child(2) .byCar dl dd{
+        color: var(--gs8);
+        line-height: 18px;
+    }
+    .trafCBContainer div:nth-child(2) .byCar dl dd:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .trafCBContainer div:nth-child(2) .byCar figure{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .trafCBContainer div:nth-child(2) .byCar figure figcaption{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .trafCBContainer div:nth-child(2) .kakaoT b{
+        display: block;
+        margin-bottom: 35px;
+    }
+    .trafCBContainer div:nth-child(2) .kakaoT b:first-child{
+        display: block;
+        color: var(--os1);
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    .trafCBContainer div:nth-child(2) .kakaoT span{
+        display: inline-block;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .trafCBContainer div:nth-child(2) .kakaoT p{
+        display: block;
+        color: var(--gs8);
+        width: 78.546%;
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+    .trafCBContainer div:nth-child(2) .kakaoT dl:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .trafCBContainer div:nth-child(2) .kakaoT dl:nth-of-type(4){
+        margin-bottom: 150px;
+    }
+    .trafCBContainer div:nth-child(2) .kakaoT dl dt{
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .trafCBContainer div:nth-child(2) .kakaoT dl dd{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .trafCBContainer div:nth-child(2) .kakaoT dl dd:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .trafCBContainer div:nth-child(2) .regularBus dl:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .trafCBContainer div:nth-child(2) .regularBus dl dt{
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .trafCBContainer div:nth-child(2) .regularBus dl dd{
+        line-height: 18px;
+        color: var(--gs9);
+    }
+    .trafCBContainer div:nth-child(2) .regularBus dl dd:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .trafCBContainer div:nth-child(2) .regularBus b{
+        display: block;
+        margin-bottom: 50px;
+    }
+    /* trafficReportCB Fin */
+    .amenCBContainer div:nth-child(2) strong{
+        display: block;
+        margin: 50px 0 25px;
+        font-size: 16px;
+    }
+    .amenCBContainer div:nth-child(2) ul li:not(:last-child){
+        margin-bottom: 55px;
+    }
+    .amenCBContainer div:nth-child(2) ul li img{
+        float: left;
+        margin-right: 25px;
+        width: 200px;
+        height: 125px;
+    }
+    .amenCBContainer div:nth-child(2) ul li dl{
+        float: left;
+        width: 68.5%;
+    }
+    .amenCBContainer div:nth-child(2) ul li dl dt{
+        margin-bottom: 15px;
+    }
+    .amenCBContainer div:nth-child(2) ul li dl dd{
+        display: flex;
+        line-height: 18px;
+        color: var(--gs8);
+    }
+    .amenCBContainer div:nth-child(2) ul li dl dd::before{
+        content: '-';
+        display: block;
+        margin-right: 5px;
+    }
+    .amenCBContainer div:nth-child(2) ul li dl dd:not(:last-of-type){
+        margin-bottom: 5px;
+    }
+    /* amenitiesCB Fin */
+    .guidCBContainer div:nth-child(2)>div div:nth-of-type(1){
+        position: absolute;
+        top: 45px;
+        left: 4.255%;
+        width: 265px;
+    }
+    .guidCBContainer div:nth-child(2)>div div:nth-of-type(1) strong{
+        display: block;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 18px;
+    }
+    .guidCBContainer div:nth-child(2)>div div:nth-of-type(1) p{
+        color: var(--gs6);
+        width: 270px;
+        line-height: 25px;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .guidCBContainer div:nth-child(2)>div div:nth-of-type(1) a{
+        display: inline-block;
+        padding: 15px 45px;
+        background-color: var(--bs4);
+        color: var(--gs1);
+        font-size: 16px;
+    }
+    .guidCBContainer div:nth-child(2)>div div:nth-of-type(2){
+        position: absolute;
+        top: 45px;
+        left: 50%;
+        line-height: 40px;
+    }
+    /* guideMapCB Fin */
+    .usaCBContainer div:nth-child(2) h3,
+    .usaCBContainer div:nth-child(2)>ul li:first-child,
+    .usaCBContainer div:nth-child(2)>ul li:nth-child(2){
+        margin-bottom: 55px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li strong{
+        display: block;
+        margin-bottom: 35px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li b{
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li b::before{
+        display: inline-block;
+        content: '▶';
+        font-size: 12px;
+        margin-right: 5px;
+        line-height: 14px;
+        transform: scale(0.7);
+    }
+    .usaCBContainer div:nth-child(2)>ul li>dl{
+        margin: 0 0 30px 10px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li>p{
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li>dl dt{
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li>dl dd{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li>dl dd:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li:nth-child(2)>p:first-of-type{
+        margin-bottom: 15px;
+    }
+    .usaCBContainer div:last-child div{
+        background-color: var(--gs2);
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 40px 20px;
+    }
+    .usaCBContainer div:nth-child(2) div:last-child dl dt{
+        margin-bottom: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .usaCBContainer div:nth-child(2) div:last-child dl dt span{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .usaCBContainer div:nth-child(2) div:last-child dl:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+    .usaCBContainer div:nth-child(2) div:last-child dl dd{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .usaCBContainer div:nth-child(2) div:last-child dl dd:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .usaCBContainer div:nth-child(2) table+div dl dd:nth-child(6) p span{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    /* usageFeeCB Fin */
+    .affilCBContainer div:nth-child(2)>strong{
+        display: block;
+        margin: 50px 0 30px 0;
+        font-size: 16px;
+    }
+    .affilCBContainer div:nth-child(2)>ul:first-of-type{
+        margin-bottom: 30px;
+    }
+    .affilCBContainer div:nth-child(2) div ul li,
+    .affilCBContainer div:nth-child(2) div ul li>dl{
+        font-weight: 400;
+    }
+    .affilCBContainer div:nth-child(2) div ul li:not(:last-child){
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .affilCBContainer div:nth-child(2) div ul li:nth-child(3){
+        line-height: 18px;
+    }
+    .affilCBContainer div:nth-child(2)>ul:first-of-type li{
+        color: var(--gs8);
+        line-height: 18px;
+    }
+    .affilCBContainer div:nth-child(2)>ul:first-of-type li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .affilCBContainer div:nth-child(2)>img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .affilCBContainer div:nth-child(2) div{
+        position: relative;
+        background-color: rgba(255, 113, 5, 0.2);
+        border-radius: 10px;
+        padding: 50px 15px;
+        margin: 50px 0 85px;
+    }
+    .affilCBContainer div:nth-child(2) div p:first-child::before{
+        background: url('../images/aff_caution.png') no-repeat center;
+        content: '';
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 55px;
+        left: 50px;
+    }
+    .affilCBContainer div:nth-child(2) div p:first-child{
+        width: 81.129%;
+        margin-left: auto;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .affilCBContainer div:nth-child(2) div p:last-of-type,
+    .affilCBContainer div:nth-child(2) div p:last-of-type a{
+        text-align: center;
+        margin: 30px auto 30px;
+        color: var(--gs9);
+    }
+    .affilCBContainer div:nth-child(2) div ul li dl dt{
+        margin: 10px 0;
+        padding-left: 10px;
+    }
+    .affilCBContainer div:nth-child(2) div ul li dl dd{
+        padding-left: 15px;
+        line-height: 18px;
+    }
+    .affilCBContainer div:nth-child(2) div ul li dl dd:not(:last-child){
+        margin-bottom: 5px;
+    }
+    .affilCBContainer div:nth-child(2)>ul:last-child{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        max-width: 768px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .affilCBContainer div:nth-child(2)>ul:last-child li{
+        width: 43%;
+        box-sizing: border-box;
+    }
+    .affilCBContainer div:nth-child(2)>ul:last-child li:not(:last-child){
+        margin-bottom: 75px;
+    }
+    .affilCBContainer div:nth-child(2)>ul:last-child li img{
+        display: block;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .affilCBContainer div:nth-child(2)>ul:last-child li span{
+        display: block;
+        text-align: center;
+        line-height: 24px;
+        font-size: 18px;
+    }
+    .affilCBContainer div:nth-child(2)>div+ul::after{
+        content: '';
+        display: inline-block;
+        width: 310px;
+        height: 245px;
+    }
+    /* affiliateCard Fin */
+    .speCBContainer div:nth-child(2) h3+div{
+        display: flex;
+    }
+    .speCBContainer div:nth-child(2) h3+div div{
+        height: 155px;
+        margin: 50px 0;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child{
+        background: url('../images/specialcaribbean.png') no-repeat center / cover;
+        position: relative;
+        width: 50%;
+        margin-right: 1.063%;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child span{
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        background-color: #73d7c6;
+        padding: 10px 15px;
+        border-radius: 25px;
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child p{
+        position: absolute;
+        top: 65px;
+        left: 4.836%;
+        color: var(--rs9);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child p strong{
+        display: block;
+        margin-top: 10px;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child b{
+        position: absolute;
+        bottom: 25px;
+        left: 4.836%;
+        font-size: 10px;
+        color: var(--rs9);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child{
+        background: url('../images/specialKB.png')no-repeat center / cover;
+        position: relative;
+        width: 50%;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child span{
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        background-color: #958b7d;
+        padding: 10px 15px;
+        border-radius: 25px;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child p{
+        position: absolute;
+        top: 65px;
+        left: 4.836%;
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child p strong{
+        display: block;
+        margin-top: 15px;
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child b{
+        position: absolute;
+        bottom: 25px;
+        left: 4.836%;
+        color: var(--gs1);
+        font-weight: 600;
+        font-size: 10px;
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper{
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 145px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport{
+        height: 225px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider{
+        display: block;
+        transform: none;
+        position: relative;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li{
+        width: 150px !important;
+        height: 225px;
+        margin-right: 30px !important;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:first-child{
+        background: url('../images/speCB01.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(2){
+        background: url('../images/speCB02.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3){
+        background: url('../images/speCB03.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3) span:last-child{
+        display: block;
+        width: 108px;
+        text-align: center;
+        bottom: 65px;
+        font-size: 12px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4){
+        background: url('../images/speCB04.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4) span:last-child{
+        width: 108px;
+        text-align: center;
+        bottom: 85px;
+        font-size: 12px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5){
+        background: url('../images/speCB05.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5) span:last-child,
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(7) span:last-child{
+        display: block;
+        width: 108px;
+        text-align: center;
+        bottom: 85px;
+        font-size: 12px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5) span:last-child{
+        display: block;
+        text-align: center;
+        bottom: 50px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(7) span:last-child{
+        bottom: 50px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:first-child{
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        top: 15px;
+        left: 20px;
+        color: var(--gs9);
+        font-size: 12px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(2) span{
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:last-child{
+        position: absolute;
+        left: 22px;
+        bottom: 70px;
+        line-height: 18px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li p{
+        position: absolute;
+        top: 55px;
+        left: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span{
+        font-size: 0.833vw;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager{
+        bottom: -50px;
+        padding: 0;
+        width: 100%;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div{
+        position: relative;
+        width: 50%;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div a.active{
+        background: var(--gs11);
+        height: 3px;
+        position: absolute;
+        top: -2px;
+        left: 0;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div a{
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        background-color: var(--gs5);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a.active{
+        background: var(--gs11);
+        height: 3px;
+        position: absolute;
+        top: -2px;
+        left: 0;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div a{
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        background-color: var(--gs5);
+    }
+    .speCBContainer div:nth-child(2) hr{
+        display: none;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 80px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child{
+        justify-content: space-between;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li{
+        height: 188px;
+        margin-bottom: 20px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child{
+        background: url('../images/spediscountCB01.png') no-repeat center / cover;
+        width: 49.2%;
+        position: relative;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span:first-child{
+        position: absolute;
+        top: 25px;
+        left: 20px;
+        color: var(--rs10);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child b{
+        width: 80%;
+        position: absolute;
+        top: 55px;
+        left: 20px;
+        color: var(--rs10);
+        line-height: 20px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span{
+        position: absolute;
+        top: 105px;
+        left: 20px;
+        color: var(--rs7);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child strong{
+        position: absolute;
+        bottom: 25px;
+        left: 20px;
+        color: var(--rs9);
+        font-size: 14px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2){
+        background: url('../images/spediscountCB01.png') no-repeat center / cover;
+        width: 49.2%;
+        position: relative;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span:first-child{
+        position: absolute;
+        top: 25px;
+        left: 20px;
+        color: var(--rs10);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) b{
+        position: absolute;
+        top: 55px;
+        left: 20px;
+        color: var(--rs10);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span{
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        color: var(--rs7);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) strong{
+        position: absolute;
+        bottom: 25px;
+        left: 20px;
+        color: var(--rs9);
+        font-size: 14px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3){
+        position: relative;
+        width: 23.84%;
+        height: 187px;
+        border-radius: 20px;
+        border: 3px solid rgba(98, 24, 102, 0.3);
+        background-color: rgba(228, 228, 228, 0.3);
+        padding: 20px 0 20px 15px;
+        box-sizing: border-box;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) span:first-child{
+        display: block;
+        margin-bottom: 20px;
+        color: var(--vs9);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) b{
+        display: block;
+        margin-bottom: 15px;
+        line-height: 20px;
+        color: var(--vs9);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) span:last-of-type{
+        display: block;
+        color: var(--gs8);
+        margin-bottom: 50px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) strong{
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(19)::after{
+        background: url('../images/specialgift.png') no-repeat center / contain;
+        content: '';
+        width: 68px;
+        height: 68px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:last-child::after{
+        background: url('../images/specialRain.png') no-repeat center / contain;
+        content: '';
+        width: 68px;
+        height: 68px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5) p{
+        color: #002c5f;
+        width: 108px;
+        text-align: center;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(6) p{
+        color: #0061aa;
+        width: 108px;
+        text-align: center;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(7) p{
+        width: 108px;
+        text-align: center;
+    }
+    /* specialPromotionCB Fin */
+    .actrCBContainer div:nth-child(2) h3,
+    .villCBContainer div:nth-child(2) h3,
+    .restCBContainer div:nth-child(2) h3,
+    .giftCBContainer div:nth-child(2) h3{
+        margin-bottom: 55px;
+   }
+    .actrCBContainer div:nth-child(2) ol li>ul,
+    .villCBContainer div:nth-child(2) h3+ul,
+    .restCBContainer div:nth-child(2) h3+ul,
+    .giftCBContainer div:nth-child(2) h3+ul{
+        margin-top: 30px;
+    }
+    .actrCBContainer div:nth-child(2) ol li:not(:last-child){
+        margin-bottom: 70px;
+    }
+    .actrCBContainer div:nth-child(2) ol li>ul li:not(:last-child),
+    .villCBContainer div:nth-child(2) h3+ul li:not(:last-child),
+    .restCBContainer div:nth-child(2) h3+ul li:not(:last-child),
+    .giftCBContainer div:nth-child(2) h3+ul li:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .actrCBContainer div:nth-child(2) ol li>ul li a,
+    .villCBContainer div:nth-child(2) h3+ul li a,
+    .restCBContainer div:nth-child(2) h3+ul li a,
+    .giftCBContainer div:nth-child(2) h3+ul li a{
+        display: block;
+        position: relative;
+    }
+    .actrCBContainer div:nth-child(2) ol li>ul li a img,
+    .villCBContainer div:nth-child(2) h3+ul li a img,
+    .restCBContainer div:nth-child(2) h3+ul li a img,
+    .giftCBContainer div:nth-child(2) h3+ul li a img{
+        width: 220px;
+        height: 165px;
+        margin-right: 25px;
+    }
+    .actrCBContainer div:nth-child(2) ol li>ul li a strong,
+    .villCBContainer div:nth-child(2) h3+ul li a strong,
+    .restCBContainer div:nth-child(2) h3+ul li a strong,
+    .giftCBContainer div:nth-child(2) h3+ul li a strong{
+        position: absolute;
+        top: 2px;
+        left: 245px;
+    }
+    .actrCBContainer div:nth-child(2) ol li>ul li a span,
+    .villCBContainer div:nth-child(2) h3+ul li a span,
+    .restCBContainer div:nth-child(2) h3+ul li a span,
+    .giftCBContainer div:nth-child(2) h3+ul li a span{
+        position: absolute;
+        top: 30px;
+        left: 245px;
+    }
+    /* attraction / villCBContainer / restCBContainer / giftCBContainer Fin */
 
+    /* actrCBContainer Fin */
+    .themeCBContainer div:nth-child(2) h3{
+        margin-bottom: 55px;
+    }
+    .themeCBContainer div:nth-child(2) strong{
+        display: block;
+        color: var(--bs7);
+        margin-bottom: 25px;
+    }
+    .themeCBContainer div:nth-child(2) strong b{
+        display: block;
+        color: var(--gs11);
+        margin-top: 20px;
+    }
+    .themeCBContainer div:nth-child(2)>p{
+        margin-bottom: 70px;
+        line-height: 24px;
+        color: var(--gs9);
+    }
+    .themeCBContainer div:nth-child(2) ul li h4{
+        margin-bottom: 30px;
+    }
+    .themeCBContainer div:nth-child(2) ul li:not(:last-child){
+        margin-bottom: 70px;
+    }
+    .themeCBContainer div:nth-child(2) ul li>img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .themeCBContainer div:nth-child(2)>ul>li>div>p{
+        line-height: 22px;
+        color: var(--gs9);
+    }
+    .themeCBContainer div:nth-child(2)>ul>li:nth-child(2)>div>p{
+        width: 70%;
+        margin-left: auto;
+    }
+    .themeCBContainer div:nth-child(2)>ul>li>div>p>b{
+        display: block;
+        margin-bottom: 25px;
+        color: var(--gs11);
+        font-size: 14px;
+    }
+    /* themeStoryCB Fin */
 }
 /* ?tablet */
 @media screen and (min-width: 1280px) {
@@ -1352,8 +2346,62 @@ div .cabeContainer nav div.active ol{
         width: 30.879%;
     }
     /* guideMapCB Fin */
-
-
+    .usaCBContainer div:nth-child(2) h3,
+    .usaCBContainer div:nth-child(2)>ul li:first-child,
+    .usaCBContainer div:nth-child(2)>ul li:nth-child(2){
+        margin-bottom: 110px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li strong{
+        display: block;
+        margin-bottom: 35px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li b{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li b::before{
+        display: inline-block;
+        content: '▶';
+        font-size: 10px;
+        line-height: 18px;
+        margin-right: 10px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li>dl{
+        margin: 0 0 40px 15px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li>dl dt{
+        margin-bottom: 20px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li>dl dd{
+        margin-left: 10px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li>dl dd:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .usaCBContainer div:nth-child(2)>ul li:nth-child(2)>p:first-of-type{
+        margin-bottom: 15px;
+    }
+    .usaCBContainer div:last-child div{
+        background-color: var(--gs2);
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 35px;
+    }
+    .usaCBContainer div:nth-child(2) div:last-child dl dt{
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+    .usaCBContainer div:nth-child(2) div:last-child dl:not(:last-of-type){
+        margin-bottom: 60px;
+    }
+    .usaCBContainer div:nth-child(2) div:last-child dl dd:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .usaCBContainer div:nth-child(2) table+div dl dd:nth-child(6) p span{
+        display: inline-block;
+        margin-left: 20px;
+    }
     /* usageFeeCB Fin */
     .affilCBContainer div:nth-child(2)>strong{
         display: block;
@@ -1439,7 +2487,285 @@ div .cabeContainer nav div.active ol{
         clear: both;
     }
      /* affiliateCard Fin */
-
+     .speCBContainer div:nth-child(2) h3+div div{
+        height: 264px;
+        margin: 100px 0 130px;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child{
+        background: url('../images/specialcaribbean.png') no-repeat center / contain;
+        position: relative;
+        width: 43.617%;
+        margin-left: 80px;
+        margin-right: 1.063%;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child span{
+        position: absolute;
+        top: 52px;
+        left: 4.836%;
+        background-color: #73d7c6;
+        padding: 12px 23px;
+        border-radius: 25px;
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child p{
+        position: absolute;
+        top: 120px;
+        left: 4.836%;
+        color: var(--rs9);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child p strong{
+        display: block;
+        margin-top: 15px;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:first-child b{
+        position: absolute;
+        top: 210px;
+        left: 4.836%;
+        color: var(--rs9);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child{
+        background: url('../images/specialKB.png')no-repeat center / contain;
+        position: relative;
+        margin-right: 80px;
+        width: 43.617%;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child span{
+        position: absolute;
+        top: 52px;
+        left: 4.836%;
+        background-color: #958b7d;
+        padding: 12px 23px;
+        border-radius: 25px;
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child p{
+        position: absolute;
+        top: 120px;
+        left: 4.836%;
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child p strong{
+        display: block;
+        margin-top: 15px;
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child b{
+        position: absolute;
+        top: 210px;
+        left: 4.836%;
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper{
+        margin: 0 auto;
+        margin-bottom: 150px;
+        position: relative;
+        padding: 0 100px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider{
+        display: block;
+        transform: none;
+        position: relative;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li{
+        height: 343px;
+        margin: 0 auto;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:first-child{
+        background: url('../images/speCB01.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(2){
+        background: url('../images/speCB02.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3){
+        background: url('../images/speCB03.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3) span:last-child{
+        bottom: 110px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4){
+        background: url('../images/speCB04.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4) span:last-child{
+        bottom: 170px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5){
+        background: url('../images/speCB05.png') no-repeat center / cover;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5) span:last-child{
+        display: block;
+        text-align: center;
+        bottom: 150px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:first-child a.active{
+        background: var(--bs6);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:first-child a:hover{
+        background: var(--bs6);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:first-child a{
+        background: var(--gs5);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a.active{
+        background: var(--bs6);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a:hover{
+        background: var(--bs6);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager div:nth-child(2) a{
+        background: var(--gs5);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(7) span:last-child{
+        bottom: 150px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:first-child{
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        top: 30px;
+        left: 22px;
+        color: var(--gs9);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(2) span{
+        color: var(--gs1);
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li p{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        line-height: 30px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:last-child{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 150px;
+        line-height: 22px;
+        width: 100%;
+        text-align: center;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-of-type(2) span:last-child{
+        top: 125px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span{
+        font-size: 18px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager{
+        bottom: -50px;
+        padding: 0;
+        width: 90%;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-controls-direction .bx-prev{
+        background: url('../images/special_pre.png') no-repeat center;
+        z-index: 1;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-controls-direction .bx-next{
+        background: url('../images/special_next.png') no-repeat center;
+        z-index: 1;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 80px;
+        margin-top: 140px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li{
+        height: 318px;
+        margin-bottom: 20px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child{
+        background: url('../images/spediscountCB01.png') no-repeat center / contain;
+        width: 49.2%;
+        position: relative;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span:first-child{
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        color: var(--rs9);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child b{
+        position: absolute;
+        top: 95px;
+        left: 40px;
+        line-height: 26px;
+        color: var(--rs10);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span{
+        position: absolute;
+        top: 170px;
+        left: 40px;
+        color: var(--rs7);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child strong{
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        color: var(--rs9);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2){
+        background: url('../images/spediscountCB02.png') no-repeat center / contain;
+        width: 49.2%;
+        position: relative;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span:first-child{
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        color: var(--rs9);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) b{
+        position: absolute;
+        top: 95px;
+        left: 40px;
+        color: var(--rs10);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span{
+        position: absolute;
+        top: 150px;
+        left: 40px;
+        color: var(--rs7);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) strong{
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        color: var(--rs9);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3){
+        position: relative;
+        width: 23.84%;
+        height: 318px;
+        border-radius: 20px;
+        border: 3px solid rgba(98, 24, 102, 0.3);
+        background-color: rgba(228, 228, 228, 0.3);
+        padding: 40px 0 40px 35px;
+        box-sizing: border-box;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) span:first-child{
+        display: block;
+        margin-bottom: 20px;
+        color: var(--vs9);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) b{
+        display: block;
+        margin-bottom: 25px;
+        line-height: 35px;
+        color: var(--vs9);
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) span:last-of-type{
+        display: block;
+        color: var(--gs8);
+        margin-bottom: 50px;
+    }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3) strong{
+        display: block;
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+    }
+    /* specialPromotionCB Fin */
      /* specialPromotionCB Fin */
     .actrCBContainer div:nth-child(2) h3{
          margin-bottom: 110px;
@@ -1880,6 +3206,44 @@ div .cabeContainer nav div.active ol{
         line-height: 22px;
         color: var(--gs10);
     }
-    /* villageCB / restaurantCB / giftShop Details Fin */
+    /* villCBContainer / restCBContainer / giftShop Details Fin */
+    .themeCBContainer div:nth-child(2) h3{
+        margin-bottom: 110px;
+    }
+    .themeCBContainer div:nth-child(2) strong{
+        display: block;
+        color: var(--bs7);
+        margin-bottom: 45px;
+    }
+    .themeCBContainer div:nth-child(2) strong b{
+        display: block;
+        color: var(--gs11);
+        margin-top: 10px;
+    }
+    .themeCBContainer div:nth-child(2)>p{
+        margin-bottom: 110px;
+        line-height: 24px;
+        color: var(--gs9);
+    }
+    .themeCBContainer div:nth-child(2) ul li h4{
+        margin-bottom: 45px;
+    }
+    .themeCBContainer div:nth-child(2) ul li:not(:last-child){
+        margin-bottom: 110px;
+    }
+    .themeCBContainer div:nth-child(2) ul li>img{
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .themeCBContainer div:nth-child(2)>ul>li>div>p{
+        line-height: 22px;
+        color: var(--gs9);
+    }
+    .themeCBContainer div:nth-child(2)>ul>li>div>p>b{
+        display: block;
+        margin-bottom: 30px;
+        color: var(--gs11);
+    }
+    /* themeStoryCB Fin */
 }
 /* ?desktop */
