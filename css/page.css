@@ -1680,6 +1680,129 @@ div .cabeContainer nav div.active ol{
         margin: 105px auto 115px;
     }
     /* attractionCB Details Fin */
+    .villCBContainer div:nth-child(2) h3,
+    .restCBContainer div:nth-child(2) h3,
+    .giftCBContainer div:nth-child(2) h3{
+        margin-bottom: 50px;
+    }
+    .villCBContainer div:nth-child(2) h3~div,
+    .restCBContainer div:nth-child(2) h3~div,
+    .giftCBContainer div:nth-child(2) h3~div{
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd) h4,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) h4,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) h4{
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd)::after,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd)::after,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd)::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd) img:last-child,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) img:last-child,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) div div>img:last-child{
+        float: right;
+    }
+    .villCBContainer div:nth-child(2)>div img:last-child,
+    .restCBContainer div:nth-child(2)>div img:last-child,
+    .giftCBContainer div:nth-child(2)>div div div>img:last-child{
+        width: 382px;
+        height: 297px;
+    }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) h4,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(even) h4{
+        margin-bottom: 30px;
+        font-size: 30px;
+        text-align: right;
+    }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div{
+        float: left;
+    }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div{
+        float: right;
+    }
+    .villCBContainer div:nth-child(2)>div h4+div img,
+    .restCBContainer div:nth-child(2)>div h4+div img,
+    .giftCBContainer div:nth-child(2)>div h4+div div>img{
+        display: none;
+    }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(odd) div p,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) div p,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) div div p{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .villCBContainer div:nth-child(2)>div:nth-of-type(even) div p,
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) div p,
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(even) div div p{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .villCBContainer div:nth-child(2) #RaftVillage div p:first-child{
+        bottom: 100px;
+    }
+    .villCBContainer div:nth-child(2)>div div p,
+    .restCBContainer div:nth-child(2)>div div p,
+    .giftCBContainer div:nth-child(2)>div div div p{
+        width: 45%;
+        line-height: 20px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .villCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child),
+    .restCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child),
+    .giftCBContainer div:nth-child(2)>div h4+div img+div p:not(:last-child){
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .villCBContainer div:nth-child(2)>div h4+div img+div div:first-child,
+    .restCBContainer div:nth-child(2)>div h4+div img+div div:first-child,
+    .giftCBContainer div:nth-child(2)>div h4+div img+div div:first-child{
+        margin-bottom: 20px;
+    }
+    .villCBContainer div:nth-child(2)>div h4+div img+div p,
+    .restCBContainer div:nth-child(2)>div h4+div img+div p,
+    .giftCBContainer div:nth-child(2)>div h4+div img+div p{
+        line-height: 22px;
+    }
+    .villCBContainer div:nth-child(2)>div div:last-child img,
+    .restCBContainer div:nth-child(2)>div div:last-child img,
+    .giftCBContainer div:nth-child(2)>div div:last-child img{
+        margin-left: 50px;
+        height: 452px;
+    }
+    .villCBContainer div:nth-child(2)>div div:last-child img+div ul,
+    .restCBContainer div:nth-child(2)>div div:last-child img+div ul,
+    .giftCBContainer div:nth-child(2)>div div:last-child img+div ul{
+        margin-bottom: 60px;
+    }
+    .villCBContainer div:nth-child(2)>div div:last-child img+div ul li,
+    .restCBContainer div:nth-child(2)>div div:last-child img+div ul li,
+    .giftCBContainer div:nth-child(2)>div div:last-child img+div ul li{
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+    .villCBContainer div:nth-child(2)>div div:last-child ul li,
+    .restCBContainer div:nth-child(2)>div div:last-child ul li,
+    .giftCBContainer div:nth-child(2)>div div:last-child ul li{
+        margin-bottom: 15px;
+        line-height: 22px;
+        color: var(--gs10);
+    }
+    /* giftShopCB Details Fin */
 
     .themeCBContainer div:nth-child(2) h3{
         margin-bottom: 55px;
