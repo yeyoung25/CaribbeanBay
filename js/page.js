@@ -46,6 +46,8 @@ function newspage(){
   function smoothtoAnchor(){
     const urlParams = new URL(location.href).searchParams;
     const scroll = urlParams.get('scroll');
-  
-    $('html,body').animate({ scrollTop: $("#" + scroll).offset()?.top - 150 }, 450, 'swing');
+    
+    if(scroll){
+      $('html,body').animate({ scrollTop: $("#" + scroll).offset()?.top - 150 }, 450, 'swing');
+    }
   }

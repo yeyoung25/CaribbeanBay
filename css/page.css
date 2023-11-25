@@ -1284,21 +1284,8 @@ div .cabeContainer nav div.active ol{
     .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3){
         background: url('../images/speCB03.png') no-repeat center / cover;
     }
-    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(3) span:last-child{
-        display: block;
-        width: 108px;
-        text-align: center;
-        bottom: 65px;
-        font-size: 12px;
-    }
     .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4){
         background: url('../images/speCB04.png') no-repeat center / cover;
-    }
-    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(4) span:last-child{
-        width: 108px;
-        text-align: center;
-        bottom: 85px;
-        font-size: 12px;
     }
     .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-child(5){
         background: url('../images/speCB05.png') no-repeat center / cover;
@@ -1333,21 +1320,24 @@ div .cabeContainer nav div.active ol{
     }
     .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span:last-child{
         position: absolute;
-        left: 22px;
-        bottom: 70px;
+        width: 100%;
+        left: 0;
+        bottom: 80px;
         line-height: 18px;
+        text-align: center;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li:nth-of-type(2) span:last-child{
+        bottom: 120px;
     }
     .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li p{
         position: absolute;
+        width: 100%;
         top: 55px;
-        left: 20px;
+        left: 50%;
+        transform: translate(-50%);
         line-height: 20px;
         text-align: center;
-        font-size: 12px;
-    }
-    .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span{
-        font-size: 0.833vw;
-    }
+    }    
     .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager{
         bottom: -50px;
         padding: 0;
@@ -1697,21 +1687,21 @@ div .cabeContainer nav div.active ol{
         margin-bottom: 30px;
         font-size: 30px;
     }
-    .villCBContainer div:nth-child(2)>div:nth-of-type(odd)::after,
-    .restCBContainer div:nth-child(2)>div:nth-of-type(odd)::after,
-    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd)::after{
+    .villCBContainer div:nth-child(2)>div::after,
+    .restCBContainer div:nth-child(2)>div::after,
+    .giftCBContainer div:nth-child(2)>div::after{
         content: '';
         display: block;
         clear: both;
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(odd) img:last-child,
     .restCBContainer div:nth-child(2)>div:nth-of-type(odd) img:last-child,
-    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) div div>img:last-child{
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd)>div img{
         float: right;
     }
     .villCBContainer div:nth-child(2)>div img:last-child,
     .restCBContainer div:nth-child(2)>div img:last-child,
-    .giftCBContainer div:nth-child(2)>div div div>img:last-child{
+    .giftCBContainer div:nth-child(2)>div div:last-child img{
         width: 382px;
         height: 297px;
     }
@@ -1723,13 +1713,11 @@ div .cabeContainer nav div.active ol{
         text-align: right;
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div,
-    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div,
-    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div{
+    .restCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div{
         float: left;
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div,
-    .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div,
-    .giftCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div{
+    .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div{
         float: right;
     }
     .villCBContainer div:nth-child(2)>div h4+div img,
@@ -1778,12 +1766,6 @@ div .cabeContainer nav div.active ol{
     .giftCBContainer div:nth-child(2)>div h4+div img+div p{
         line-height: 22px;
     }
-    .villCBContainer div:nth-child(2)>div div:last-child img,
-    .restCBContainer div:nth-child(2)>div div:last-child img,
-    .giftCBContainer div:nth-child(2)>div div:last-child img{
-        margin-left: 50px;
-        height: 452px;
-    }
     .villCBContainer div:nth-child(2)>div div:last-child img+div ul,
     .restCBContainer div:nth-child(2)>div div:last-child img+div ul,
     .giftCBContainer div:nth-child(2)>div div:last-child img+div ul{
@@ -1803,7 +1785,6 @@ div .cabeContainer nav div.active ol{
         color: var(--gs10);
     }
     /* giftShopCB Details Fin */
-
     .themeCBContainer div:nth-child(2) h3{
         margin-bottom: 55px;
     }
@@ -3306,14 +3287,14 @@ div .cabeContainer nav div.active ol{
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(odd)>h4+div img,
     .restCBContainer div:nth-child(2)>div:nth-of-type(odd)>h4+div img,
-    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd)>h4+div div>img{
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd)>h4+div div img{
         margin-right: 60px;
         width: 42.553%;
         position: relative;
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div>img,
     .restCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div>img,
-    .giftCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div>div+img{
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div>div img{
         margin-left: 60px;
         width: 42.553%;
         position: relative;
@@ -3336,7 +3317,7 @@ div .cabeContainer nav div.active ol{
     }
     .villCBContainer div:nth-child(2)>div:nth-of-type(odd) div p:first-of-type::before,
     .restCBContainer div:nth-child(2)>div:nth-of-type(odd) div p::before,
-    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) div div p:first-child::before{
+    .giftCBContainer div:nth-child(2)>div:nth-of-type(odd) div div p::before{
         content: '';
         display: inline-block;
         width: 80px;
@@ -3363,18 +3344,6 @@ div .cabeContainer nav div.active ol{
     .villCBContainer div:nth-child(2)>div:nth-of-type(even) h4+div>img+div>p::before{
         right: -95px;
     }
-    .villCBContainer div:nth-child(2)>div h4+div>img::after,
-    .restCBContainer div:nth-child(2)>div h4+div>img::after,
-    .giftCBContainer div:nth-child(2)>div h4+div>img::after{
-        /* content: '';
-        display: block;
-        background-color: var(--os1);
-        width: 80px;
-        height: 3px;
-        position: absolute;
-        top: 0;
-        right: 0; */
-    }
     .villCBContainer div:nth-child(2)>div:nth-of-type(odd) h4+div>img+div>p::before{
         left: 0%;
     }
@@ -3400,12 +3369,6 @@ div .cabeContainer nav div.active ol{
     .restCBContainer div:nth-child(2)>div h4+div img+div p,
     .giftCBContainer div:nth-child(2)>div h4+div img+div p{
         line-height: 22px;
-    }
-    .villCBContainer div:nth-child(2)>div div:last-child img,
-    .restCBContainer div:nth-child(2)>div div:last-child img,
-    .giftCBContainer div:nth-child(2)>div:last-of-type div img{
-        /* margin-left: 50px;
-        height: 400px; */
     }
     .villCBContainer div:nth-child(2)>div div:last-child img+div ul,
     .restCBContainer div:nth-child(2)>div div:last-child img+div ul,
