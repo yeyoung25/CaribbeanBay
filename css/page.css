@@ -32,8 +32,10 @@ div .cabeContainer nav div.active ol{
     margin-bottom: 60px;
 }
 .indexContainer .contentBannerCB01>div:first-child h2 a{
-    background: url('../images/maincon03_more.png') no-repeat right center / 6px 11px;
-    padding-right: 15px;
+    background: url(../images/maincon03_more.png) no-repeat right center / contain;
+    padding-right: 10px;
+    background-size: 4px 9px;
+    background-position: 40px;
 }
 .indexContainer .contentBannerCB01>div:first-child ul li{
     justify-content: space-between;
@@ -437,7 +439,7 @@ div .cabeContainer nav div.active ol{
         display: inline-block;
         border: 1px solid var(--gs1);
         background: none;
-        margin-left: 19px;
+        margin-left: 35px;
         color: var(--gs1);
         padding: 5px 10px;
         vertical-align: text-bottom;
@@ -548,6 +550,10 @@ div .cabeContainer nav div.active ol{
     .howCBContainer div:nth-child(2) h3{
         text-align: center;
         padding: 35px 0;
+    }
+    .newsCBContainer article h3{
+        padding: 40px 0;
+        text-align: center;
     }
     .newsCBContainer div:nth-child(2) h3+ul{
         margin-bottom: 110px;
@@ -1031,7 +1037,7 @@ div .cabeContainer nav div.active ol{
     .guidCBContainer div:nth-child(2)>div div:nth-of-type(1) a{
         display: inline-block;
         padding: 10px;
-        background-color: var(--os1);
+        background-color: var(--bs4);
         color: var(--gs1);
         font-size: 12px;
         position: absolute;
@@ -1530,6 +1536,7 @@ div .cabeContainer nav div.active ol{
     .actrCBContainer div:nth-child(2) ol>li strong{
         display: block;
         text-align: center;
+        font-size: 16px;
     }
     /* attraction / villCBContainer / restCBContainer / giftCBContainer Fin */
     .actrCBContainer div:nth-child(2)>div h4{
