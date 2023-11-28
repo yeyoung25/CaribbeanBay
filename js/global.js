@@ -137,10 +137,13 @@ function sumDetail(){
 }
 
 function justCopy(){
-  var copyContent = "";
   $("#btnCopy").click(function(){
-    copyContent = $("#copyMap").text();
-    alert("Copied.");
+    const code = document.querySelector("#copyMap");
+      // window.navigator.clipboard.writeText() 메서드에
+      // div 요소의 텍스트 내용을 (code.textContent) 인자로 넣어주면 끝!
+      window.navigator.clipboard.writeText(code.textContent).then(() => {
+        alert("Copied.");
+      });
   });
 }
 
