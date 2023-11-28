@@ -981,7 +981,7 @@ footer div details summary.on::after{
         padding-left: 25px;
     }
     footer div div h2{
-        background: url('../images/footer_logo.png') no-repeat;
+        background: url('../images/footer_logo.png') no-repeat center / contain;
         width: 289px;
         height: 65px;
         margin-right: 40px;
