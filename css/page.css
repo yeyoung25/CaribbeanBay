@@ -31,12 +31,6 @@ div .cabeContainer nav div.active ol{
 .indexContainer .contentBannerCB01>div:first-child h2{
     margin-bottom: 60px;
 }
-.indexContainer .contentBannerCB01>div:first-child h2 a{
-    background: url(../images/maincon03_more.png) no-repeat right center / contain;
-    padding-right: 10px;
-    background-size: 4px 9px;
-    background-position: 40px;
-}
 .indexContainer .contentBannerCB01>div:first-child ul li{
     justify-content: space-between;
 }
@@ -359,6 +353,12 @@ div .cabeContainer nav div.active ol{
         left: 10px;
         height: 45px;
         font-size: 12px;
+    }
+    .indexContainer .contentBannerCB01>div:first-child h2 a{
+        background: url(../images/maincon03_more.png) no-repeat right center / contain;
+        padding-right: 10px;
+        background-size: 4px 9px;
+        background-position: 40px;
     }
     .indexContainer .contentBannerCB01>div:first-child{
         border-bottom: 1px solid var(--gs5);
@@ -1821,6 +1821,12 @@ div .cabeContainer nav div.active ol{
     .indexContainer .contentBannerCB01{
         margin: 45px 0 110px;
         padding-left: 24px;
+    }
+    .indexContainer .contentBannerCB01>div:first-child h2 a{
+        background: url(../images/maincon03_more.png) no-repeat right center / contain;
+        padding-right: 10px;
+        background-size: 4px 9px;
+        background-position: 40px 2px;
     }
     .indexContainer>.bx-wrapper div:nth-child(2)>.bx-pager::first-letter{
         font-size: 22px;
@@ -3371,6 +3377,12 @@ div .cabeContainer nav div.active ol{
     .contentBannerCB01{
         display: flex;
         flex-wrap: wrap;
+    }   
+    .indexContainer .contentBannerCB01>div:first-child h2 a{
+        background: url(../images/maincon03_more.png) no-repeat right center / contain;
+        padding-right: 15px;
+        background-size: 5px 10px;
+        background-position: 55px 3.5px;
     }
     .indexContainer .contentBannerCB01>div:first-child{
         border-right: 1px solid var(--gs5);
