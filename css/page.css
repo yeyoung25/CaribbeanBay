@@ -612,7 +612,8 @@ div .cabeContainer nav div.active ol{
         font-size: 14px;
     }
     .newsCBContainer article div h4 time{
-        background: url('../images/newdetD_calendar.png') no-repeat left / 11px 10px;
+        background: url('../images/newdet_calendar.png') no-repeat left / 11px 10px;
+        filter: invert(42%) sepia(0%) saturate(644%) hue-rotate(144deg) brightness(91%) contrast(86%);
         margin-left: auto;
         padding-left: 15px;
         color: var(--gs7);
@@ -624,8 +625,9 @@ div .cabeContainer nav div.active ol{
     }
     .newsCBContainer article .innerPager{
         display: flex;
-        padding-top: 55px;
+        align-items: center;
         width: 100%;
+        padding-top: 55px;
         border-top: 1px solid var(--gs5);
         box-sizing: border-box;
     }
@@ -638,13 +640,17 @@ div .cabeContainer nav div.active ol{
         justify-content: flex-end;
     }
     .newsCBContainer article .innerPager li:first-child a{
-        background: url('../images/newdetD_pre.png') no-repeat left;
+        background: url('../images/newdetD_pre.png') no-repeat left / contain;
         padding-left: 50px;
+        width: 22px;
+        height: 22px;
     }
     .newsCBContainer article .innerPager li:last-child a{
-        background: url('../images/newdetD_next.png') no-repeat right;
+        background: url('../images/newdetD_next.png') no-repeat right / contain;
         padding-right: 50px;
         text-align: right;
+        width: 22px;
+        height: 22px;
     }
     .newsCBContainer article .innerPager li:nth-child(2) a{
         background: url('../images/newdetD_list.png') no-repeat 15px center / 11px 11px;
@@ -2110,8 +2116,9 @@ div .cabeContainer nav div.active ol{
         font-size: 16px;
     }
     .newsCBContainer article div h4 time{
+        background: url('../images/newdet_calendar.png') no-repeat left / 12px 11px;
+        filter: invert(42%) sepia(0%) saturate(644%) hue-rotate(144deg) brightness(91%) contrast(86%);
         color: var(--gs7);
-        background: url('../images/newdetD_calendar.png') no-repeat left / 12px 11px;
         padding: 2px 0 0 20px;
         margin-left: auto;
     }
@@ -3608,7 +3615,7 @@ div .cabeContainer nav div.active ol{
     .newsCBContainer div:nth-child(2) ul li a time{
         background: url('../images/newdet_calendar.png') no-repeat left / contain;
         width: 10%;
-        padding-left: 30px;
+        padding-left: 25px;
         color: var(--gs10);
         background-size: 12px;
     }
@@ -3633,8 +3640,9 @@ div .cabeContainer nav div.active ol{
         color: var(--gs9);
     }
     .newsCBContainer article div h4 time{
+        background: url('../images/newdet_calendar.png') no-repeat left / 12px 11px;
+        filter: invert(42%) sepia(0%) saturate(644%) hue-rotate(144deg) brightness(91%) contrast(86%);
         color: var(--gs7);
-        background: url('../images/newdetD_calendar.png') no-repeat left / 12px 11px;
         padding: 2px 0 0 20px;
         margin-left: auto;
     }
