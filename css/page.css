@@ -358,7 +358,7 @@ div .cabeContainer nav div.active ol{
         background: url(../images/maincon03_more.png) no-repeat right center / contain;
         padding-right: 10px;
         background-size: 4px 9px;
-        background-position: 40px;
+        background-position: 40px 1px;
     }
     .indexContainer .contentBannerCB01>div:first-child{
         border-bottom: 1px solid var(--gs5);
@@ -612,8 +612,8 @@ div .cabeContainer nav div.active ol{
         font-size: 14px;
     }
     .newsCBContainer article div h4 time{
-        background: url('../images/newdet_calendar.png') no-repeat left / 11px 10px;
-        filter: invert(42%) sepia(0%) saturate(644%) hue-rotate(144deg) brightness(91%) contrast(86%);
+        background: url('../images/newdet_calendar.png') no-repeat left / contain;
+        background-size: 11px;
         margin-left: auto;
         padding-left: 15px;
         color: var(--gs7);
@@ -1830,9 +1830,9 @@ div .cabeContainer nav div.active ol{
     }
     .indexContainer .contentBannerCB01>div:first-child h2 a{
         background: url(../images/maincon03_more.png) no-repeat right center / contain;
-        padding-right: 10px;
+        padding-right: 15px;
         background-size: 4px 9px;
-        background-position: 40px 2px;
+        background-position: 45px 1px;
     }
     .indexContainer>.bx-wrapper div:nth-child(2)>.bx-pager::first-letter{
         font-size: 22px;
@@ -2116,8 +2116,8 @@ div .cabeContainer nav div.active ol{
         font-size: 16px;
     }
     .newsCBContainer article div h4 time{
-        background: url('../images/newdet_calendar.png') no-repeat left / 12px 11px;
-        filter: invert(42%) sepia(0%) saturate(644%) hue-rotate(144deg) brightness(91%) contrast(86%);
+        background: url('../images/newdet_calendar.png') no-repeat left / contain;
+        background-size: 11px;
         color: var(--gs7);
         padding: 2px 0 0 20px;
         margin-left: auto;
@@ -3389,7 +3389,7 @@ div .cabeContainer nav div.active ol{
         background: url(../images/maincon03_more.png) no-repeat right center / contain;
         padding-right: 15px;
         background-size: 5px 10px;
-        background-position: 55px 3.5px;
+        background-position: 55px 3px;
     }
     .indexContainer .contentBannerCB01>div:first-child{
         border-right: 1px solid var(--gs5);
@@ -3640,8 +3640,8 @@ div .cabeContainer nav div.active ol{
         color: var(--gs9);
     }
     .newsCBContainer article div h4 time{
-        background: url('../images/newdet_calendar.png') no-repeat left / 12px 11px;
-        filter: invert(42%) sepia(0%) saturate(644%) hue-rotate(144deg) brightness(91%) contrast(86%);
+        background: url('../images/newdet_calendar.png') no-repeat left / contain;
+        background-size: 12px;
         color: var(--gs7);
         padding: 2px 0 0 20px;
         margin-left: auto;
