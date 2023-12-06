@@ -1378,8 +1378,10 @@ div .cabeContainer nav div.active ol{
         font-size: 9px;
     }
     .speCBContainer div:nth-child(2) .bx-wrapper .bx-viewport .speslider li span{
-        /* font-size: 0.833vw; */
         font-size: 8px;
+    }
+    .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-controls-direction{
+        display: none;
     }
     .speCBContainer div:nth-child(2) .bx-wrapper .bx-controls .bx-pager{
         bottom: -50px;
