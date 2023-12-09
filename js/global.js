@@ -4,7 +4,8 @@ $(document).ready(function(){
 
 $(window).load(function(){
   customSlider(".banslider",'fade',true,1000,7000,true,true,1,1,0,0,null,'short',false,0);
-  headerAct();
+  headerAct1();
+  headerAct2();
   menuButton();
   gotop();
   sumDetail();
@@ -17,7 +18,7 @@ $(window).load(function(){
 })
 
 $(window).resize(function(){
-  headerAct();
+  headerAct1();
 });
 
 function mainHeader(){
@@ -99,14 +100,16 @@ function headerEvent() {
   $(window).scroll(headerScroll);
 }
 
-function headerAct() {
+function headerAct1(){
   var headerHight = $("header").innerHeight();
   $("#fnbPanel").css("top", headerHight + "px");
   $(window).resize(function() {
     headerHight = $("header").innerHeight();
     $("#fnbPanel").css("top", headerHight + "px");
   });
+}
 
+function headerAct2() {
   $(".menuBar").click(function () {
     $("body").toggleClass("scrollNone");
     $("#fnbPanel").toggleClass("act");
