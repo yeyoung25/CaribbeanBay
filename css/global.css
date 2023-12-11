@@ -21,6 +21,16 @@ header div .menuBar.toggle span:nth-child(2){
 header div .menuBar.toggle span:last-child{
     transform: rotate(45deg) translate(-10px, -10px);
 }
+header:hover{
+    background-color: rgba(255, 255, 255, 0.95);
+}
+header:hover h1 a{
+    background: url('../images/colorCB_logo.png') no-repeat center / contain;
+}
+header:hover div .ect_btn a:not(:last-child){
+    color: var(--gs11); 
+    text-shadow: none;
+}
 header.mouseOver{
     background-color: rgba(255, 255, 255, 0.95);
 }
