@@ -2709,40 +2709,17 @@ div .cabeContainer nav div.active ol{
         margin: 50px 0;
     }
     .speCBContainer div:nth-child(2) h3+div div:first-child{
-        background: url('../images/specialcaribbean.png') no-repeat center / cover;
-        position: relative;
+        background: url('../images/special_caribbean.png') no-repeat center / contain;
         width: 50%;
-        margin-right: 1.063%;
     }
-    .speCBContainer div:nth-child(2) h3+div div:first-child span{
-        position: absolute;
-        top: 20px;
-        left: 10px;
-        background-color: #73d7c6;
-        padding: 10px 15px;
-        border-radius: 25px;
-        color: var(--gs1);
-    }
-    .speCBContainer div:nth-child(2) h3+div div:first-child p{
-        position: absolute;
-        top: 65px;
-        left: 4.836%;
-        color: var(--rs9);
-    }
-    .speCBContainer div:nth-child(2) h3+div div:first-child p strong{
-        display: block;
-        margin-top: 10px;
-    }
+    .speCBContainer div:nth-child(2) h3+div div span,
+    .speCBContainer div:nth-child(2) h3+div div:first-child p,
+    .speCBContainer div:nth-child(2) h3+div div:first-child p strong,
     .speCBContainer div:nth-child(2) h3+div div:first-child b{
-        position: absolute;
-        bottom: 25px;
-        left: 4.836%;
-        font-size: 10px;
-        color: var(--rs9);
+        font-size: 0;
     }
     .speCBContainer div:nth-child(2) h3+div div:last-child{
-        background: url('../images/specialKB.png')no-repeat center / cover;
-        position: relative;
+        background: url('../images/special_KB.png')no-repeat center / contain;
         width: 50%;
     }
     .speCBContainer div:nth-child(2) h3+div div:last-child span{
@@ -2752,17 +2729,6 @@ div .cabeContainer nav div.active ol{
         background-color: #958b7d;
         padding: 10px 15px;
         border-radius: 25px;
-    }
-    .speCBContainer div:nth-child(2) h3+div div:last-child p{
-        position: absolute;
-        top: 65px;
-        left: 4.836%;
-        color: var(--gs1);
-    }
-    .speCBContainer div:nth-child(2) h3+div div:last-child p strong{
-        display: block;
-        margin-top: 15px;
-        color: var(--gs1);
     }
     .speCBContainer div:nth-child(2) h3+div div:last-child b{
         position: absolute;
@@ -2905,9 +2871,8 @@ div .cabeContainer nav div.active ol{
         margin-bottom: 20px;
     }
     .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child{
-        background: url('../images/spediscountCB01.png') no-repeat center / cover;
+        background: url('../images/spediscountCB01_t.png') no-repeat center / contain;
         width: 49.2%;
-        position: relative;
     }
     .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span:first-child{
         position: absolute;
@@ -2915,56 +2880,22 @@ div .cabeContainer nav div.active ol{
         left: 20px;
         color: var(--rs10);
     }
-    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child b{
-        width: 80%;
-        position: absolute;
-        top: 55px;
-        left: 20px;
-        color: var(--rs10);
-        line-height: 20px;
-    }
-    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span{
-        position: absolute;
-        top: 105px;
-        left: 20px;
-        color: var(--rs7);
-    }
-    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child strong{
-        position: absolute;
-        bottom: 25px;
-        left: 20px;
-        color: var(--rs9);
-        font-size: 14px;
-    }
     .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2){
-        background: url('../images/spediscountCB02.png') no-repeat center / cover;
+        background: url('../images/spediscountCB02_t.png') no-repeat center / contain;
         width: 49.2%;
-        position: relative;
     }
-    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span:first-child{
-        position: absolute;
-        top: 25px;
-        left: 20px;
-        color: var(--rs10);
-    }
-    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) b{
-        position: absolute;
-        top: 55px;
-        left: 20px;
-        color: var(--rs10);
-    }
+    .speCBContainer div:nth-child(2) h3+div div:last-child p strong,
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child span,
+    .speCBContainer div:nth-child(2) h3+div div:last-child p,
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child b,
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span:first-child,
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) b,
     .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) span{
-        position: absolute;
-        top: 80px;
-        left: 20px;
-        color: var(--rs7);
+        font-size: 0;
     }
+    .speCBContainer div:nth-child(2) hr+ul:last-child li:first-child strong,
     .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(2) strong{
-        position: absolute;
-        bottom: 25px;
-        left: 20px;
-        color: var(--rs9);
-        font-size: 14px;
+        font-size: 0;
     }
     .speCBContainer div:nth-child(2) hr+ul:last-child li:nth-child(n+3){
         position: relative;
@@ -3762,7 +3693,7 @@ div .cabeContainer nav div.active ol{
         border-radius: 20px;
     }
     .opeCBContainer div:nth-child(2) div ol li{
-        width: 14.286%;
+        width: 14.28%;
         box-sizing: border-box;
         border: 1px solid var(--gs4);
         height: 160px;
