@@ -1,5 +1,6 @@
 $(document).ready(function(){
   customSlider(".speslider",'horizontal',false,500,0,false,true,5,1,214,45,null,'full',false,0);
+  mainHeader();
 });
 
 $(window).load(function(){
@@ -9,7 +10,6 @@ $(window).load(function(){
   menuButton();
   gotop();
   sumDetail();
-  mainHeader();
   justCopy();
   bxExt01();
   bxExt02();
