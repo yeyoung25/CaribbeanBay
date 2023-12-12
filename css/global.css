@@ -217,7 +217,6 @@ footer div details summary.on::after{
         opacity: 0.95;
         overflow-y: scroll;
         background-color: var(--gs1);
-        top: 55px;
         padding: 35px 0 50px;
         transition-duration: 0.2s;
         box-sizing: border-box;
