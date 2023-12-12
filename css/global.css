@@ -218,7 +218,7 @@ footer div details summary.on::after{
         overflow-y: scroll;
         background-color: var(--gs1);
         top: 55px;
-        padding-top: 35px;
+        padding: 35px 0 50px;
         transition-duration: 0.2s;
         box-sizing: border-box;
     }
@@ -621,7 +621,6 @@ footer div details summary.on::after{
         opacity: 0.95;
         overflow: scroll;
         background-color: var(--gs1);
-        top: 60px;
         padding: 40px 60px 100px;
         transition-duration: 0.2s;
         box-sizing: border-box;
