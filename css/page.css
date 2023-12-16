@@ -1,3 +1,12 @@
+[data-scroll="transform"]{
+    transition-duration: 1s;
+    transform: translateY(50px);
+    opacity: 0;
+}
+[data-scroll="transform"].active{
+    transform: translateY(0px);
+    opacity: 1;
+}
 div .guide{
     background: url('../images/cb_Header01.png') no-repeat center / cover;
 }
@@ -485,6 +494,7 @@ div .cabeContainer nav div.active ol{
         height: 40px;
         border: 1px solid var(--gs5);
         box-sizing: border-box;
+        border-right: 0px;
     }
     div .cabeContainer nav div input{
         width: 85%;
@@ -2007,6 +2017,7 @@ div .cabeContainer nav div.active ol{
         height: 40px;
         border: 1px solid var(--gs5);
         box-sizing: border-box;
+        border-right: 0px;
     }
     div .cabeContainer nav div input{
         color: var(--gs11);
@@ -3331,7 +3342,6 @@ div .cabeContainer nav div.active ol{
     .indexContainer .contentBannerCB01>div:not(:last-child){
         width: 50%;
         padding: 75px 70px;
-        border-top: 1px solid var(--gs5);
         box-sizing: border-box;
     }
     .indexContainer .contentBannerCB01>div:not(:last-child) h2{

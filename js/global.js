@@ -15,6 +15,7 @@ $(window).load(function(){
   bxExt02();
   bxExt03();
   mainFnb($("header #fnbPanel ul>li"));
+  mainScrollAct()
 })
 
 $(window).resize(function(){
@@ -174,4 +175,29 @@ function mainFnb(button){
         $(this).children('ol').css('height', 0 + 'px');
     }
 });
+}
+
+function mainScrollAct(){
+  $('[data-scroll="transform"]').each(function () {
+    if(
+      $(window).scrollTop() >
+      $(this).offset().top - $(window).height() / 1.7
+    ) {
+      $(this).addClass("active");
+    } else {
+      $(this).removeClass("active");
+    }
+  });
+  $(window).scroll(function() {
+    $('[data-scroll="transform"]').each(function () {
+      if(
+        $(window).scrollTop() >
+        $(this).offset().top - $(window).height() / 1.7
+      ) {
+        $(this).addClass("active");
+      } else {
+        $(this).removeClass("active");
+      }
+    });
+  });
 }
