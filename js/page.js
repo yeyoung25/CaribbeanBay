@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    main_popup();
     navToggle($("div div:first-child nav div"));
     newspage();
     howTab();
@@ -6,6 +7,16 @@ $(document).ready(function(){
     backBtn($(".backBtn"));
     smoothtoAnchor();
 });
+
+function main_popup(){
+  $('.main_popup_in').fadeIn(1000);
+  $('.main_popup_bg').fadeIn(1000);
+  
+  $('.main_popup button').click(function(){
+      $('.main_popup_in').fadeOut();
+      $('.main_popup_bg').fadeOut();
+  });
+}
 
 function navToggle(button){
     $(button).click(function(){

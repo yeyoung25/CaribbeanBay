@@ -7,6 +7,42 @@
     transform: translateY(0px);
     opacity: 1;
 }
+.main_popup .main_popup_in>div{
+    top: 0;
+    left: 0;
+}
+.main_popup .main_popup_in>div p{
+    color: var(--gs1);
+    line-height: 25px;
+    text-align: center;
+}
+.main_popup .main_popup_in button{
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    background-color: transparent;
+    border: transparent;
+}
+.main_popup .main_popup_in button b{
+    color: var(--gs1);
+}
+.main_popup .main_popup_in button span:nth-last-child(2){
+    transform: rotate(-45deg);
+}
+.main_popup .main_popup_in button span:last-child{
+    transform: rotate(45deg);
+}
+.main_popup .main_popup_bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+}
 div .guide{
     background: url('../images/cb_Header01.png') no-repeat center / cover;
 }
@@ -256,7 +292,39 @@ div .cabeContainer nav div.active ol{
 /* themeStoryCB Fin */
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
+    .main_popup .main_popup_in{
+        background: url('../images/indexModal.png') no-repeat center / contain;
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 260px;
+        height: 260px;
+        border-radius: 20px;
+        padding: 30px 5px;
+        box-sizing: border-box;
+        z-index: 9999;
+        box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+    }
+    .main_popup .main_popup_in>div h2{
+        color: var(--gs1);
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    .main_popup .main_popup_in>div p:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .main_popup .main_popup_in button span{
+        display: block;
+        width: 1px;
+        height: 15px;
+        background-color: var(--gs1);
+        position: absolute;
+        right: -15px;
+        top: 0px;
+    }
     header+.mwpadding>h3,
     .siteContainer>ul{
         max-width: 1458px;
@@ -1778,7 +1846,39 @@ div .cabeContainer nav div.active ol{
 
 }
 /* ?mobile */
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    .main_popup .main_popup_in>div h2{
+        color: var(--gs1);
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+    .main_popup .main_popup_in>div p:not(:last-child){
+        margin-bottom: 25px;
+    }
+    .main_popup .main_popup_in{
+        background: url('../images/indexModal.png') no-repeat center / contain;
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 360px;
+        height: 360px;
+        border-radius: 20px;
+        padding: 50px 30px;
+        box-sizing: border-box;
+        z-index: 9999;
+        box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+    }
+    .main_popup .main_popup_in button span{
+        display: block;
+        width: 1px;
+        height: 15px;
+        background-color: var(--gs1);
+        position: absolute;
+        right: -15px;
+        top: 0px;
+    }
     header+.mwpadding>h3,
     .siteContainer>ul{
         max-width: 1458px;
@@ -3258,7 +3358,38 @@ div .cabeContainer nav div.active ol{
     /* themeStoryCB Fin */
 }
 /* ?tablet */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px){
+    .main_popup .main_popup_in>div h2{
+        color: var(--gs1);
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .main_popup .main_popup_in>div p:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .main_popup .main_popup_in{
+        background: url('../images/indexModal.png') no-repeat center / contain;
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 360px;
+        height: 360px;
+        border-radius: 20px;
+        padding: 50px 30px;
+        box-sizing: border-box;
+        z-index: 9999;
+        box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+    }
+    .main_popup .main_popup_in button span{
+        display: block;
+        width: 1px;
+        height: 15px;
+        background-color: var(--gs1);
+        position: absolute;
+        right: -15px;
+        top: 3px;
+    }
     header+.conPbtm {
         padding-bottom: 350px;
     }
