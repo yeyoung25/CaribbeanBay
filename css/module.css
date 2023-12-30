@@ -1,3 +1,14 @@
+/* Font module */
+[class^='la']{font-family: 'Lato', sans-serif;}
+[class^='op']{font-family: 'Open Sans', sans-serif;}
+
+/* F/S module */
+[class*='9_']{font-weight: 900;}
+[class*='7_']{font-weight: 700;}
+[class*='6_']{font-weight: 600;}
+[class*='4_']{font-weight: 400;}
+[class*='3_']{font-weight: 300;}
+
 :root{
     /* color */
     --gs1:#ffffff;
@@ -119,8 +130,6 @@ mark{
 }
 
 @media screen and (max-width: 767px) {
-    [class^='la']{font-family: 'Lato', sans-serif;}
-    [class^='op']{font-family: 'Open Sans', sans-serif;}
     /* F/M module */
     [class*='140']{font-size: 40px;} /**/
     [class*='45']{font-size: 18px;} /**//**/
@@ -138,17 +147,9 @@ mark{
     [class*='14']{font-size: 12px;} /**/
     [class*='13']{font-size: 10px;} /**/
     [class*='12']{font-size: 12px;}
-    /* F/S module */
-    [class*='9_']{font-weight: 900;}
-    [class*='7_']{font-weight: 700;}
-    [class*='6_']{font-weight: 600;}
-    [class*='4_']{font-weight: 400;}
-    [class*='3_']{font-weight: 300;}
 }
 /* ?mobile */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    [class^='la']{font-family: 'Lato', sans-serif;}
-    [class^='op']{font-family: 'Open Sans', sans-serif;}
     /* F/M module */
     [class*='140']{font-size: 50px;} /**/
     [class*='45']{font-size: 24px;} /**/
@@ -166,17 +167,9 @@ mark{
     [class*='14']{font-size: 12px;} /**/
     [class*='13']{font-size: 10px;} /**/
     [class*='12']{font-size: 12px;}
-    /* F/S module */
-    [class*='9_']{font-weight: 900;}
-    [class*='7_']{font-weight: 700;}
-    [class*='6_']{font-weight: 600;}
-    [class*='4_']{font-weight: 400;}
-    [class*='3_']{font-weight: 300;}
 }
 /* ?tablet */
 @media screen and (min-width: 1280px) {
-    [class^='la']{font-family: 'Lato', sans-serif;}
-    [class^='op']{font-family: 'Open Sans', sans-serif;}
     /* F/M module */
     [class*='140']{font-size: 140px;}
     [class*='45']{font-size: 45px;}
@@ -194,12 +187,6 @@ mark{
     [class*='14']{font-size: 14px;}
     [class*='13']{font-size: 13px;}
     [class*='12']{font-size: 12px;}
-    /* F/S module */
-    [class*='9_']{font-weight: 900;}
-    [class*='7_']{font-weight: 700;}
-    [class*='6_']{font-weight: 600;}
-    [class*='4_']{font-weight: 400;}
-    [class*='3_']{font-weight: 300;}
     
 }
 /* ?desktop */
