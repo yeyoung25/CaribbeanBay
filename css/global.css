@@ -23,7 +23,15 @@ header div .menuBar.toggle span:last-child{
     transform: rotate(45deg) translate(-10px, -10px);
 }
 header.mouseOver{
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: var(--gs1);
+    opacity: 0.95;
+}
+header.active #fnbPanel{
+    opacity: 0.95;
+    background-color: var(--gs1);
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
 }
 header.mouseOver h1 a{
     background: url('../images/colorCB_logo.png') no-repeat center / contain;
@@ -923,15 +931,17 @@ footer div details summary::marker{
     }
     header #fnbPanel{
         display: none;
-        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        min-height: calc(100% - 110px);
         background-color: var(--gs11);
         opacity: 0.95;
-        width: 100%;
-        /* min-height: calc(100% - 110px); */
-        padding: 7.888% 18.229% 100px;
         margin: 0 auto;
-        box-sizing: border-box;
+        padding: 7.888% 18.229% 100px;
         transition-duration: 0.2s;
+        box-sizing: border-box;
+        z-index: 1;
     }
     header #fnbPanel ul>li:first-child:hover h2,
     header #fnbPanel ul>li:nth-child(5):hover h2{
