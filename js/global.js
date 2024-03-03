@@ -5,7 +5,6 @@ $(document).ready(function(){
 
 $(window).load(function(){
   customSlider(".banslider",'fade',true,1000,7000,true,true,1,1,0,0,null,'short',false,0);
-  headerAct1();
   headerAct2();
   menuButton();
   gotop();
@@ -19,7 +18,7 @@ $(window).load(function(){
 })
 
 $(window).resize(function(){
-  headerAct1();
+  // headerAct1();
 });
 
 function mainHeader(){
